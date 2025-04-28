@@ -4,34 +4,9 @@ extended_addressing_enabled: false
 test_cases:
 - response: |-
     7E804410C0000
-    7EB04410C0000
-    7EA04410C0000
-    7EE04410C0000
-    STOPPED
-  expected_values:
-    RPM: 0
-- response: |-
-    7EB04410C0000
-    7EA04410C0000
-    7E804410C0000
-    7EE04410C0000
-    STOPPED
-  expected_values:
-    RPM: 0
-- response: |-
-    7EB04410C1B80
-    7EA04410C1B80
-    7E804410C1B6D
-    7EE04410C1B80
-    STOPPED
-  expected_values:
-    RPM: 1760
-- response: |-
-    7E804410C0000
     7EA04410C0000
     7EB04410C0000
     7EE04410C0000
-    STOPPED
   expected_values:
     RPM: 0
 - response: |-
@@ -39,7 +14,6 @@ test_cases:
     7EB04410C0000
     7EA04410C0000
     7EE04410C0000
-    STOPPED
   expected_values:
     RPM: 0
 - response: |-
@@ -47,15 +21,6 @@ test_cases:
     7E804410C0000
     7EB04410C0000
     7EE04410C0000
-    STOPPED
-  expected_values:
-    RPM: 0
-- response: |-
-    7E804410C0000
-    7EB04410C0000
-    7EA04410C0000
-    7EE04410C0000
-    STOPPED
   expected_values:
     RPM: 0
 - response: |-
@@ -63,6 +28,19 @@ test_cases:
     7EE04410C1A80
     7E804410C1A4E
     7EB04410C1A80
-    STOPPED
   expected_values:
     RPM: 1696
+- response: |-
+    7EB04410C0000
+    7EA04410C0000
+    7E804410C0000
+    7EE04410C0000
+  expected_values:
+    RPM: 0
+- response: |-
+    7EB04410C1B80
+    7EA04410C1B80
+    7E804410C1B6D
+    7EE04410C1B80
+  expected_values:
+    RPM: 1760
