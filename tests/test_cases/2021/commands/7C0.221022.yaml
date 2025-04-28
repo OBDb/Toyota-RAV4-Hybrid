@@ -1,0 +1,2281 @@
+command_id: 7C0.221022
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7C8056210220297
+  expected_values:
+    RAV4HYBRID_FLV: 6.63
+- response: 7C805621022029E
+  expected_values:
+    RAV4HYBRID_FLV: 6.7
+- response: 7C8056210220308
+  expected_values:
+    RAV4HYBRID_FLV: 7.76
+- response: 7C8056210220312
+  expected_values:
+    RAV4HYBRID_FLV: 7.86
+- response: 7C8056210220319
+  expected_values:
+    RAV4HYBRID_FLV: 7.93
+- response: 7C805621022032C
+  expected_values:
+    RAV4HYBRID_FLV: 8.12
+- response: 7C8056210220341
+  expected_values:
+    RAV4HYBRID_FLV: 8.33
+- response: 7C805621022036B
+  expected_values:
+    RAV4HYBRID_FLV: 8.75
+- response: 7C8056210220377
+  expected_values:
+    RAV4HYBRID_FLV: 8.87
+- response: 7C805621022038D
+  expected_values:
+    RAV4HYBRID_FLV: 9.09
+- response: 7C80562102203A2
+  expected_values:
+    RAV4HYBRID_FLV: 9.3
+- response: 7C80562102203AA
+  expected_values:
+    RAV4HYBRID_FLV: 9.38
+- response: 7C80562102203D2
+  expected_values:
+    RAV4HYBRID_FLV: 9.78
+- response: 7C80562102203F0
+  expected_values:
+    RAV4HYBRID_FLV: 10.08
+- response: 7C805621022041A
+  expected_values:
+    RAV4HYBRID_FLV: 10.5
+- response: 7C805621022045A
+  expected_values:
+    RAV4HYBRID_FLV: 11.14
+- response: 7C8056210220483
+  expected_values:
+    RAV4HYBRID_FLV: 11.55
+- response: 7C8056210220498
+  expected_values:
+    RAV4HYBRID_FLV: 11.76
+- response: 7C80562102204A3
+  expected_values:
+    RAV4HYBRID_FLV: 11.87
+- response: 7C80562102204EB
+  expected_values:
+    RAV4HYBRID_FLV: 12.59
+- response: 7C8056210220508
+  expected_values:
+    RAV4HYBRID_FLV: 12.88
+- response: 7C8056210220523
+  expected_values:
+    RAV4HYBRID_FLV: 13.15
+- response: 7C805621022053E
+  expected_values:
+    RAV4HYBRID_FLV: 13.42
+- response: 7C80562102205D4
+  expected_values:
+    RAV4HYBRID_FLV: 14.92
+- response: 7C80562102205E4
+  expected_values:
+    RAV4HYBRID_FLV: 15.08
+- response: 7C80562102205F0
+  expected_values:
+    RAV4HYBRID_FLV: 15.2
+- response: 7C805621022060B
+  expected_values:
+    RAV4HYBRID_FLV: 15.47
+- response: 7C8056210220617
+  expected_values:
+    RAV4HYBRID_FLV: 15.59
+- response: 7C805621022061B
+  expected_values:
+    RAV4HYBRID_FLV: 15.63
+- response: 7C8056210220620
+  expected_values:
+    RAV4HYBRID_FLV: 15.68
+- response: 7C805621022062E
+  expected_values:
+    RAV4HYBRID_FLV: 15.82
+- response: 7C805621022064B
+  expected_values:
+    RAV4HYBRID_FLV: 16.11
+- response: 7C8056210220661
+  expected_values:
+    RAV4HYBRID_FLV: 16.33
+- response: 7C8056210220678
+  expected_values:
+    RAV4HYBRID_FLV: 16.56
+- response: 7C8056210220680
+  expected_values:
+    RAV4HYBRID_FLV: 16.64
+- response: 7C8056210220684
+  expected_values:
+    RAV4HYBRID_FLV: 16.68
+- response: 7C8056210220685
+  expected_values:
+    RAV4HYBRID_FLV: 16.69
+- response: 7C8056210220687
+  expected_values:
+    RAV4HYBRID_FLV: 16.71
+- response: 7C805621022068B
+  expected_values:
+    RAV4HYBRID_FLV: 16.75
+- response: 7C80562102206AE
+  expected_values:
+    RAV4HYBRID_FLV: 17.1
+- response: 7C80562102206CC
+  expected_values:
+    RAV4HYBRID_FLV: 17.4
+- response: 7C80562102206D4
+  expected_values:
+    RAV4HYBRID_FLV: 17.48
+- response: 7C80562102206D5
+  expected_values:
+    RAV4HYBRID_FLV: 17.49
+- response: 7C80562102206E6
+  expected_values:
+    RAV4HYBRID_FLV: 17.66
+- response: 7C80562102206F3
+  expected_values:
+    RAV4HYBRID_FLV: 17.79
+- response: 7C80562102206F6
+  expected_values:
+    RAV4HYBRID_FLV: 17.82
+- response: 7C80562102206FB
+  expected_values:
+    RAV4HYBRID_FLV: 17.87
+- response: 7C80562102206FE
+  expected_values:
+    RAV4HYBRID_FLV: 17.9
+- response: 7C8056210220703
+  expected_values:
+    RAV4HYBRID_FLV: 17.95
+- response: 7C8056210220707
+  expected_values:
+    RAV4HYBRID_FLV: 17.99
+- response: 7C805621022070B
+  expected_values:
+    RAV4HYBRID_FLV: 18.03
+- response: 7C805621022070C
+  expected_values:
+    RAV4HYBRID_FLV: 18.04
+- response: 7C805621022070D
+  expected_values:
+    RAV4HYBRID_FLV: 18.05
+- response: 7C8056210220712
+  expected_values:
+    RAV4HYBRID_FLV: 18.1
+- response: 7C805621022071B
+  expected_values:
+    RAV4HYBRID_FLV: 18.19
+- response: 7C805621022071C
+  expected_values:
+    RAV4HYBRID_FLV: 18.2
+- response: 7C805621022071D
+  expected_values:
+    RAV4HYBRID_FLV: 18.21
+- response: 7C805621022071E
+  expected_values:
+    RAV4HYBRID_FLV: 18.22
+- response: 7C8056210220720
+  expected_values:
+    RAV4HYBRID_FLV: 18.24
+- response: 7C8056210220725
+  expected_values:
+    RAV4HYBRID_FLV: 18.29
+- response: 7C8056210220726
+  expected_values:
+    RAV4HYBRID_FLV: 18.3
+- response: 7C805621022072E
+  expected_values:
+    RAV4HYBRID_FLV: 18.38
+- response: 7C8056210220730
+  expected_values:
+    RAV4HYBRID_FLV: 18.4
+- response: 7C8056210220735
+  expected_values:
+    RAV4HYBRID_FLV: 18.45
+- response: 7C805621022073C
+  expected_values:
+    RAV4HYBRID_FLV: 18.52
+- response: 7C8056210220741
+  expected_values:
+    RAV4HYBRID_FLV: 18.57
+- response: 7C8056210220743
+  expected_values:
+    RAV4HYBRID_FLV: 18.59
+- response: 7C8056210220747
+  expected_values:
+    RAV4HYBRID_FLV: 18.63
+- response: 7C805621022074C
+  expected_values:
+    RAV4HYBRID_FLV: 18.68
+- response: 7C805621022075F
+  expected_values:
+    RAV4HYBRID_FLV: 18.87
+- response: 7C805621022076A
+  expected_values:
+    RAV4HYBRID_FLV: 18.98
+- response: 7C805621022076B
+  expected_values:
+    RAV4HYBRID_FLV: 18.99
+- response: 7C805621022076E
+  expected_values:
+    RAV4HYBRID_FLV: 19.02
+- response: 7C805621022076F
+  expected_values:
+    RAV4HYBRID_FLV: 19.03
+- response: 7C8056210220770
+  expected_values:
+    RAV4HYBRID_FLV: 19.04
+- response: 7C8056210220772
+  expected_values:
+    RAV4HYBRID_FLV: 19.06
+- response: 7C8056210220774
+  expected_values:
+    RAV4HYBRID_FLV: 19.08
+- response: 7C8056210220775
+  expected_values:
+    RAV4HYBRID_FLV: 19.09
+- response: 7C8056210220776
+  expected_values:
+    RAV4HYBRID_FLV: 19.1
+- response: 7C8056210220777
+  expected_values:
+    RAV4HYBRID_FLV: 19.11
+- response: 7C8056210220780
+  expected_values:
+    RAV4HYBRID_FLV: 19.2
+- response: 7C8056210220782
+  expected_values:
+    RAV4HYBRID_FLV: 19.22
+- response: 7C8056210220783
+  expected_values:
+    RAV4HYBRID_FLV: 19.23
+- response: 7C8056210220786
+  expected_values:
+    RAV4HYBRID_FLV: 19.26
+- response: 7C8056210220787
+  expected_values:
+    RAV4HYBRID_FLV: 19.27
+- response: 7C8056210220788
+  expected_values:
+    RAV4HYBRID_FLV: 19.28
+- response: 7C805621022078A
+  expected_values:
+    RAV4HYBRID_FLV: 19.3
+- response: 7C805621022078D
+  expected_values:
+    RAV4HYBRID_FLV: 19.33
+- response: 7C8056210220791
+  expected_values:
+    RAV4HYBRID_FLV: 19.37
+- response: 7C8056210220792
+  expected_values:
+    RAV4HYBRID_FLV: 19.38
+- response: 7C8056210220793
+  expected_values:
+    RAV4HYBRID_FLV: 19.39
+- response: 7C8056210220794
+  expected_values:
+    RAV4HYBRID_FLV: 19.4
+- response: 7C8056210220796
+  expected_values:
+    RAV4HYBRID_FLV: 19.42
+- response: 7C8056210220799
+  expected_values:
+    RAV4HYBRID_FLV: 19.45
+- response: 7C805621022079A
+  expected_values:
+    RAV4HYBRID_FLV: 19.46
+- response: 7C805621022079B
+  expected_values:
+    RAV4HYBRID_FLV: 19.47
+- response: 7C805621022079E
+  expected_values:
+    RAV4HYBRID_FLV: 19.5
+- response: 7C805621022079F
+  expected_values:
+    RAV4HYBRID_FLV: 19.51
+- response: 7C80562102207A5
+  expected_values:
+    RAV4HYBRID_FLV: 19.57
+- response: 7C80562102207A6
+  expected_values:
+    RAV4HYBRID_FLV: 19.58
+- response: 7C80562102207A7
+  expected_values:
+    RAV4HYBRID_FLV: 19.59
+- response: 7C80562102207A9
+  expected_values:
+    RAV4HYBRID_FLV: 19.61
+- response: 7C80562102207AE
+  expected_values:
+    RAV4HYBRID_FLV: 19.66
+- response: 7C80562102207B1
+  expected_values:
+    RAV4HYBRID_FLV: 19.69
+- response: 7C80562102207B3
+  expected_values:
+    RAV4HYBRID_FLV: 19.71
+- response: 7C80562102207B5
+  expected_values:
+    RAV4HYBRID_FLV: 19.73
+- response: 7C80562102207B7
+  expected_values:
+    RAV4HYBRID_FLV: 19.75
+- response: 7C80562102207B8
+  expected_values:
+    RAV4HYBRID_FLV: 19.76
+- response: 7C80562102207B9
+  expected_values:
+    RAV4HYBRID_FLV: 19.77
+- response: 7C80562102207BA
+  expected_values:
+    RAV4HYBRID_FLV: 19.78
+- response: 7C80562102207BB
+  expected_values:
+    RAV4HYBRID_FLV: 19.79
+- response: 7C80562102207BC
+  expected_values:
+    RAV4HYBRID_FLV: 19.8
+- response: 7C80562102207BD
+  expected_values:
+    RAV4HYBRID_FLV: 19.81
+- response: 7C80562102207C1
+  expected_values:
+    RAV4HYBRID_FLV: 19.85
+- response: 7C80562102207C3
+  expected_values:
+    RAV4HYBRID_FLV: 19.87
+- response: 7C80562102207C7
+  expected_values:
+    RAV4HYBRID_FLV: 19.91
+- response: 7C80562102207CA
+  expected_values:
+    RAV4HYBRID_FLV: 19.94
+- response: 7C80562102207CC
+  expected_values:
+    RAV4HYBRID_FLV: 19.96
+- response: 7C80562102207CE
+  expected_values:
+    RAV4HYBRID_FLV: 19.98
+- response: 7C80562102207CF
+  expected_values:
+    RAV4HYBRID_FLV: 19.99
+- response: 7C80562102207D0
+  expected_values:
+    RAV4HYBRID_FLV: 20
+- response: 7C80562102207D1
+  expected_values:
+    RAV4HYBRID_FLV: 20.01
+- response: 7C80562102207D3
+  expected_values:
+    RAV4HYBRID_FLV: 20.03
+- response: 7C80562102207D5
+  expected_values:
+    RAV4HYBRID_FLV: 20.05
+- response: 7C80562102207D7
+  expected_values:
+    RAV4HYBRID_FLV: 20.07
+- response: 7C80562102207DA
+  expected_values:
+    RAV4HYBRID_FLV: 20.1
+- response: 7C80562102207DE
+  expected_values:
+    RAV4HYBRID_FLV: 20.14
+- response: 7C80562102207E0
+  expected_values:
+    RAV4HYBRID_FLV: 20.16
+- response: 7C80562102207E1
+  expected_values:
+    RAV4HYBRID_FLV: 20.17
+- response: 7C80562102207E2
+  expected_values:
+    RAV4HYBRID_FLV: 20.18
+- response: 7C80562102207EA
+  expected_values:
+    RAV4HYBRID_FLV: 20.26
+- response: 7C80562102207EC
+  expected_values:
+    RAV4HYBRID_FLV: 20.28
+- response: 7C80562102207EE
+  expected_values:
+    RAV4HYBRID_FLV: 20.3
+- response: 7C80562102207EF
+  expected_values:
+    RAV4HYBRID_FLV: 20.31
+- response: 7C80562102207F0
+  expected_values:
+    RAV4HYBRID_FLV: 20.32
+- response: 7C80562102207F1
+  expected_values:
+    RAV4HYBRID_FLV: 20.33
+- response: 7C80562102207F2
+  expected_values:
+    RAV4HYBRID_FLV: 20.34
+- response: 7C80562102207F6
+  expected_values:
+    RAV4HYBRID_FLV: 20.38
+- response: 7C80562102207F9
+  expected_values:
+    RAV4HYBRID_FLV: 20.41
+- response: 7C80562102207FF
+  expected_values:
+    RAV4HYBRID_FLV: 20.47
+- response: 7C8056210220801
+  expected_values:
+    RAV4HYBRID_FLV: 20.49
+- response: 7C8056210220807
+  expected_values:
+    RAV4HYBRID_FLV: 20.55
+- response: 7C805621022080A
+  expected_values:
+    RAV4HYBRID_FLV: 20.58
+- response: 7C8056210220813
+  expected_values:
+    RAV4HYBRID_FLV: 20.67
+- response: 7C8056210220816
+  expected_values:
+    RAV4HYBRID_FLV: 20.7
+- response: 7C8056210220817
+  expected_values:
+    RAV4HYBRID_FLV: 20.71
+- response: 7C8056210220819
+  expected_values:
+    RAV4HYBRID_FLV: 20.73
+- response: 7C805621022081B
+  expected_values:
+    RAV4HYBRID_FLV: 20.75
+- response: 7C8056210220820
+  expected_values:
+    RAV4HYBRID_FLV: 20.8
+- response: 7C8056210220825
+  expected_values:
+    RAV4HYBRID_FLV: 20.85
+- response: 7C805621022082A
+  expected_values:
+    RAV4HYBRID_FLV: 20.9
+- response: 7C805621022082D
+  expected_values:
+    RAV4HYBRID_FLV: 20.93
+- response: 7C805621022082E
+  expected_values:
+    RAV4HYBRID_FLV: 20.94
+- response: 7C8056210220830
+  expected_values:
+    RAV4HYBRID_FLV: 20.96
+- response: 7C8056210220831
+  expected_values:
+    RAV4HYBRID_FLV: 20.97
+- response: 7C805621022083A
+  expected_values:
+    RAV4HYBRID_FLV: 21.06
+- response: 7C8056210220844
+  expected_values:
+    RAV4HYBRID_FLV: 21.16
+- response: 7C8056210220849
+  expected_values:
+    RAV4HYBRID_FLV: 21.21
+- response: 7C805621022084D
+  expected_values:
+    RAV4HYBRID_FLV: 21.25
+- response: 7C8056210220850
+  expected_values:
+    RAV4HYBRID_FLV: 21.28
+- response: 7C8056210220853
+  expected_values:
+    RAV4HYBRID_FLV: 21.31
+- response: 7C8056210220855
+  expected_values:
+    RAV4HYBRID_FLV: 21.33
+- response: 7C8056210220856
+  expected_values:
+    RAV4HYBRID_FLV: 21.34
+- response: 7C8056210220865
+  expected_values:
+    RAV4HYBRID_FLV: 21.49
+- response: 7C8056210220869
+  expected_values:
+    RAV4HYBRID_FLV: 21.53
+- response: 7C805621022086A
+  expected_values:
+    RAV4HYBRID_FLV: 21.54
+- response: 7C8056210220870
+  expected_values:
+    RAV4HYBRID_FLV: 21.6
+- response: 7C8056210220874
+  expected_values:
+    RAV4HYBRID_FLV: 21.64
+- response: 7C8056210220876
+  expected_values:
+    RAV4HYBRID_FLV: 21.66
+- response: 7C8056210220879
+  expected_values:
+    RAV4HYBRID_FLV: 21.69
+- response: 7C805621022087C
+  expected_values:
+    RAV4HYBRID_FLV: 21.72
+- response: 7C8056210220881
+  expected_values:
+    RAV4HYBRID_FLV: 21.77
+- response: 7C8056210220884
+  expected_values:
+    RAV4HYBRID_FLV: 21.8
+- response: 7C8056210220886
+  expected_values:
+    RAV4HYBRID_FLV: 21.82
+- response: 7C8056210220887
+  expected_values:
+    RAV4HYBRID_FLV: 21.83
+- response: 7C8056210220888
+  expected_values:
+    RAV4HYBRID_FLV: 21.84
+- response: 7C8056210220889
+  expected_values:
+    RAV4HYBRID_FLV: 21.85
+- response: 7C805621022088A
+  expected_values:
+    RAV4HYBRID_FLV: 21.86
+- response: 7C805621022088E
+  expected_values:
+    RAV4HYBRID_FLV: 21.9
+- response: 7C805621022088F
+  expected_values:
+    RAV4HYBRID_FLV: 21.91
+- response: 7C8056210220896
+  expected_values:
+    RAV4HYBRID_FLV: 21.98
+- response: 7C8056210220899
+  expected_values:
+    RAV4HYBRID_FLV: 22.01
+- response: 7C805621022089B
+  expected_values:
+    RAV4HYBRID_FLV: 22.03
+- response: 7C805621022089D
+  expected_values:
+    RAV4HYBRID_FLV: 22.05
+- response: 7C805621022089F
+  expected_values:
+    RAV4HYBRID_FLV: 22.07
+- response: 7C80562102208A1
+  expected_values:
+    RAV4HYBRID_FLV: 22.09
+- response: 7C80562102208A3
+  expected_values:
+    RAV4HYBRID_FLV: 22.11
+- response: 7C80562102208B1
+  expected_values:
+    RAV4HYBRID_FLV: 22.25
+- response: 7C80562102208B7
+  expected_values:
+    RAV4HYBRID_FLV: 22.31
+- response: 7C80562102208BE
+  expected_values:
+    RAV4HYBRID_FLV: 22.38
+- response: 7C80562102208C2
+  expected_values:
+    RAV4HYBRID_FLV: 22.42
+- response: 7C80562102208C6
+  expected_values:
+    RAV4HYBRID_FLV: 22.46
+- response: 7C80562102208D0
+  expected_values:
+    RAV4HYBRID_FLV: 22.56
+- response: 7C80562102208D4
+  expected_values:
+    RAV4HYBRID_FLV: 22.6
+- response: 7C80562102208D5
+  expected_values:
+    RAV4HYBRID_FLV: 22.61
+- response: 7C80562102208DC
+  expected_values:
+    RAV4HYBRID_FLV: 22.68
+- response: 7C80562102208DF
+  expected_values:
+    RAV4HYBRID_FLV: 22.71
+- response: 7C80562102208EA
+  expected_values:
+    RAV4HYBRID_FLV: 22.82
+- response: 7C80562102208ED
+  expected_values:
+    RAV4HYBRID_FLV: 22.85
+- response: 7C80562102208F1
+  expected_values:
+    RAV4HYBRID_FLV: 22.89
+- response: 7C80562102208F2
+  expected_values:
+    RAV4HYBRID_FLV: 22.9
+- response: 7C80562102208F7
+  expected_values:
+    RAV4HYBRID_FLV: 22.95
+- response: 7C80562102208F8
+  expected_values:
+    RAV4HYBRID_FLV: 22.96
+- response: 7C8056210220904
+  expected_values:
+    RAV4HYBRID_FLV: 23.08
+- response: 7C8056210220906
+  expected_values:
+    RAV4HYBRID_FLV: 23.1
+- response: 7C8056210220907
+  expected_values:
+    RAV4HYBRID_FLV: 23.11
+- response: 7C8056210220910
+  expected_values:
+    RAV4HYBRID_FLV: 23.2
+- response: 7C8056210220918
+  expected_values:
+    RAV4HYBRID_FLV: 23.28
+- response: 7C805621022091E
+  expected_values:
+    RAV4HYBRID_FLV: 23.34
+- response: 7C8056210220921
+  expected_values:
+    RAV4HYBRID_FLV: 23.37
+- response: 7C8056210220922
+  expected_values:
+    RAV4HYBRID_FLV: 23.38
+- response: 7C8056210220923
+  expected_values:
+    RAV4HYBRID_FLV: 23.39
+- response: 7C8056210220940
+  expected_values:
+    RAV4HYBRID_FLV: 23.68
+- response: 7C8056210220945
+  expected_values:
+    RAV4HYBRID_FLV: 23.73
+- response: 7C8056210220949
+  expected_values:
+    RAV4HYBRID_FLV: 23.77
+- response: 7C805621022094E
+  expected_values:
+    RAV4HYBRID_FLV: 23.82
+- response: 7C8056210220955
+  expected_values:
+    RAV4HYBRID_FLV: 23.89
+- response: 7C805621022095D
+  expected_values:
+    RAV4HYBRID_FLV: 23.97
+- response: 7C8056210220975
+  expected_values:
+    RAV4HYBRID_FLV: 24.21
+- response: 7C805621022098E
+  expected_values:
+    RAV4HYBRID_FLV: 24.46
+- response: 7C8056210220991
+  expected_values:
+    RAV4HYBRID_FLV: 24.49
+- response: 7C80562102209A5
+  expected_values:
+    RAV4HYBRID_FLV: 24.69
+- response: 7C80562102209C1
+  expected_values:
+    RAV4HYBRID_FLV: 24.97
+- response: 7C80562102209C3
+  expected_values:
+    RAV4HYBRID_FLV: 24.99
+- response: 7C80562102209D1
+  expected_values:
+    RAV4HYBRID_FLV: 25.13
+- response: 7C80562102209F5
+  expected_values:
+    RAV4HYBRID_FLV: 25.49
+- response: 7C8056210220A2A
+  expected_values:
+    RAV4HYBRID_FLV: 26.02
+- response: 7C8056210220A3A
+  expected_values:
+    RAV4HYBRID_FLV: 26.18
+- response: 7C8056210220A4A
+  expected_values:
+    RAV4HYBRID_FLV: 26.34
+- response: 7C8056210220A4F
+  expected_values:
+    RAV4HYBRID_FLV: 26.39
+- response: 7C8056210220A53
+  expected_values:
+    RAV4HYBRID_FLV: 26.43
+- response: 7C8056210220A54
+  expected_values:
+    RAV4HYBRID_FLV: 26.44
+- response: 7C8056210220A5F
+  expected_values:
+    RAV4HYBRID_FLV: 26.55
+- response: 7C8056210220A64
+  expected_values:
+    RAV4HYBRID_FLV: 26.6
+- response: 7C8056210220A65
+  expected_values:
+    RAV4HYBRID_FLV: 26.61
+- response: 7C8056210220A69
+  expected_values:
+    RAV4HYBRID_FLV: 26.65
+- response: 7C8056210220A6A
+  expected_values:
+    RAV4HYBRID_FLV: 26.66
+- response: 7C8056210220A6D
+  expected_values:
+    RAV4HYBRID_FLV: 26.69
+- response: 7C8056210220A6E
+  expected_values:
+    RAV4HYBRID_FLV: 26.7
+- response: 7C8056210220A6F
+  expected_values:
+    RAV4HYBRID_FLV: 26.71
+- response: 7C8056210220A71
+  expected_values:
+    RAV4HYBRID_FLV: 26.73
+- response: 7C8056210220A75
+  expected_values:
+    RAV4HYBRID_FLV: 26.77
+- response: 7C8056210220A78
+  expected_values:
+    RAV4HYBRID_FLV: 26.8
+- response: 7C8056210220A7A
+  expected_values:
+    RAV4HYBRID_FLV: 26.82
+- response: 7C8056210220A7C
+  expected_values:
+    RAV4HYBRID_FLV: 26.84
+- response: 7C8056210220A7E
+  expected_values:
+    RAV4HYBRID_FLV: 26.86
+- response: 7C8056210220A80
+  expected_values:
+    RAV4HYBRID_FLV: 26.88
+- response: 7C8056210220A83
+  expected_values:
+    RAV4HYBRID_FLV: 26.91
+- response: 7C8056210220A84
+  expected_values:
+    RAV4HYBRID_FLV: 26.92
+- response: 7C8056210220A85
+  expected_values:
+    RAV4HYBRID_FLV: 26.93
+- response: 7C8056210220A87
+  expected_values:
+    RAV4HYBRID_FLV: 26.95
+- response: 7C8056210220A8B
+  expected_values:
+    RAV4HYBRID_FLV: 26.99
+- response: 7C8056210220A8E
+  expected_values:
+    RAV4HYBRID_FLV: 27.02
+- response: 7C8056210220A8F
+  expected_values:
+    RAV4HYBRID_FLV: 27.03
+- response: 7C8056210220A91
+  expected_values:
+    RAV4HYBRID_FLV: 27.05
+- response: 7C8056210220A92
+  expected_values:
+    RAV4HYBRID_FLV: 27.06
+- response: 7C8056210220A96
+  expected_values:
+    RAV4HYBRID_FLV: 27.1
+- response: 7C8056210220AA9
+  expected_values:
+    RAV4HYBRID_FLV: 27.29
+- response: 7C8056210220ABC
+  expected_values:
+    RAV4HYBRID_FLV: 27.48
+- response: 7C8056210220AC7
+  expected_values:
+    RAV4HYBRID_FLV: 27.59
+- response: 7C8056210220ADF
+  expected_values:
+    RAV4HYBRID_FLV: 27.83
+- response: 7C8056210220AF6
+  expected_values:
+    RAV4HYBRID_FLV: 28.06
+- response: 7C8056210220B11
+  expected_values:
+    RAV4HYBRID_FLV: 28.33
+- response: 7C8056210220B1C
+  expected_values:
+    RAV4HYBRID_FLV: 28.44
+- response: 7C8056210220B28
+  expected_values:
+    RAV4HYBRID_FLV: 28.56
+- response: 7C8056210220B32
+  expected_values:
+    RAV4HYBRID_FLV: 28.66
+- response: 7C8056210220B41
+  expected_values:
+    RAV4HYBRID_FLV: 28.81
+- response: 7C8056210220B5D
+  expected_values:
+    RAV4HYBRID_FLV: 29.09
+- response: 7C8056210220B65
+  expected_values:
+    RAV4HYBRID_FLV: 29.17
+- response: 7C8056210220B6F
+  expected_values:
+    RAV4HYBRID_FLV: 29.27
+- response: 7C8056210220B74
+  expected_values:
+    RAV4HYBRID_FLV: 29.32
+- response: 7C8056210220B7B
+  expected_values:
+    RAV4HYBRID_FLV: 29.39
+- response: 7C8056210220B92
+  expected_values:
+    RAV4HYBRID_FLV: 29.62
+- response: 7C8056210220B95
+  expected_values:
+    RAV4HYBRID_FLV: 29.65
+- response: 7C8056210220BB8
+  expected_values:
+    RAV4HYBRID_FLV: 30
+- response: 7C8056210220C41
+  expected_values:
+    RAV4HYBRID_FLV: 31.37
+- response: 7C8056210220C49
+  expected_values:
+    RAV4HYBRID_FLV: 31.45
+- response: 7C8056210220C5C
+  expected_values:
+    RAV4HYBRID_FLV: 31.64
+- response: 7C8056210220C69
+  expected_values:
+    RAV4HYBRID_FLV: 31.77
+- response: 7C8056210220C74
+  expected_values:
+    RAV4HYBRID_FLV: 31.88
+- response: 7C8056210220D1E
+  expected_values:
+    RAV4HYBRID_FLV: 33.58
+- response: 7C8056210220D54
+  expected_values:
+    RAV4HYBRID_FLV: 34.12
+- response: 7C8056210220D72
+  expected_values:
+    RAV4HYBRID_FLV: 34.42
+- response: 7C8056210220D9E
+  expected_values:
+    RAV4HYBRID_FLV: 34.86
+- response: 7C8056210220DDA
+  expected_values:
+    RAV4HYBRID_FLV: 35.46
+- response: 7C8056210220DFD
+  expected_values:
+    RAV4HYBRID_FLV: 35.81
+- response: 7C8056210220E18
+  expected_values:
+    RAV4HYBRID_FLV: 36.08
+- response: 7C8056210220E39
+  expected_values:
+    RAV4HYBRID_FLV: 36.41
+- response: 7C8056210220E3A
+  expected_values:
+    RAV4HYBRID_FLV: 36.42
+- response: 7C8056210220E3C
+  expected_values:
+    RAV4HYBRID_FLV: 36.44
+- response: 7C8056210220E3D
+  expected_values:
+    RAV4HYBRID_FLV: 36.45
+- response: 7C8056210220E45
+  expected_values:
+    RAV4HYBRID_FLV: 36.53
+- response: 7C8056210220E47
+  expected_values:
+    RAV4HYBRID_FLV: 36.55
+- response: 7C8056210220E48
+  expected_values:
+    RAV4HYBRID_FLV: 36.56
+- response: 7C8056210220E49
+  expected_values:
+    RAV4HYBRID_FLV: 36.57
+- response: 7C8056210220E4A
+  expected_values:
+    RAV4HYBRID_FLV: 36.58
+- response: 7C8056210220E9A
+  expected_values:
+    RAV4HYBRID_FLV: 37.38
+- response: 7C8056210220E9E
+  expected_values:
+    RAV4HYBRID_FLV: 37.42
+- response: 7C8056210220EC0
+  expected_values:
+    RAV4HYBRID_FLV: 37.76
+- response: 7C8056210220EC3
+  expected_values:
+    RAV4HYBRID_FLV: 37.79
+- response: 7C8056210220ED4
+  expected_values:
+    RAV4HYBRID_FLV: 37.96
+- response: 7C8056210220ED7
+  expected_values:
+    RAV4HYBRID_FLV: 37.99
+- response: 7C8056210220EDE
+  expected_values:
+    RAV4HYBRID_FLV: 38.06
+- response: 7C8056210220EDF
+  expected_values:
+    RAV4HYBRID_FLV: 38.07
+- response: 7C8056210220EE0
+  expected_values:
+    RAV4HYBRID_FLV: 38.08
+- response: 7C8056210220EE3
+  expected_values:
+    RAV4HYBRID_FLV: 38.11
+- response: 7C8056210220EE5
+  expected_values:
+    RAV4HYBRID_FLV: 38.13
+- response: 7C8056210220EED
+  expected_values:
+    RAV4HYBRID_FLV: 38.21
+- response: 7C8056210220F02
+  expected_values:
+    RAV4HYBRID_FLV: 38.42
+- response: 7C8056210220F05
+  expected_values:
+    RAV4HYBRID_FLV: 38.45
+- response: 7C8056210220F07
+  expected_values:
+    RAV4HYBRID_FLV: 38.47
+- response: 7C8056210220F0C
+  expected_values:
+    RAV4HYBRID_FLV: 38.52
+- response: 7C8056210220F10
+  expected_values:
+    RAV4HYBRID_FLV: 38.56
+- response: 7C8056210220F11
+  expected_values:
+    RAV4HYBRID_FLV: 38.57
+- response: 7C8056210220F1B
+  expected_values:
+    RAV4HYBRID_FLV: 38.67
+- response: 7C8056210220F21
+  expected_values:
+    RAV4HYBRID_FLV: 38.73
+- response: 7C8056210220F22
+  expected_values:
+    RAV4HYBRID_FLV: 38.74
+- response: 7C8056210220F23
+  expected_values:
+    RAV4HYBRID_FLV: 38.75
+- response: 7C8056210220F2D
+  expected_values:
+    RAV4HYBRID_FLV: 38.85
+- response: 7C8056210220F2E
+  expected_values:
+    RAV4HYBRID_FLV: 38.86
+- response: 7C8056210220F32
+  expected_values:
+    RAV4HYBRID_FLV: 38.9
+- response: 7C8056210220F38
+  expected_values:
+    RAV4HYBRID_FLV: 38.96
+- response: 7C8056210220F4B
+  expected_values:
+    RAV4HYBRID_FLV: 39.15
+- response: 7C8056210220F52
+  expected_values:
+    RAV4HYBRID_FLV: 39.22
+- response: 7C8056210220F54
+  expected_values:
+    RAV4HYBRID_FLV: 39.24
+- response: 7C8056210220F5C
+  expected_values:
+    RAV4HYBRID_FLV: 39.32
+- response: 7C8056210220F62
+  expected_values:
+    RAV4HYBRID_FLV: 39.38
+- response: 7C8056210220F63
+  expected_values:
+    RAV4HYBRID_FLV: 39.39
+- response: 7C8056210220F67
+  expected_values:
+    RAV4HYBRID_FLV: 39.43
+- response: 7C8056210220F69
+  expected_values:
+    RAV4HYBRID_FLV: 39.45
+- response: 7C8056210220F6D
+  expected_values:
+    RAV4HYBRID_FLV: 39.49
+- response: 7C8056210220F6F
+  expected_values:
+    RAV4HYBRID_FLV: 39.51
+- response: 7C8056210220F72
+  expected_values:
+    RAV4HYBRID_FLV: 39.54
+- response: 7C8056210220F77
+  expected_values:
+    RAV4HYBRID_FLV: 39.59
+- response: 7C8056210220F78
+  expected_values:
+    RAV4HYBRID_FLV: 39.6
+- response: 7C8056210220F79
+  expected_values:
+    RAV4HYBRID_FLV: 39.61
+- response: 7C8056210220F81
+  expected_values:
+    RAV4HYBRID_FLV: 39.69
+- response: 7C8056210220F86
+  expected_values:
+    RAV4HYBRID_FLV: 39.74
+- response: 7C8056210220F89
+  expected_values:
+    RAV4HYBRID_FLV: 39.77
+- response: 7C8056210220F90
+  expected_values:
+    RAV4HYBRID_FLV: 39.84
+- response: 7C8056210220F98
+  expected_values:
+    RAV4HYBRID_FLV: 39.92
+- response: 7C8056210220F99
+  expected_values:
+    RAV4HYBRID_FLV: 39.93
+- response: 7C8056210220F9D
+  expected_values:
+    RAV4HYBRID_FLV: 39.97
+- response: 7C8056210220FA0
+  expected_values:
+    RAV4HYBRID_FLV: 40
+- response: 7C8056210220FA2
+  expected_values:
+    RAV4HYBRID_FLV: 40.02
+- response: 7C8056210220FA5
+  expected_values:
+    RAV4HYBRID_FLV: 40.05
+- response: 7C8056210220FA6
+  expected_values:
+    RAV4HYBRID_FLV: 40.06
+- response: 7C8056210220FA7
+  expected_values:
+    RAV4HYBRID_FLV: 40.07
+- response: 7C8056210220FA9
+  expected_values:
+    RAV4HYBRID_FLV: 40.09
+- response: 7C8056210220FAB
+  expected_values:
+    RAV4HYBRID_FLV: 40.11
+- response: 7C8056210220FAD
+  expected_values:
+    RAV4HYBRID_FLV: 40.13
+- response: 7C8056210220FAE
+  expected_values:
+    RAV4HYBRID_FLV: 40.14
+- response: 7C8056210220FB2
+  expected_values:
+    RAV4HYBRID_FLV: 40.18
+- response: 7C8056210220FB3
+  expected_values:
+    RAV4HYBRID_FLV: 40.19
+- response: 7C8056210220FB4
+  expected_values:
+    RAV4HYBRID_FLV: 40.2
+- response: 7C8056210220FBC
+  expected_values:
+    RAV4HYBRID_FLV: 40.28
+- response: 7C8056210220FBE
+  expected_values:
+    RAV4HYBRID_FLV: 40.3
+- response: 7C8056210220FBF
+  expected_values:
+    RAV4HYBRID_FLV: 40.31
+- response: 7C8056210220FC0
+  expected_values:
+    RAV4HYBRID_FLV: 40.32
+- response: 7C8056210220FC1
+  expected_values:
+    RAV4HYBRID_FLV: 40.33
+- response: 7C8056210220FC2
+  expected_values:
+    RAV4HYBRID_FLV: 40.34
+- response: 7C8056210220FC4
+  expected_values:
+    RAV4HYBRID_FLV: 40.36
+- response: 7C8056210220FCB
+  expected_values:
+    RAV4HYBRID_FLV: 40.43
+- response: 7C8056210220FCC
+  expected_values:
+    RAV4HYBRID_FLV: 40.44
+- response: 7C8056210220FCD
+  expected_values:
+    RAV4HYBRID_FLV: 40.45
+- response: 7C8056210220FCE
+  expected_values:
+    RAV4HYBRID_FLV: 40.46
+- response: 7C8056210220FCF
+  expected_values:
+    RAV4HYBRID_FLV: 40.47
+- response: 7C8056210220FD5
+  expected_values:
+    RAV4HYBRID_FLV: 40.53
+- response: 7C8056210220FD7
+  expected_values:
+    RAV4HYBRID_FLV: 40.55
+- response: 7C8056210220FD8
+  expected_values:
+    RAV4HYBRID_FLV: 40.56
+- response: 7C8056210220FDB
+  expected_values:
+    RAV4HYBRID_FLV: 40.59
+- response: 7C8056210220FDC
+  expected_values:
+    RAV4HYBRID_FLV: 40.6
+- response: 7C8056210220FDD
+  expected_values:
+    RAV4HYBRID_FLV: 40.61
+- response: 7C8056210220FDE
+  expected_values:
+    RAV4HYBRID_FLV: 40.62
+- response: 7C8056210220FDF
+  expected_values:
+    RAV4HYBRID_FLV: 40.63
+- response: 7C8056210220FE1
+  expected_values:
+    RAV4HYBRID_FLV: 40.65
+- response: 7C8056210220FE3
+  expected_values:
+    RAV4HYBRID_FLV: 40.67
+- response: 7C8056210220FE4
+  expected_values:
+    RAV4HYBRID_FLV: 40.68
+- response: 7C8056210220FE5
+  expected_values:
+    RAV4HYBRID_FLV: 40.69
+- response: 7C8056210220FE7
+  expected_values:
+    RAV4HYBRID_FLV: 40.71
+- response: 7C8056210220FE9
+  expected_values:
+    RAV4HYBRID_FLV: 40.73
+- response: 7C8056210220FEB
+  expected_values:
+    RAV4HYBRID_FLV: 40.75
+- response: 7C8056210220FEC
+  expected_values:
+    RAV4HYBRID_FLV: 40.76
+- response: 7C8056210220FEE
+  expected_values:
+    RAV4HYBRID_FLV: 40.78
+- response: 7C8056210220FF0
+  expected_values:
+    RAV4HYBRID_FLV: 40.8
+- response: 7C8056210220FF9
+  expected_values:
+    RAV4HYBRID_FLV: 40.89
+- response: 7C8056210220FFA
+  expected_values:
+    RAV4HYBRID_FLV: 40.9
+- response: 7C8056210220FFD
+  expected_values:
+    RAV4HYBRID_FLV: 40.93
+- response: 7C8056210220FFE
+  expected_values:
+    RAV4HYBRID_FLV: 40.94
+- response: 7C8056210221007
+  expected_values:
+    RAV4HYBRID_FLV: 41.03
+- response: 7C8056210221008
+  expected_values:
+    RAV4HYBRID_FLV: 41.04
+- response: 7C8056210221009
+  expected_values:
+    RAV4HYBRID_FLV: 41.05
+- response: 7C805621022100C
+  expected_values:
+    RAV4HYBRID_FLV: 41.08
+- response: 7C805621022100D
+  expected_values:
+    RAV4HYBRID_FLV: 41.09
+- response: 7C805621022100F
+  expected_values:
+    RAV4HYBRID_FLV: 41.11
+- response: 7C8056210221012
+  expected_values:
+    RAV4HYBRID_FLV: 41.14
+- response: 7C8056210221018
+  expected_values:
+    RAV4HYBRID_FLV: 41.2
+- response: 7C8056210221019
+  expected_values:
+    RAV4HYBRID_FLV: 41.21
+- response: 7C805621022101C
+  expected_values:
+    RAV4HYBRID_FLV: 41.24
+- response: 7C8056210221020
+  expected_values:
+    RAV4HYBRID_FLV: 41.28
+- response: 7C8056210221022
+  expected_values:
+    RAV4HYBRID_FLV: 41.3
+- response: 7C8056210221027
+  expected_values:
+    RAV4HYBRID_FLV: 41.35
+- response: 7C8056210221028
+  expected_values:
+    RAV4HYBRID_FLV: 41.36
+- response: 7C8056210221034
+  expected_values:
+    RAV4HYBRID_FLV: 41.48
+- response: 7C8056210221036
+  expected_values:
+    RAV4HYBRID_FLV: 41.5
+- response: 7C805621022103A
+  expected_values:
+    RAV4HYBRID_FLV: 41.54
+- response: 7C805621022103B
+  expected_values:
+    RAV4HYBRID_FLV: 41.55
+- response: 7C805621022103C
+  expected_values:
+    RAV4HYBRID_FLV: 41.56
+- response: 7C805621022103D
+  expected_values:
+    RAV4HYBRID_FLV: 41.57
+- response: 7C8056210221043
+  expected_values:
+    RAV4HYBRID_FLV: 41.63
+- response: 7C8056210221044
+  expected_values:
+    RAV4HYBRID_FLV: 41.64
+- response: 7C8056210221045
+  expected_values:
+    RAV4HYBRID_FLV: 41.65
+- response: 7C8056210221046
+  expected_values:
+    RAV4HYBRID_FLV: 41.66
+- response: 7C8056210221048
+  expected_values:
+    RAV4HYBRID_FLV: 41.68
+- response: 7C805621022104B
+  expected_values:
+    RAV4HYBRID_FLV: 41.71
+- response: 7C805621022104D
+  expected_values:
+    RAV4HYBRID_FLV: 41.73
+- response: 7C805621022104E
+  expected_values:
+    RAV4HYBRID_FLV: 41.74
+- response: 7C8056210221050
+  expected_values:
+    RAV4HYBRID_FLV: 41.76
+- response: 7C8056210221058
+  expected_values:
+    RAV4HYBRID_FLV: 41.84
+- response: 7C805621022105B
+  expected_values:
+    RAV4HYBRID_FLV: 41.87
+- response: 7C805621022105D
+  expected_values:
+    RAV4HYBRID_FLV: 41.89
+- response: 7C8056210221061
+  expected_values:
+    RAV4HYBRID_FLV: 41.93
+- response: 7C8056210221063
+  expected_values:
+    RAV4HYBRID_FLV: 41.95
+- response: 7C8056210221064
+  expected_values:
+    RAV4HYBRID_FLV: 41.96
+- response: 7C8056210221065
+  expected_values:
+    RAV4HYBRID_FLV: 41.97
+- response: 7C8056210221066
+  expected_values:
+    RAV4HYBRID_FLV: 41.98
+- response: 7C8056210221067
+  expected_values:
+    RAV4HYBRID_FLV: 41.99
+- response: 7C805621022106A
+  expected_values:
+    RAV4HYBRID_FLV: 42.02
+- response: 7C805621022106C
+  expected_values:
+    RAV4HYBRID_FLV: 42.04
+- response: 7C805621022106D
+  expected_values:
+    RAV4HYBRID_FLV: 42.05
+- response: 7C805621022106F
+  expected_values:
+    RAV4HYBRID_FLV: 42.07
+- response: 7C8056210221072
+  expected_values:
+    RAV4HYBRID_FLV: 42.1
+- response: 7C8056210221073
+  expected_values:
+    RAV4HYBRID_FLV: 42.11
+- response: 7C8056210221075
+  expected_values:
+    RAV4HYBRID_FLV: 42.13
+- response: 7C8056210221077
+  expected_values:
+    RAV4HYBRID_FLV: 42.15
+- response: 7C805621022107A
+  expected_values:
+    RAV4HYBRID_FLV: 42.18
+- response: 7C805621022107B
+  expected_values:
+    RAV4HYBRID_FLV: 42.19
+- response: 7C805621022107C
+  expected_values:
+    RAV4HYBRID_FLV: 42.2
+- response: 7C805621022107D
+  expected_values:
+    RAV4HYBRID_FLV: 42.21
+- response: 7C8056210221080
+  expected_values:
+    RAV4HYBRID_FLV: 42.24
+- response: 7C8056210221083
+  expected_values:
+    RAV4HYBRID_FLV: 42.27
+- response: 7C8056210221086
+  expected_values:
+    RAV4HYBRID_FLV: 42.3
+- response: 7C8056210221087
+  expected_values:
+    RAV4HYBRID_FLV: 42.31
+- response: 7C8056210221088
+  expected_values:
+    RAV4HYBRID_FLV: 42.32
+- response: 7C8056210221089
+  expected_values:
+    RAV4HYBRID_FLV: 42.33
+- response: 7C805621022108A
+  expected_values:
+    RAV4HYBRID_FLV: 42.34
+- response: 7C805621022108B
+  expected_values:
+    RAV4HYBRID_FLV: 42.35
+- response: 7C805621022108C
+  expected_values:
+    RAV4HYBRID_FLV: 42.36
+- response: 7C805621022108E
+  expected_values:
+    RAV4HYBRID_FLV: 42.38
+- response: 7C805621022108F
+  expected_values:
+    RAV4HYBRID_FLV: 42.39
+- response: 7C8056210221090
+  expected_values:
+    RAV4HYBRID_FLV: 42.4
+- response: 7C8056210221092
+  expected_values:
+    RAV4HYBRID_FLV: 42.42
+- response: 7C8056210221093
+  expected_values:
+    RAV4HYBRID_FLV: 42.43
+- response: 7C8056210221094
+  expected_values:
+    RAV4HYBRID_FLV: 42.44
+- response: 7C8056210221095
+  expected_values:
+    RAV4HYBRID_FLV: 42.45
+- response: 7C8056210221096
+  expected_values:
+    RAV4HYBRID_FLV: 42.46
+- response: 7C8056210221097
+  expected_values:
+    RAV4HYBRID_FLV: 42.47
+- response: 7C8056210221098
+  expected_values:
+    RAV4HYBRID_FLV: 42.48
+- response: 7C805621022109A
+  expected_values:
+    RAV4HYBRID_FLV: 42.5
+- response: 7C805621022109C
+  expected_values:
+    RAV4HYBRID_FLV: 42.52
+- response: 7C805621022109D
+  expected_values:
+    RAV4HYBRID_FLV: 42.53
+- response: 7C805621022109E
+  expected_values:
+    RAV4HYBRID_FLV: 42.54
+- response: 7C80562102210A0
+  expected_values:
+    RAV4HYBRID_FLV: 42.56
+- response: 7C80562102210A2
+  expected_values:
+    RAV4HYBRID_FLV: 42.58
+- response: 7C80562102210A3
+  expected_values:
+    RAV4HYBRID_FLV: 42.59
+- response: 7C80562102210A4
+  expected_values:
+    RAV4HYBRID_FLV: 42.6
+- response: 7C80562102210A6
+  expected_values:
+    RAV4HYBRID_FLV: 42.62
+- response: 7C80562102210A8
+  expected_values:
+    RAV4HYBRID_FLV: 42.64
+- response: 7C80562102210A9
+  expected_values:
+    RAV4HYBRID_FLV: 42.65
+- response: 7C80562102210AA
+  expected_values:
+    RAV4HYBRID_FLV: 42.66
+- response: 7C80562102210AC
+  expected_values:
+    RAV4HYBRID_FLV: 42.68
+- response: 7C80562102210AD
+  expected_values:
+    RAV4HYBRID_FLV: 42.69
+- response: 7C80562102210AE
+  expected_values:
+    RAV4HYBRID_FLV: 42.7
+- response: 7C80562102210AF
+  expected_values:
+    RAV4HYBRID_FLV: 42.71
+- response: 7C80562102210B0
+  expected_values:
+    RAV4HYBRID_FLV: 42.72
+- response: 7C80562102210B1
+  expected_values:
+    RAV4HYBRID_FLV: 42.73
+- response: 7C80562102210B2
+  expected_values:
+    RAV4HYBRID_FLV: 42.74
+- response: 7C80562102210B3
+  expected_values:
+    RAV4HYBRID_FLV: 42.75
+- response: 7C80562102210B6
+  expected_values:
+    RAV4HYBRID_FLV: 42.78
+- response: 7C80562102210B8
+  expected_values:
+    RAV4HYBRID_FLV: 42.8
+- response: 7C80562102210B9
+  expected_values:
+    RAV4HYBRID_FLV: 42.81
+- response: 7C80562102210BA
+  expected_values:
+    RAV4HYBRID_FLV: 42.82
+- response: 7C80562102210BB
+  expected_values:
+    RAV4HYBRID_FLV: 42.83
+- response: 7C80562102210BC
+  expected_values:
+    RAV4HYBRID_FLV: 42.84
+- response: 7C80562102210BD
+  expected_values:
+    RAV4HYBRID_FLV: 42.85
+- response: 7C80562102210BE
+  expected_values:
+    RAV4HYBRID_FLV: 42.86
+- response: 7C80562102210BF
+  expected_values:
+    RAV4HYBRID_FLV: 42.87
+- response: 7C80562102210C0
+  expected_values:
+    RAV4HYBRID_FLV: 42.88
+- response: 7C80562102210C2
+  expected_values:
+    RAV4HYBRID_FLV: 42.9
+- response: 7C80562102210C5
+  expected_values:
+    RAV4HYBRID_FLV: 42.93
+- response: 7C80562102210C7
+  expected_values:
+    RAV4HYBRID_FLV: 42.95
+- response: 7C80562102210C8
+  expected_values:
+    RAV4HYBRID_FLV: 42.96
+- response: 7C80562102210CA
+  expected_values:
+    RAV4HYBRID_FLV: 42.98
+- response: 7C80562102210CB
+  expected_values:
+    RAV4HYBRID_FLV: 42.99
+- response: 7C80562102210CD
+  expected_values:
+    RAV4HYBRID_FLV: 43.01
+- response: 7C80562102210CE
+  expected_values:
+    RAV4HYBRID_FLV: 43.02
+- response: 7C80562102210CF
+  expected_values:
+    RAV4HYBRID_FLV: 43.03
+- response: 7C80562102210D0
+  expected_values:
+    RAV4HYBRID_FLV: 43.04
+- response: 7C80562102210D1
+  expected_values:
+    RAV4HYBRID_FLV: 43.05
+- response: 7C80562102210D4
+  expected_values:
+    RAV4HYBRID_FLV: 43.08
+- response: 7C80562102210D5
+  expected_values:
+    RAV4HYBRID_FLV: 43.09
+- response: 7C80562102210D6
+  expected_values:
+    RAV4HYBRID_FLV: 43.1
+- response: 7C80562102210D7
+  expected_values:
+    RAV4HYBRID_FLV: 43.11
+- response: 7C80562102210D8
+  expected_values:
+    RAV4HYBRID_FLV: 43.12
+- response: 7C80562102210D9
+  expected_values:
+    RAV4HYBRID_FLV: 43.13
+- response: 7C80562102210DA
+  expected_values:
+    RAV4HYBRID_FLV: 43.14
+- response: 7C80562102210DB
+  expected_values:
+    RAV4HYBRID_FLV: 43.15
+- response: 7C80562102210E3
+  expected_values:
+    RAV4HYBRID_FLV: 43.23
+- response: 7C80562102210E5
+  expected_values:
+    RAV4HYBRID_FLV: 43.25
+- response: 7C80562102210E6
+  expected_values:
+    RAV4HYBRID_FLV: 43.26
+- response: 7C80562102210EC
+  expected_values:
+    RAV4HYBRID_FLV: 43.32
+- response: 7C80562102210EE
+  expected_values:
+    RAV4HYBRID_FLV: 43.34
+- response: 7C80562102210F3
+  expected_values:
+    RAV4HYBRID_FLV: 43.39
+- response: 7C80562102210F5
+  expected_values:
+    RAV4HYBRID_FLV: 43.41
+- response: 7C80562102210F9
+  expected_values:
+    RAV4HYBRID_FLV: 43.45
+- response: 7C80562102210FC
+  expected_values:
+    RAV4HYBRID_FLV: 43.48
+- response: 7C8056210221103
+  expected_values:
+    RAV4HYBRID_FLV: 43.55
+- response: 7C805621022110E
+  expected_values:
+    RAV4HYBRID_FLV: 43.66
+- response: 7C8056210221111
+  expected_values:
+    RAV4HYBRID_FLV: 43.69
+- response: 7C8056210221119
+  expected_values:
+    RAV4HYBRID_FLV: 43.77
+- response: 7C8056210221124
+  expected_values:
+    RAV4HYBRID_FLV: 43.88
+- response: 7C8056210221125
+  expected_values:
+    RAV4HYBRID_FLV: 43.89
+- response: 7C8056210221133
+  expected_values:
+    RAV4HYBRID_FLV: 44.03
+- response: 7C805621022113F
+  expected_values:
+    RAV4HYBRID_FLV: 44.15
+- response: 7C8056210221141
+  expected_values:
+    RAV4HYBRID_FLV: 44.17
+- response: 7C8056210221142
+  expected_values:
+    RAV4HYBRID_FLV: 44.18
+- response: 7C805621022114F
+  expected_values:
+    RAV4HYBRID_FLV: 44.31
+- response: 7C8056210221168
+  expected_values:
+    RAV4HYBRID_FLV: 44.56
+- response: 7C805621022116F
+  expected_values:
+    RAV4HYBRID_FLV: 44.63
+- response: 7C8056210221173
+  expected_values:
+    RAV4HYBRID_FLV: 44.67
+- response: 7C8056210221174
+  expected_values:
+    RAV4HYBRID_FLV: 44.68
+- response: 7C8056210221178
+  expected_values:
+    RAV4HYBRID_FLV: 44.72
+- response: 7C805621022118B
+  expected_values:
+    RAV4HYBRID_FLV: 44.91
+- response: 7C805621022118C
+  expected_values:
+    RAV4HYBRID_FLV: 44.92
+- response: 7C8056210221194
+  expected_values:
+    RAV4HYBRID_FLV: 45
+- response: 7C8056210221196
+  expected_values:
+    RAV4HYBRID_FLV: 45.02
+- response: 7C80562102211A1
+  expected_values:
+    RAV4HYBRID_FLV: 45.13
+- response: 7C80562102211AD
+  expected_values:
+    RAV4HYBRID_FLV: 45.25
+- response: 7C80562102211B2
+  expected_values:
+    RAV4HYBRID_FLV: 45.3
+- response: 7C80562102211B9
+  expected_values:
+    RAV4HYBRID_FLV: 45.37
+- response: 7C80562102211BB
+  expected_values:
+    RAV4HYBRID_FLV: 45.39
+- response: 7C80562102211BC
+  expected_values:
+    RAV4HYBRID_FLV: 45.4
+- response: 7C80562102211CA
+  expected_values:
+    RAV4HYBRID_FLV: 45.54
+- response: 7C80562102211D0
+  expected_values:
+    RAV4HYBRID_FLV: 45.6
+- response: 7C80562102211D1
+  expected_values:
+    RAV4HYBRID_FLV: 45.61
+- response: 7C80562102211D2
+  expected_values:
+    RAV4HYBRID_FLV: 45.62
+- response: 7C80562102211DE
+  expected_values:
+    RAV4HYBRID_FLV: 45.74
+- response: 7C80562102211E7
+  expected_values:
+    RAV4HYBRID_FLV: 45.83
+- response: 7C80562102211E8
+  expected_values:
+    RAV4HYBRID_FLV: 45.84
+- response: 7C80562102211EF
+  expected_values:
+    RAV4HYBRID_FLV: 45.91
+- response: 7C80562102211F0
+  expected_values:
+    RAV4HYBRID_FLV: 45.92
+- response: 7C80562102211F3
+  expected_values:
+    RAV4HYBRID_FLV: 45.95
+- response: 7C80562102211F4
+  expected_values:
+    RAV4HYBRID_FLV: 45.96
+- response: 7C80562102211F5
+  expected_values:
+    RAV4HYBRID_FLV: 45.97
+- response: 7C8056210221214
+  expected_values:
+    RAV4HYBRID_FLV: 46.28
+- response: 7C805621022121A
+  expected_values:
+    RAV4HYBRID_FLV: 46.34
+- response: 7C805621022121E
+  expected_values:
+    RAV4HYBRID_FLV: 46.38
+- response: 7C8056210221227
+  expected_values:
+    RAV4HYBRID_FLV: 46.47
+- response: 7C8056210221229
+  expected_values:
+    RAV4HYBRID_FLV: 46.49
+- response: 7C805621022122A
+  expected_values:
+    RAV4HYBRID_FLV: 46.5
+- response: 7C805621022122E
+  expected_values:
+    RAV4HYBRID_FLV: 46.54
+- response: 7C805621022122F
+  expected_values:
+    RAV4HYBRID_FLV: 46.55
+- response: 7C8056210221231
+  expected_values:
+    RAV4HYBRID_FLV: 46.57
+- response: 7C8056210221236
+  expected_values:
+    RAV4HYBRID_FLV: 46.62
+- response: 7C8056210221238
+  expected_values:
+    RAV4HYBRID_FLV: 46.64
+- response: 7C805621022123A
+  expected_values:
+    RAV4HYBRID_FLV: 46.66
+- response: 7C805621022123E
+  expected_values:
+    RAV4HYBRID_FLV: 46.7
+- response: 7C8056210221240
+  expected_values:
+    RAV4HYBRID_FLV: 46.72
+- response: 7C8056210221241
+  expected_values:
+    RAV4HYBRID_FLV: 46.73
+- response: 7C8056210221243
+  expected_values:
+    RAV4HYBRID_FLV: 46.75
+- response: 7C8056210221246
+  expected_values:
+    RAV4HYBRID_FLV: 46.78
+- response: 7C8056210221247
+  expected_values:
+    RAV4HYBRID_FLV: 46.79
+- response: 7C8056210221249
+  expected_values:
+    RAV4HYBRID_FLV: 46.81
+- response: 7C805621022124B
+  expected_values:
+    RAV4HYBRID_FLV: 46.83
+- response: 7C805621022124C
+  expected_values:
+    RAV4HYBRID_FLV: 46.84
+- response: 7C805621022124D
+  expected_values:
+    RAV4HYBRID_FLV: 46.85
+- response: 7C805621022124F
+  expected_values:
+    RAV4HYBRID_FLV: 46.87
+- response: 7C8056210221254
+  expected_values:
+    RAV4HYBRID_FLV: 46.92
+- response: 7C8056210221257
+  expected_values:
+    RAV4HYBRID_FLV: 46.95
+- response: 7C8056210221259
+  expected_values:
+    RAV4HYBRID_FLV: 46.97
+- response: 7C805621022125A
+  expected_values:
+    RAV4HYBRID_FLV: 46.98
+- response: 7C805621022125C
+  expected_values:
+    RAV4HYBRID_FLV: 47
+- response: 7C805621022125F
+  expected_values:
+    RAV4HYBRID_FLV: 47.03
+- response: 7C8056210221260
+  expected_values:
+    RAV4HYBRID_FLV: 47.04
+- response: 7C8056210221265
+  expected_values:
+    RAV4HYBRID_FLV: 47.09
+- response: 7C8056210221266
+  expected_values:
+    RAV4HYBRID_FLV: 47.1
+- response: 7C8056210221268
+  expected_values:
+    RAV4HYBRID_FLV: 47.12
+- response: 7C8056210221269
+  expected_values:
+    RAV4HYBRID_FLV: 47.13
+- response: 7C805621022126A
+  expected_values:
+    RAV4HYBRID_FLV: 47.14
+- response: 7C805621022126B
+  expected_values:
+    RAV4HYBRID_FLV: 47.15
+- response: 7C805621022126D
+  expected_values:
+    RAV4HYBRID_FLV: 47.17
+- response: 7C805621022126E
+  expected_values:
+    RAV4HYBRID_FLV: 47.18
+- response: 7C8056210221270
+  expected_values:
+    RAV4HYBRID_FLV: 47.2
+- response: 7C8056210221271
+  expected_values:
+    RAV4HYBRID_FLV: 47.21
+- response: 7C8056210221272
+  expected_values:
+    RAV4HYBRID_FLV: 47.22
+- response: 7C8056210221274
+  expected_values:
+    RAV4HYBRID_FLV: 47.24
+- response: 7C8056210221275
+  expected_values:
+    RAV4HYBRID_FLV: 47.25
+- response: 7C8056210221277
+  expected_values:
+    RAV4HYBRID_FLV: 47.27
+- response: 7C805621022127A
+  expected_values:
+    RAV4HYBRID_FLV: 47.3
+- response: 7C805621022127B
+  expected_values:
+    RAV4HYBRID_FLV: 47.31
+- response: 7C805621022127C
+  expected_values:
+    RAV4HYBRID_FLV: 47.32
+- response: 7C805621022127F
+  expected_values:
+    RAV4HYBRID_FLV: 47.35
+- response: 7C8056210221280
+  expected_values:
+    RAV4HYBRID_FLV: 47.36
+- response: 7C8056210221281
+  expected_values:
+    RAV4HYBRID_FLV: 47.37
+- response: 7C8056210221282
+  expected_values:
+    RAV4HYBRID_FLV: 47.38
+- response: 7C8056210221283
+  expected_values:
+    RAV4HYBRID_FLV: 47.39
+- response: 7C8056210221284
+  expected_values:
+    RAV4HYBRID_FLV: 47.4
+- response: 7C8056210221286
+  expected_values:
+    RAV4HYBRID_FLV: 47.42
+- response: 7C8056210221288
+  expected_values:
+    RAV4HYBRID_FLV: 47.44
+- response: 7C8056210221289
+  expected_values:
+    RAV4HYBRID_FLV: 47.45
+- response: 7C805621022128A
+  expected_values:
+    RAV4HYBRID_FLV: 47.46
+- response: 7C805621022128C
+  expected_values:
+    RAV4HYBRID_FLV: 47.48
+- response: 7C805621022128D
+  expected_values:
+    RAV4HYBRID_FLV: 47.49
+- response: 7C805621022128F
+  expected_values:
+    RAV4HYBRID_FLV: 47.51
+- response: 7C8056210221290
+  expected_values:
+    RAV4HYBRID_FLV: 47.52
+- response: 7C8056210221294
+  expected_values:
+    RAV4HYBRID_FLV: 47.56
+- response: 7C8056210221295
+  expected_values:
+    RAV4HYBRID_FLV: 47.57
+- response: 7C8056210221296
+  expected_values:
+    RAV4HYBRID_FLV: 47.58
+- response: 7C8056210221297
+  expected_values:
+    RAV4HYBRID_FLV: 47.59
+- response: 7C8056210221299
+  expected_values:
+    RAV4HYBRID_FLV: 47.61
+- response: 7C805621022129B
+  expected_values:
+    RAV4HYBRID_FLV: 47.63
+- response: 7C805621022129E
+  expected_values:
+    RAV4HYBRID_FLV: 47.66
+- response: 7C805621022129F
+  expected_values:
+    RAV4HYBRID_FLV: 47.67
+- response: 7C80562102212A1
+  expected_values:
+    RAV4HYBRID_FLV: 47.69
+- response: 7C80562102212A3
+  expected_values:
+    RAV4HYBRID_FLV: 47.71
+- response: 7C80562102212A5
+  expected_values:
+    RAV4HYBRID_FLV: 47.73
+- response: 7C80562102212A6
+  expected_values:
+    RAV4HYBRID_FLV: 47.74
+- response: 7C80562102212A8
+  expected_values:
+    RAV4HYBRID_FLV: 47.76
+- response: 7C80562102212A9
+  expected_values:
+    RAV4HYBRID_FLV: 47.77
+- response: 7C80562102212AB
+  expected_values:
+    RAV4HYBRID_FLV: 47.79
+- response: 7C80562102212AC
+  expected_values:
+    RAV4HYBRID_FLV: 47.8
+- response: 7C80562102212AD
+  expected_values:
+    RAV4HYBRID_FLV: 47.81
+- response: 7C80562102212B0
+  expected_values:
+    RAV4HYBRID_FLV: 47.84
+- response: 7C80562102212B1
+  expected_values:
+    RAV4HYBRID_FLV: 47.85
+- response: 7C80562102212B2
+  expected_values:
+    RAV4HYBRID_FLV: 47.86
+- response: 7C80562102212B3
+  expected_values:
+    RAV4HYBRID_FLV: 47.87
+- response: 7C80562102212BE
+  expected_values:
+    RAV4HYBRID_FLV: 47.98
+- response: 7C80562102212C0
+  expected_values:
+    RAV4HYBRID_FLV: 48
+- response: 7C80562102212C1
+  expected_values:
+    RAV4HYBRID_FLV: 48.01
+- response: 7C80562102212C4
+  expected_values:
+    RAV4HYBRID_FLV: 48.04
+- response: 7C80562102212C9
+  expected_values:
+    RAV4HYBRID_FLV: 48.09
+- response: 7C80562102212CA
+  expected_values:
+    RAV4HYBRID_FLV: 48.1
+- response: 7C80562102212CB
+  expected_values:
+    RAV4HYBRID_FLV: 48.11
+- response: 7C80562102212CC
+  expected_values:
+    RAV4HYBRID_FLV: 48.12
+- response: 7C80562102212CE
+  expected_values:
+    RAV4HYBRID_FLV: 48.14
+- response: 7C80562102212D4
+  expected_values:
+    RAV4HYBRID_FLV: 48.2
+- response: 7C80562102212D5
+  expected_values:
+    RAV4HYBRID_FLV: 48.21
+- response: 7C80562102212DB
+  expected_values:
+    RAV4HYBRID_FLV: 48.27
+- response: 7C80562102212DC
+  expected_values:
+    RAV4HYBRID_FLV: 48.28
+- response: 7C80562102212DE
+  expected_values:
+    RAV4HYBRID_FLV: 48.3
+- response: 7C80562102212DF
+  expected_values:
+    RAV4HYBRID_FLV: 48.31
+- response: 7C80562102212E1
+  expected_values:
+    RAV4HYBRID_FLV: 48.33
+- response: 7C80562102212E2
+  expected_values:
+    RAV4HYBRID_FLV: 48.34
+- response: 7C80562102212E7
+  expected_values:
+    RAV4HYBRID_FLV: 48.39
+- response: 7C80562102212EB
+  expected_values:
+    RAV4HYBRID_FLV: 48.43
+- response: 7C80562102212EC
+  expected_values:
+    RAV4HYBRID_FLV: 48.44
+- response: 7C80562102212ED
+  expected_values:
+    RAV4HYBRID_FLV: 48.45
+- response: 7C80562102212EE
+  expected_values:
+    RAV4HYBRID_FLV: 48.46
+- response: 7C80562102212EF
+  expected_values:
+    RAV4HYBRID_FLV: 48.47
+- response: 7C80562102212F1
+  expected_values:
+    RAV4HYBRID_FLV: 48.49
+- response: 7C80562102212F3
+  expected_values:
+    RAV4HYBRID_FLV: 48.51
+- response: 7C80562102212F4
+  expected_values:
+    RAV4HYBRID_FLV: 48.52
+- response: 7C80562102212F7
+  expected_values:
+    RAV4HYBRID_FLV: 48.55
+- response: 7C80562102212F8
+  expected_values:
+    RAV4HYBRID_FLV: 48.56
+- response: 7C80562102212FA
+  expected_values:
+    RAV4HYBRID_FLV: 48.58
+- response: 7C80562102212FB
+  expected_values:
+    RAV4HYBRID_FLV: 48.59
+- response: 7C80562102212FC
+  expected_values:
+    RAV4HYBRID_FLV: 48.6
+- response: 7C80562102212FE
+  expected_values:
+    RAV4HYBRID_FLV: 48.62
+- response: 7C8056210221304
+  expected_values:
+    RAV4HYBRID_FLV: 48.68
+- response: 7C8056210221305
+  expected_values:
+    RAV4HYBRID_FLV: 48.69
+- response: 7C8056210221307
+  expected_values:
+    RAV4HYBRID_FLV: 48.71
+- response: 7C8056210221308
+  expected_values:
+    RAV4HYBRID_FLV: 48.72
+- response: 7C8056210221309
+  expected_values:
+    RAV4HYBRID_FLV: 48.73
+- response: 7C805621022130C
+  expected_values:
+    RAV4HYBRID_FLV: 48.76
+- response: 7C805621022130E
+  expected_values:
+    RAV4HYBRID_FLV: 48.78
+- response: 7C805621022130F
+  expected_values:
+    RAV4HYBRID_FLV: 48.79
+- response: 7C8056210221311
+  expected_values:
+    RAV4HYBRID_FLV: 48.81
+- response: 7C8056210221313
+  expected_values:
+    RAV4HYBRID_FLV: 48.83
+- response: 7C8056210221315
+  expected_values:
+    RAV4HYBRID_FLV: 48.85
+- response: 7C805621022131E
+  expected_values:
+    RAV4HYBRID_FLV: 48.94
+- response: 7C8056210221326
+  expected_values:
+    RAV4HYBRID_FLV: 49.02
+- response: 7C8056210221328
+  expected_values:
+    RAV4HYBRID_FLV: 49.04
+- response: 7C805621022132A
+  expected_values:
+    RAV4HYBRID_FLV: 49.06
+- response: 7C805621022132B
+  expected_values:
+    RAV4HYBRID_FLV: 49.07
+- response: 7C8056210221333
+  expected_values:
+    RAV4HYBRID_FLV: 49.15
+- response: 7C8056210221336
+  expected_values:
+    RAV4HYBRID_FLV: 49.18
+- response: 7C8056210221337
+  expected_values:
+    RAV4HYBRID_FLV: 49.19
+- response: 7C8056210221338
+  expected_values:
+    RAV4HYBRID_FLV: 49.2
+- response: 7C805621022133A
+  expected_values:
+    RAV4HYBRID_FLV: 49.22
+- response: 7C805621022133C
+  expected_values:
+    RAV4HYBRID_FLV: 49.24
+- response: 7C8056210221341
+  expected_values:
+    RAV4HYBRID_FLV: 49.29
+- response: 7C8056210221342
+  expected_values:
+    RAV4HYBRID_FLV: 49.3
+- response: 7C8056210221344
+  expected_values:
+    RAV4HYBRID_FLV: 49.32
+- response: 7C8056210221345
+  expected_values:
+    RAV4HYBRID_FLV: 49.33
+- response: 7C8056210221347
+  expected_values:
+    RAV4HYBRID_FLV: 49.35
+- response: 7C805621022134A
+  expected_values:
+    RAV4HYBRID_FLV: 49.38
+- response: 7C805621022134B
+  expected_values:
+    RAV4HYBRID_FLV: 49.39
+- response: 7C8056210221351
+  expected_values:
+    RAV4HYBRID_FLV: 49.45
+- response: 7C8056210221352
+  expected_values:
+    RAV4HYBRID_FLV: 49.46
+- response: 7C8056210221353
+  expected_values:
+    RAV4HYBRID_FLV: 49.47
+- response: 7C8056210221354
+  expected_values:
+    RAV4HYBRID_FLV: 49.48
+- response: 7C805621022135F
+  expected_values:
+    RAV4HYBRID_FLV: 49.59
+- response: 7C8056210221361
+  expected_values:
+    RAV4HYBRID_FLV: 49.61
+- response: 7C8056210221362
+  expected_values:
+    RAV4HYBRID_FLV: 49.62
+- response: 7C8056210221365
+  expected_values:
+    RAV4HYBRID_FLV: 49.65
+- response: 7C8056210221368
+  expected_values:
+    RAV4HYBRID_FLV: 49.68
+- response: 7C805621022136C
+  expected_values:
+    RAV4HYBRID_FLV: 49.72
+- response: 7C805621022136E
+  expected_values:
+    RAV4HYBRID_FLV: 49.74
+- response: 7C8056210221372
+  expected_values:
+    RAV4HYBRID_FLV: 49.78
+- response: 7C8056210221376
+  expected_values:
+    RAV4HYBRID_FLV: 49.82
+- response: 7C8056210221377
+  expected_values:
+    RAV4HYBRID_FLV: 49.83
+- response: 7C8056210221378
+  expected_values:
+    RAV4HYBRID_FLV: 49.84
+- response: 7C805621022137A
+  expected_values:
+    RAV4HYBRID_FLV: 49.86
+- response: 7C805621022137C
+  expected_values:
+    RAV4HYBRID_FLV: 49.88
+- response: 7C8056210221382
+  expected_values:
+    RAV4HYBRID_FLV: 49.94
+- response: 7C8056210221383
+  expected_values:
+    RAV4HYBRID_FLV: 49.95
+- response: 7C8056210221385
+  expected_values:
+    RAV4HYBRID_FLV: 49.97
+- response: 7C8056210221399
+  expected_values:
+    RAV4HYBRID_FLV: 50.17
+- response: 7C805621022139D
+  expected_values:
+    RAV4HYBRID_FLV: 50.21
+- response: 7C80562102213A2
+  expected_values:
+    RAV4HYBRID_FLV: 50.26
+- response: 7C80562102213A4
+  expected_values:
+    RAV4HYBRID_FLV: 50.28
+- response: 7C80562102213AC
+  expected_values:
+    RAV4HYBRID_FLV: 50.36
+- response: 7C80562102213B1
+  expected_values:
+    RAV4HYBRID_FLV: 50.41
+- response: 7C80562102213B3
+  expected_values:
+    RAV4HYBRID_FLV: 50.43
+- response: 7C80562102213C1
+  expected_values:
+    RAV4HYBRID_FLV: 50.57
+- response: 7C80562102213C6
+  expected_values:
+    RAV4HYBRID_FLV: 50.62
+- response: 7C80562102213D4
+  expected_values:
+    RAV4HYBRID_FLV: 50.76
+- response: 7C80562102213EB
+  expected_values:
+    RAV4HYBRID_FLV: 50.99
+- response: 7C80562102213FB
+  expected_values:
+    RAV4HYBRID_FLV: 51.15
+- response: 7C8056210221411
+  expected_values:
+    RAV4HYBRID_FLV: 51.37
+- response: 7C8056210221413
+  expected_values:
+    RAV4HYBRID_FLV: 51.39
+- response: 7C8056210221418
+  expected_values:
+    RAV4HYBRID_FLV: 51.44
+- response: 7C8056210221437
+  expected_values:
+    RAV4HYBRID_FLV: 51.75
+- response: 7C805621022143C
+  expected_values:
+    RAV4HYBRID_FLV: 51.8
+- response: 7C805621022144C
+  expected_values:
+    RAV4HYBRID_FLV: 51.96
+- response: 7C805621022144D
+  expected_values:
+    RAV4HYBRID_FLV: 51.97
+- response: 7C805621022145D
+  expected_values:
+    RAV4HYBRID_FLV: 52.13
+- response: 7C805621022147F
+  expected_values:
+    RAV4HYBRID_FLV: 52.47
+- response: 7C8056210221484
+  expected_values:
+    RAV4HYBRID_FLV: 52.52
+- response: 7C8056210221489
+  expected_values:
+    RAV4HYBRID_FLV: 52.57
+- response: 7C80562102214A1
+  expected_values:
+    RAV4HYBRID_FLV: 52.81
+- response: 7C80562102214E1
+  expected_values:
+    RAV4HYBRID_FLV: 53.45
+- response: 7C80562102214F0
+  expected_values:
+    RAV4HYBRID_FLV: 53.6
+- response: 7C8056210221520
+  expected_values:
+    RAV4HYBRID_FLV: 54.08
+- response: 7C8056210221553
+  expected_values:
+    RAV4HYBRID_FLV: 54.59
+- response: 7C805621022155F
+  expected_values:
+    RAV4HYBRID_FLV: 54.71
+- response: 7C8056210221563
+  expected_values:
+    RAV4HYBRID_FLV: 54.75
+- response: 7C8056210221581
+  expected_values:
+    RAV4HYBRID_FLV: 55.05
+- response: 7C8056210221597
+  expected_values:
+    RAV4HYBRID_FLV: 55.27
+- response: 7C8056210221599
+  expected_values:
+    RAV4HYBRID_FLV: 55.29
+- response: 7C80562102215A5
+  expected_values:
+    RAV4HYBRID_FLV: 55.41
+- response: 7C80562102215B5
+  expected_values:
+    RAV4HYBRID_FLV: 55.57
+- response: 7C80562102215E3
+  expected_values:
+    RAV4HYBRID_FLV: 56.03
+- response: 7C80562102215E8
+  expected_values:
+    RAV4HYBRID_FLV: 56.08
+- response: 7C80562102215E9
+  expected_values:
+    RAV4HYBRID_FLV: 56.09
+- response: 7C80562102215F2
+  expected_values:
+    RAV4HYBRID_FLV: 56.18
+- response: 7C80562102215F5
+  expected_values:
+    RAV4HYBRID_FLV: 56.21
+- response: 7C80562102215F8
+  expected_values:
+    RAV4HYBRID_FLV: 56.24
+- response: 7C80562102215FD
+  expected_values:
+    RAV4HYBRID_FLV: 56.29

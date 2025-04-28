@@ -1,0 +1,25 @@
+command_id: 7D2.221F5B
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7DA04621F5B90
+  expected_values:
+    RAV4HYBRID_SOC: 56.47059
+- response: 7DA04621F5B92
+  expected_values:
+    RAV4HYBRID_SOC: 57.2549
+- response: 7DA04621F5B9E
+  expected_values:
+    RAV4HYBRID_SOC: 61.96078
+- response: 7DA04621F5BA0
+  expected_values:
+    RAV4HYBRID_SOC: 62.7451
+- response: 7DA04621F5BA3
+  expected_values:
+    RAV4HYBRID_SOC: 63.92157
+- response: 7DA04621F5BA4
+  expected_values:
+    RAV4HYBRID_SOC: 64.31373
+- response: 7DA04621F5BA6
+  expected_values:
+    RAV4HYBRID_SOC: 65.09804
