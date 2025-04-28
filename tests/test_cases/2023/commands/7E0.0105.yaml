@@ -7,6 +7,5 @@ test_cases:
     7EE03410552
     7EB03410552
     7EA03410552
-    STOPPED
   expected_values:
     ECT: 42

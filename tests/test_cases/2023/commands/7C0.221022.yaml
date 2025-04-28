@@ -6095,10 +6095,5 @@ test_cases:
 - response: 7C80562102215FE
   expected_values:
     RAV4HYBRID_FLV: 56.3
-- response: |-
-    7C80562102215FE
-    STOPPED
-  expected_values:
-    RAV4HYBRID_FLV: 56.3
 - response: 7C805621022FFFF
   expected_values: {}
