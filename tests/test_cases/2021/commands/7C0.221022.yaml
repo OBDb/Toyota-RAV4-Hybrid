@@ -2,15 +2,27 @@ command_id: 7C0.221022
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7C8056210220164
+  expected_values:
+    RAV4HYBRID_FLV: 3.56
+- response: 7C805621022017D
+  expected_values:
+    RAV4HYBRID_FLV: 3.81
 - response: 7C8056210220297
   expected_values:
     RAV4HYBRID_FLV: 6.63
 - response: 7C805621022029E
   expected_values:
     RAV4HYBRID_FLV: 6.7
+- response: 7C80562102202E0
+  expected_values:
+    RAV4HYBRID_FLV: 7.36
 - response: 7C8056210220308
   expected_values:
     RAV4HYBRID_FLV: 7.76
+- response: 7C805621022030C
+  expected_values:
+    RAV4HYBRID_FLV: 7.8
 - response: 7C8056210220312
   expected_values:
     RAV4HYBRID_FLV: 7.86
@@ -23,6 +35,9 @@ test_cases:
 - response: 7C8056210220341
   expected_values:
     RAV4HYBRID_FLV: 8.33
+- response: 7C8056210220348
+  expected_values:
+    RAV4HYBRID_FLV: 8.4
 - response: 7C805621022036B
   expected_values:
     RAV4HYBRID_FLV: 8.75
@@ -62,6 +77,9 @@ test_cases:
 - response: 7C80562102204EB
   expected_values:
     RAV4HYBRID_FLV: 12.59
+- response: 7C80562102204F6
+  expected_values:
+    RAV4HYBRID_FLV: 12.7
 - response: 7C8056210220508
   expected_values:
     RAV4HYBRID_FLV: 12.88
@@ -71,6 +89,39 @@ test_cases:
 - response: 7C805621022053E
   expected_values:
     RAV4HYBRID_FLV: 13.42
+- response: 7C8056210220551
+  expected_values:
+    RAV4HYBRID_FLV: 13.61
+- response: 7C8056210220552
+  expected_values:
+    RAV4HYBRID_FLV: 13.62
+- response: 7C8056210220553
+  expected_values:
+    RAV4HYBRID_FLV: 13.63
+- response: 7C8056210220554
+  expected_values:
+    RAV4HYBRID_FLV: 13.64
+- response: 7C8056210220555
+  expected_values:
+    RAV4HYBRID_FLV: 13.65
+- response: 7C8056210220556
+  expected_values:
+    RAV4HYBRID_FLV: 13.66
+- response: 7C8056210220575
+  expected_values:
+    RAV4HYBRID_FLV: 13.97
+- response: 7C8056210220593
+  expected_values:
+    RAV4HYBRID_FLV: 14.27
+- response: 7C805621022059F
+  expected_values:
+    RAV4HYBRID_FLV: 14.39
+- response: 7C80562102205A0
+  expected_values:
+    RAV4HYBRID_FLV: 14.4
+- response: 7C80562102205A1
+  expected_values:
+    RAV4HYBRID_FLV: 14.41
 - response: 7C80562102205D4
   expected_values:
     RAV4HYBRID_FLV: 14.92
@@ -92,9 +143,36 @@ test_cases:
 - response: 7C8056210220620
   expected_values:
     RAV4HYBRID_FLV: 15.68
+- response: 7C805621022062A
+  expected_values:
+    RAV4HYBRID_FLV: 15.78
+- response: 7C805621022062B
+  expected_values:
+    RAV4HYBRID_FLV: 15.79
 - response: 7C805621022062E
   expected_values:
     RAV4HYBRID_FLV: 15.82
+- response: 7C805621022062F
+  expected_values:
+    RAV4HYBRID_FLV: 15.83
+- response: 7C8056210220632
+  expected_values:
+    RAV4HYBRID_FLV: 15.86
+- response: 7C8056210220635
+  expected_values:
+    RAV4HYBRID_FLV: 15.89
+- response: 7C805621022063B
+  expected_values:
+    RAV4HYBRID_FLV: 15.95
+- response: 7C805621022063C
+  expected_values:
+    RAV4HYBRID_FLV: 15.96
+- response: 7C805621022063E
+  expected_values:
+    RAV4HYBRID_FLV: 15.98
+- response: 7C8056210220640
+  expected_values:
+    RAV4HYBRID_FLV: 16
 - response: 7C805621022064B
   expected_values:
     RAV4HYBRID_FLV: 16.11
@@ -119,6 +197,15 @@ test_cases:
 - response: 7C805621022068B
   expected_values:
     RAV4HYBRID_FLV: 16.75
+- response: 7C8056210220699
+  expected_values:
+    RAV4HYBRID_FLV: 16.89
+- response: 7C805621022069A
+  expected_values:
+    RAV4HYBRID_FLV: 16.9
+- response: 7C80562102206A6
+  expected_values:
+    RAV4HYBRID_FLV: 17.02
 - response: 7C80562102206AE
   expected_values:
     RAV4HYBRID_FLV: 17.1
@@ -140,6 +227,9 @@ test_cases:
 - response: 7C80562102206F6
   expected_values:
     RAV4HYBRID_FLV: 17.82
+- response: 7C80562102206FA
+  expected_values:
+    RAV4HYBRID_FLV: 17.86
 - response: 7C80562102206FB
   expected_values:
     RAV4HYBRID_FLV: 17.87
@@ -785,6 +875,9 @@ test_cases:
 - response: 7C8056210220ADF
   expected_values:
     RAV4HYBRID_FLV: 27.83
+- response: 7C8056210220AE8
+  expected_values:
+    RAV4HYBRID_FLV: 27.92
 - response: 7C8056210220AF6
   expected_values:
     RAV4HYBRID_FLV: 28.06
