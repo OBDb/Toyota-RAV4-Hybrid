@@ -17,6 +17,9 @@ test_cases:
 - response: 7DA04621F5B4D
   expected_values:
     RAV4HYBRID_SOC: 30.19608
+- response: 7DA04621F5B50
+  expected_values:
+    RAV4HYBRID_SOC: 31.37255
 - response: 7DA04621F5B52
   expected_values:
     RAV4HYBRID_SOC: 32.15686
@@ -29,6 +32,9 @@ test_cases:
 - response: 7DA04621F5B55
   expected_values:
     RAV4HYBRID_SOC: 33.33333
+- response: 7DA04621F5B57
+  expected_values:
+    RAV4HYBRID_SOC: 34.11765
 - response: 7DA04621F5B58
   expected_values:
     RAV4HYBRID_SOC: 34.5098
@@ -38,6 +44,9 @@ test_cases:
 - response: 7DA04621F5B5B
   expected_values:
     RAV4HYBRID_SOC: 35.68627
+- response: 7DA04621F5B5C
+  expected_values:
+    RAV4HYBRID_SOC: 36.07843
 - response: 7DA04621F5B5D
   expected_values:
     RAV4HYBRID_SOC: 36.47059

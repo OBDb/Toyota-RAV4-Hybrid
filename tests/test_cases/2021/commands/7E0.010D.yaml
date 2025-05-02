@@ -1,0 +1,160 @@
+command_id: 7E0.010D
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E803410D00
+  expected_values:
+    VSS: 0
+- response: 7E803410D06
+  expected_values:
+    VSS: 6
+- response: 7E803410D0B
+  expected_values:
+    VSS: 11
+- response: 7E803410D0F
+  expected_values:
+    VSS: 15
+- response: 7E803410D11
+  expected_values:
+    VSS: 17
+- response: 7E803410D16
+  expected_values:
+    VSS: 22
+- response: 7E803410D1D
+  expected_values:
+    VSS: 29
+- response: 7E803410D1F
+  expected_values:
+    VSS: 31
+- response: 7E803410D20
+  expected_values:
+    VSS: 32
+- response: 7E803410D23
+  expected_values:
+    VSS: 35
+- response: 7E803410D28
+  expected_values:
+    VSS: 40
+- response: 7E803410D2A
+  expected_values:
+    VSS: 42
+- response: 7E803410D2B
+  expected_values:
+    VSS: 43
+- response: 7E803410D61
+  expected_values:
+    VSS: 97
+- response: 7E803410D62
+  expected_values:
+    VSS: 98
+- response: 7EA03410D00
+  expected_values:
+    VSS: 0
+- response: 7EA03410D03
+  expected_values:
+    VSS: 3
+- response: 7EA03410D04
+  expected_values:
+    VSS: 4
+- response: 7EA03410D05
+  expected_values:
+    VSS: 5
+- response: 7EA03410D06
+  expected_values:
+    VSS: 6
+- response: 7EA03410D08
+  expected_values:
+    VSS: 8
+- response: 7EA03410D0A
+  expected_values:
+    VSS: 10
+- response: 7EA03410D0F
+  expected_values:
+    VSS: 15
+- response: 7EA03410D10
+  expected_values:
+    VSS: 16
+- response: 7EA03410D16
+  expected_values:
+    VSS: 22
+- response: 7EA03410D17
+  expected_values:
+    VSS: 23
+- response: 7EA03410D18
+  expected_values:
+    VSS: 24
+- response: 7EA03410D1D
+  expected_values:
+    VSS: 29
+- response: 7EA03410D24
+  expected_values:
+    VSS: 36
+- response: 7EA03410D26
+  expected_values:
+    VSS: 38
+- response: 7EA03410D27
+  expected_values:
+    VSS: 39
+- response: 7EA03410D2A
+  expected_values:
+    VSS: 42
+- response: 7EA03410D30
+  expected_values:
+    VSS: 48
+- response: 7EA03410D35
+  expected_values:
+    VSS: 53
+- response: 7EB03410D00
+  expected_values:
+    VSS: 0
+- response: 7EB03410D03
+  expected_values:
+    VSS: 3
+- response: 7EB03410D04
+  expected_values:
+    VSS: 4
+- response: 7EB03410D06
+  expected_values:
+    VSS: 6
+- response: 7EB03410D08
+  expected_values:
+    VSS: 8
+- response: 7EB03410D09
+  expected_values:
+    VSS: 9
+- response: 7EB03410D16
+  expected_values:
+    VSS: 22
+- response: 7EB03410D17
+  expected_values:
+    VSS: 23
+- response: 7EB03410D18
+  expected_values:
+    VSS: 24
+- response: 7EB03410D1B
+  expected_values:
+    VSS: 27
+- response: 7EB03410D1D
+  expected_values:
+    VSS: 29
+- response: 7EB03410D21
+  expected_values:
+    VSS: 33
+- response: 7EB03410D24
+  expected_values:
+    VSS: 36
+- response: 7EB03410D25
+  expected_values:
+    VSS: 37
+- response: 7EB03410D29
+  expected_values:
+    VSS: 41
+- response: 7EB03410D2A
+  expected_values:
+    VSS: 42
+- response: 7EE03410D00
+  expected_values:
+    VSS: 0
+- response: 7EE03410D2E
+  expected_values:
+    VSS: 46
