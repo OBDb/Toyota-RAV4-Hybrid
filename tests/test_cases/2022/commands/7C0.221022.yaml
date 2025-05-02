@@ -2,6 +2,15 @@ command_id: 7C0.221022
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7C805621022051C
+  expected_values:
+    RAV4HYBRID_FLV: 13.08
+- response: 7C805621022051D
+  expected_values:
+    RAV4HYBRID_FLV: 13.09
+- response: 7C8056210220521
+  expected_values:
+    RAV4HYBRID_FLV: 13.13
 - response: 7C8056210220883
   expected_values:
     RAV4HYBRID_FLV: 21.79
