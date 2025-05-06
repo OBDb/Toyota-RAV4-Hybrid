@@ -17,18 +17,9 @@ test_cases:
 - response: 7E803410D2F
   expected_values:
     VSS: 47
-- response: 7E803410D3A
-  expected_values:
-    VSS: 58
 - response: 7E803410D3F
   expected_values:
     VSS: 63
 - response: 7E803410D49
   expected_values:
     VSS: 73
-- response: 7EA03410D00
-  expected_values:
-    VSS: 0
-- response: 7EA03410D2F
-  expected_values:
-    VSS: 47

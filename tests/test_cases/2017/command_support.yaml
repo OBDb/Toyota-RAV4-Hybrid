@@ -78,3 +78,5 @@ unsupported_commands_by_ecu:
   - 7DF.010D
   - 7DF.0131
   - 7DF.0142
+  - 7DF.7C8.2129
+  - 7DF.7E8.0100

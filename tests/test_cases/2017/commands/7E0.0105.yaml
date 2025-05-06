@@ -3,9 +3,7 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: |-
-    7E803410552
-    7EE03410552
-    7EB03410552
-    7EA03410552
+    7E803410579
+    7E804410C1C1C
   expected_values:
-    ECT: 42
+    ECT: 81
