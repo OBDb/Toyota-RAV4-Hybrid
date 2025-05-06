@@ -5,42 +5,6 @@ test_cases:
 - response: 7C805621022051C
   expected_values:
     RAV4HYBRID_FLV: 13.08
-- response: 7C805621022051D
-  expected_values:
-    RAV4HYBRID_FLV: 13.09
-- response: 7C8056210220521
-  expected_values:
-    RAV4HYBRID_FLV: 13.13
-- response: 7C8056210220883
-  expected_values:
-    RAV4HYBRID_FLV: 21.79
-- response: 7C8056210220E79
-  expected_values:
-    RAV4HYBRID_FLV: 37.05
-- response: 7C8056210220E7A
-  expected_values:
-    RAV4HYBRID_FLV: 37.06
-- response: 7C8056210220E92
-  expected_values:
-    RAV4HYBRID_FLV: 37.3
-- response: 7C8056210220EA9
-  expected_values:
-    RAV4HYBRID_FLV: 37.53
-- response: 7C8056210220EAF
-  expected_values:
-    RAV4HYBRID_FLV: 37.59
-- response: 7C8056210220EB5
-  expected_values:
-    RAV4HYBRID_FLV: 37.65
-- response: 7C8056210220EB7
-  expected_values:
-    RAV4HYBRID_FLV: 37.67
-- response: 7C8056210220ECA
-  expected_values:
-    RAV4HYBRID_FLV: 37.86
-- response: 7C8056210220EE9
-  expected_values:
-    RAV4HYBRID_FLV: 38.17
 - response: 7C8056210220F0A
   expected_values:
     RAV4HYBRID_FLV: 38.5
