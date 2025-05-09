@@ -71,9 +71,9 @@ unsupported_commands_by_ecu:
   - 750.758.221005
   - 750.758.222021
   7C0:
-  - 7C0.221022
+  - 7C0.221022:RAV4HYBRID_FLV
   7D2:
-  - 7D2.221F5B
+  - 7D2.221F5B:RAV4HYBRID_SOC
   7DF:
   - 7DF.010D
   - 7DF.0131
