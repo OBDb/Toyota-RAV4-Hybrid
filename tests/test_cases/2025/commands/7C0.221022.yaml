@@ -8,9 +8,9 @@ test_cases:
 - response: 7C80562102202FF
   expected_values:
     RAV4HYBRID_FLV: 7.67
-- response: 7C8056210220500
+- response: 7C8056210220400
   expected_values:
-    RAV4HYBRID_FLV: 12.8
+    RAV4HYBRID_FLV: 10.24
 - response: 7C8056210221500
   expected_values:
     RAV4HYBRID_FLV: 53.76
