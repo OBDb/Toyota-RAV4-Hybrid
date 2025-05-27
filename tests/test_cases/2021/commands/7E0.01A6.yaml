@@ -1,0 +1,46 @@
+command_id: 7E0.01A6
+test_cases:
+- response: |-
+    NO DATA
+    > 750.758.221005
+    NO DATA
+    > 7E3.7EB.015B
+    NO DATA
+    > 7E2.7EA.015B
+    NO DATA
+    > 7DF.01A6
+    7EA0641A600169731
+  expected_values:
+    ODO: 148049.7
+- response: |-
+    NO DATA
+    > 7DF.01A6
+    7EA0641A6001692C3
+  expected_values:
+    ODO: 147936.3
+- response: |-
+    NO DATA
+    > 7E3.7EB.015B
+    NO DATA
+    > 7E2.7EA.01A6
+    NO DATA
+    > 7C0.221022
+    NO DATA
+    > 7E0.7E8.0131
+    NO DATA
+    > 7E2.7EA.0131
+    NO DATA
+    > 7E2.7EA.010D
+    NO DATA
+    > 7E6.7EE.0131
+    NO DATA
+    > ATRV
+    12.3V
+    12.4V
+    13.1V
+    13.6V
+    14.0V
+    > 7DF.01A6
+    7EA0641A600169425
+  expected_values:
+    ODO: 147971.7

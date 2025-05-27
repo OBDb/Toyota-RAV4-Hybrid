@@ -1,0 +1,41 @@
+command_id: 7E0.010D
+test_cases:
+- response: |-
+    NO DATA
+    > 7E3.7EB.0131
+    NO DATA
+    > 7E2.7EA.010D
+    NO DATA
+    > 7E6.7EE.010D
+    NO DATA
+    > 7C0.221022
+    NO DATA
+    > ATRV
+    13.9V
+    14.0V
+    > 7DF.010D
+    7E803410D00
+  expected_values:
+    VSS: 0
+- response: |-
+    NO DATA
+    > 7E3.7EB.0131
+    NO DATA
+    > 7E3.7EB.010D
+    NO DATA
+    > 7DF.010D
+    7E803410D11
+  expected_values:
+    VSS: 17
+- response: |-
+    NO DATA
+    > 7E3.7EB.0131
+    NO DATA
+    > 7E6.7EE.010D
+    NO DATA
+    > 7E2.7EA.015B
+    NO DATA
+    > 7DF.010D
+    7E803410D0D
+  expected_values:
+    VSS: 13
