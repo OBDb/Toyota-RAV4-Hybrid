@@ -50,6 +50,14 @@ test_cases:
     7E8044131AF43
   expected_values:
     VSS: 0
+    ECT: 86.0
+    MAP: 100.0
+    RPM: 0
+    IAT: 58.0
+    MAF: 0.46
+    RUNTM: 0
+    MIL_DIST: 0
+    CLR_DIST: 44867.0
 - response: |-
     7DF02010B
     7EA03410B63
@@ -97,6 +105,14 @@ test_cases:
     7E8044131ABAF
   expected_values:
     VSS: 0
+    MAP: 100.0
+    RPM: 0
+    IAT: 39.0
+    MAF: 0.46
+    RUNTM: 0
+    MIL_DIST: 0
+    CLR_DIST: 43951.0
+    ECT: 76.0
 - response: |-
     7DF02010D
     7E803410D00
@@ -139,6 +155,10 @@ test_cases:
     7EA04410C0000
   expected_values:
     VSS: 0
+    ECT: 85.0
+    MAF: 0.46
+    RPM: 0
+    MAP: 100.0
 - response: |-
     7DF02010D
     7E803410D00
@@ -200,6 +220,14 @@ test_cases:
     7E8044131AB46
   expected_values:
     VSS: 0
+    IAT: 30.0
+    MAF: 0.45
+    RUNTM: 0
+    MIL_DIST: 0
+    CLR_DIST: 43846.0
+    ECT: 82.0
+    MAP: 100.0
+    RPM: 0
 - response: |-
     7DF02010D
     7E803410D00
@@ -212,6 +240,8 @@ test_cases:
     7E804410C0000
   expected_values:
     VSS: 0
+    MAF: 0.46
+    RPM: 0
 - response: |-
     7DF02010D
     7EA03410D00
@@ -229,6 +259,8 @@ test_cases:
     7E804410C0000
   expected_values:
     VSS: 0
+    MAF: 0.46
+    RPM: 0
 - response: |-
     7DF020110
     7E8044110002E
@@ -308,6 +340,40 @@ test_cases:
     7EA04410C0000
   expected_values:
     VSS: 0
+    MAF: 0.46
+    RUNTM: 499.0
+    MIL_DIST: 0
+    RPM: 0
+    CLR_DIST: 44155.0
+    ECT: 73.0
+    MAP: 99.0
+    ACRF_RDY: 0
+    ACRF_SUP: 0
+    AIR_RDY: 0
+    AIR_SUP: 0
+    CAT_RDY: 0
+    CAT_SUP: 0
+    CCM_RDY: 0
+    CCM_SUP: 1.0
+    CIM_SUP: SPARK
+    DTC_CNT: 0
+    EGR_RDY: 0
+    EGR_SUP: 0
+    EVAP_RDY: 0
+    EVAP_SUP: 0
+    FUEL_RDY: 0
+    FUEL_SUP: 0
+    HCAT_RDY: 0
+    HCAT_SUP: 0
+    HTR_RDY: 0
+    HTR_SUP: 0
+    MIL: 0
+    MIS_RDY: 0
+    MIS_SUP: 0
+    O2S_RDY: 0
+    O2S_SUP: 0
+    EQ_RAT: 0.99031
+    VPWR: 14.199
 - response: |-
     7DF020131
     7E8044131ABFA
@@ -382,6 +448,14 @@ test_cases:
     7E8044131ABFA
   expected_values:
     VSS: 0
+    CLR_DIST: 44026.0
+    ECT: 85.0
+    MAP: 100.0
+    RPM: 0
+    IAT: 45.0
+    MAF: 0.46
+    RUNTM: 0
+    MIL_DIST: 0
 - response: 7E803410D00
   expected_values:
     VSS: 0
@@ -453,3 +527,12 @@ test_cases:
     7E8044131AC21
   expected_values:
     VSS: 0
+    VPWR: 14.335
+    ECT: 85.0
+    MAF: 0.46
+    RPM: 0
+    RUNTM: 0
+    MIL_DIST: 0
+    EQ_RAT: 0.96602
+    CLR_DIST: 44065.0
+    IAT: 49.0
