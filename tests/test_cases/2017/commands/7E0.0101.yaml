@@ -85,7 +85,7 @@ test_cases:
     CAT_RDY: 0
     CAT_SUP: 0
     CCM_RDY: 0
-    CCM_SUP: 1
+    CCM_SUP: 1.0
     CIM_SUP: SPARK
     DTC_CNT: 0
     EGR_RDY: 0
@@ -103,3 +103,13 @@ test_cases:
     MIS_SUP: 0
     O2S_RDY: 0
     O2S_SUP: 0
+    MAF: 0.46
+    RUNTM: 499.0
+    VSS: 0
+    MIL_DIST: 0
+    RPM: 0
+    CLR_DIST: 44155.0
+    ECT: 73.0
+    MAP: 99.0
+    EQ_RAT: 0.99031
+    VPWR: 14.199
