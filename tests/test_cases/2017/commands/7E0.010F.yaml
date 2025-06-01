@@ -49,7 +49,15 @@ test_cases:
     7DF020131
     7E8044131AF43
   expected_values:
-    IAT: 58
+    IAT: 58.0
+    ECT: 86.0
+    MAP: 100.0
+    RPM: 0
+    VSS: 0
+    MAF: 0.46
+    RUNTM: 0
+    MIL_DIST: 0
+    CLR_DIST: 44867.0
 - response: |-
     7DF02010B
     7EA03410B63
@@ -96,7 +104,15 @@ test_cases:
     7DF020131
     7E8044131ABAF
   expected_values:
-    IAT: 39
+    IAT: 39.0
+    MAP: 100.0
+    RPM: 0
+    VSS: 0
+    MAF: 0.46
+    RUNTM: 0
+    MIL_DIST: 0
+    CLR_DIST: 43951.0
+    ECT: 76.0
 - response: |-
     7DF02010D
     7E803410D00
@@ -157,7 +173,15 @@ test_cases:
     7DF020131
     7E8044131AB46
   expected_values:
-    IAT: 30
+    IAT: 30.0
+    VSS: 0
+    MAF: 0.45
+    RUNTM: 0
+    MIL_DIST: 0
+    CLR_DIST: 43846.0
+    ECT: 82.0
+    MAP: 100.0
+    RPM: 0
 - response: |-
     7DF020131
     7E8044131ABFA
@@ -231,7 +255,15 @@ test_cases:
     7DF020131
     7E8044131ABFA
   expected_values:
-    IAT: 45
+    IAT: 45.0
+    CLR_DIST: 44026.0
+    ECT: 85.0
+    MAP: 100.0
+    RPM: 0
+    VSS: 0
+    MAF: 0.46
+    RUNTM: 0
+    MIL_DIST: 0
 - response: 7E803410F56
   expected_values:
     IAT: 46
@@ -299,4 +331,13 @@ test_cases:
     7E80441210000
     7E8044131AC21
   expected_values:
-    IAT: 49
+    IAT: 49.0
+    VPWR: 14.335
+    ECT: 85.0
+    MAF: 0.46
+    RPM: 0
+    VSS: 0
+    RUNTM: 0
+    MIL_DIST: 0
+    EQ_RAT: 0.96602
+    CLR_DIST: 44065.0
