@@ -79,6 +79,41 @@ test_cases:
     7EA04410C0000
   expected_values:
     EQ_RAT: 0.99031
+    MAF: 0.46
+    RUNTM: 499.0
+    VSS: 0
+    MIL_DIST: 0
+    RPM: 0
+    CLR_DIST: 44155.0
+    ECT: 73.0
+    MAP: 99.0
+    ACRF_RDY: 0
+    ACRF_SUP: 0
+    AIR_RDY: 0
+    AIR_SUP: 0
+    CAT_RDY: 0
+    CAT_SUP: 0
+    CCM_RDY: 0
+    CCM_SUP: 1.0
+    CIM_SUP: SPARK
+    DTC_CNT: 0
+    EGR_RDY: 0
+    EGR_SUP: 0
+    EVAP_RDY: 0
+    EVAP_SUP: 0
+    FUEL_RDY: 0
+    FUEL_SUP: 0
+    HCAT_RDY: 0
+    HCAT_SUP: 0
+    HTR_RDY: 0
+    HTR_SUP: 0
+    MIL: 0
+    MIS_RDY: 0
+    MIS_SUP: 0
+    O2S_RDY: 0
+    O2S_SUP: 0
+    RAV4HYBRID_FLI_VOL: 32.0
+    VPWR: 14.199
 - response: |-
     7E804414237FF
     7E80341057D
@@ -144,3 +179,12 @@ test_cases:
     7E8044131AC21
   expected_values:
     EQ_RAT: 0.96602
+    VPWR: 14.335
+    ECT: 85.0
+    MAF: 0.46
+    RPM: 0
+    VSS: 0
+    RUNTM: 0
+    MIL_DIST: 0
+    CLR_DIST: 44065.0
+    IAT: 49.0
