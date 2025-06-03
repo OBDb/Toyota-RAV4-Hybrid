@@ -159,27 +159,18 @@
   ]},
 { "hdr": "750", "eax": "2A", "tst": "2A", "fcm1": true, "dbg": true, "cmd": {"22": "1004"}, "freq": 5,
   "signals": [
-    {"id": "RAV4HYBRID_TT_1",        "path": "Tires", "fmt": {           "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Front right tire temperature"},
-    {"id": "RAV4HYBRID_TT_FL_V2",    "path": "Tires", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40,                 "unit": "celsius" }, "name": "Front left tire temperature"},
-    {"id": "RAV4HYBRID_TT_2",        "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Front left tire temperature"},
-    {"id": "RAV4HYBRID_TT_FR_V2",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40,                 "unit": "celsius" }, "name": "Front right tire temperature"},
-    {"id": "RAV4HYBRID_TT_3",        "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Rear right tire temperature"},
-    {"id": "RAV4HYBRID_TT_RL_V2",    "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40,                 "unit": "celsius" }, "name": "Rear left tire temperature"},
-    {"id": "RAV4HYBRID_TT_4",        "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Rear left tire temperature"},
-    {"id": "RAV4HYBRID_TT_RR_V2",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40,                 "unit": "celsius" }, "name": "Rear right tire temperature"},
-    {"id": "RAV4HYBRID_TT_SPARE_V2", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 215, "min": -40, "add": -40,                 "unit": "celsius" }, "name": "Spare tire temperature"}
+    {"id": "RAV4HYBRID_TT_FL_V2",    "path": "Tires", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Front left tire temperature"},
+    {"id": "RAV4HYBRID_TT_FR_V2",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Front right tire temperature"},
+    {"id": "RAV4HYBRID_TT_RL_V2",    "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear left tire temperature"},
+    {"id": "RAV4HYBRID_TT_RR_V2",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear right tire temperature"},
+    {"id": "RAV4HYBRID_TT_SPARE_V2", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Spare tire temperature"}
   ]},
 { "hdr": "750", "eax": "2A", "tst": "2A", "fcm1": true, "dbg": true, "cmd": {"22": "1005"}, "freq": 5,
   "signals": [
-    {"id": "RAV4HYBRID_TP_1",        "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 56.8, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi"  }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
-    {"id": "RAV4HYBRID_TP_FL_V2",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 4,    "div": 58,    "add": -0.5,                     "unit": "bars" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
-    {"id": "RAV4HYBRID_TP_2",        "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 56.8, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi"  }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
-    {"id": "RAV4HYBRID_TP_FR_V2",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 4,    "div": 58,    "add": -0.5,                     "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
-    {"id": "RAV4HYBRID_TP_3",        "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 56.8, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi"  }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
-    {"id": "RAV4HYBRID_TP_RL_V2",    "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 4,    "div": 58,    "add": -0.5,                     "unit": "bars" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "RAV4HYBRID_TP_4",        "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 56.8, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi"  }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "RAV4HYBRID_TP_RR_V2",    "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 4,    "div": 58,    "add": -0.5,                     "unit": "bars" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
-    {"id": "RAV4HYBRID_TP_SPARE_V2", "path": "Tires", "fmt": {"bix": 72, "len": 8, "max": 4,    "div": 58,    "add": -0.5,                     "unit": "bars" }, "name": "Spare tire pressure"}
+    {"id": "RAV4HYBRID_TP_FL_V2",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 4, "div": 58, "add": -0.5, "unit": "bars" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "RAV4HYBRID_TP_FR_V2",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 4, "div": 58, "add": -0.5, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
+    {"id": "RAV4HYBRID_TP_RL_V2",    "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 4, "div": 58, "add": -0.5, "unit": "bars" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "RAV4HYBRID_TP_SPARE_V2", "path": "Tires", "fmt": {"bix": 72, "len": 8, "max": 4, "div": 58, "add": -0.5, "unit": "bars" }, "name": "Spare tire pressure"}
   ]},
 { "hdr": "750", "eax": "2A", "tst": "2A", "fcm1": true, "dbg": true, "cmd": {"22": "2021"}, "freq": 86400,
   "signals": [
@@ -232,15 +223,15 @@
   ]},
 { "hdr": "7B0", "dbg": true, "cmd": {"22": "1006"}, "freq": 5,
   "signals": [
-    {"id": "RAV4HYBRID_MASTER_CYL_TEMP", "path": "Brakes", "fmt": { "len": 8, "max": 100, "min": -20, "add": -80, "unit": "celsius" }, "name": "Master Cylinder Sensor Temperature"}
+    {"id": "RAV4HYBRID_MASTER_CYL_TEMP", "path": "Brakes", "fmt": { "len": 8, "max": 100, "min": -20, "add": -80, "unit": "celsius" }, "name": "Master cylinder sensor temperature"}
   ]},
 { "hdr": "7B1", "dbg": true, "cmd": {"22": "1026"}, "freq": 1,
   "signals": [
-    {"id": "RAV4HYBRID_COUPLING_TEMP", "path": "Drivetrain", "fmt": { "len": 16, "max": 100, "min": -20, "div": 128, "unit": "celsius" }, "name": "Coupling Temperature"}
+    {"id": "RAV4HYBRID_COUPLING_TEMP", "path": "Drivetrain", "fmt": { "len": 16, "max": 100, "min": -20, "div": 128, "unit": "celsius" }, "name": "Coupling temperature"}
   ]},
 { "hdr": "7B3", "dbg": true, "cmd": {"22": "1004"}, "freq": 0.25,
   "signals": [
-    {"id": "RAV4HYBRID_STEERING_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 410, "min": -410, "mul": 1.5, "sign": true, "unit": "degrees" }, "name": "Steering Angle"}
+    {"id": "RAV4HYBRID_STEERING_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 410, "min": -410, "mul": 1.5, "sign": true, "unit": "degrees" }, "name": "Steering angle"}
   ]},
 { "hdr": "7C0", "dbg": true, "cmd": {"21": "29"}, "freq": 1, "filter": { "to": 2019 },
   "signals": [
@@ -248,7 +239,7 @@
   ]},
 { "hdr": "7C0", "dbg": true, "cmd": {"22": "1021"}, "freq": 1,
   "signals": [
-    {"id": "RAV4HYBRID_BATTERY_VOLTAGE", "path": "Electrical", "fmt": { "len": 8, "max": 20, "div": 10, "unit": "volts" }, "name": "B+ Battery Voltage"}
+    {"id": "RAV4HYBRID_BATTERY_VOLTAGE", "path": "Electrical", "fmt": { "len": 8, "max": 20, "div": 10, "unit": "volts" }, "name": "Battery voltage"}
   ]},
 { "hdr": "7C0", "fcm1": true, "cmd": {"22": "1022"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
@@ -256,7 +247,7 @@
   ]},
 { "hdr": "7D0", "dbg": true, "cmd": {"21": "62"}, "freq": 1,
   "signals": [
-    {"id": "RAV4HYBRID_PARKING_BRAKE", "path": "Control", "name": "Parking Brake", "fmt": {"len": 8, "map": {
+    {"id": "RAV4HYBRID_PARKING_BRAKE", "path": "Control", "name": "Parking brake", "fmt": {"len": 8, "map": {
           "0": { "description": "", "value": "Off" },
           "2": { "description": "", "value": "On" }
         }}
