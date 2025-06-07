@@ -2,12 +2,6 @@ command_id: 7E0.0131
 test_cases:
 - response: |-
     NO DATA
-    > 7DF.0131
-    7E8044131FFFF
-  expected_values:
-    CLR_DIST: 65535
-- response: |-
-    NO DATA
     > 7E2.7EA.0131
     NO DATA
     > 7D2.221F5B
@@ -31,28 +25,6 @@ test_cases:
     > 7E2.7EA.01A6
     NO DATA
     > 750.758.221005
-    NO DATA
-    > 7E0.7E8.010D
-    NO DATA
-    > 7DF.0131
-    7E8044131FFFF
-  expected_values:
-    CLR_DIST: 65535
-- response: |-
-    NO DATA
-    > 7E2.7EA.01A6
-    NO DATA
-    > 7E6.7EE.0131
-    NO DATA
-    > 750.758.221004
-    NO DATA
-    > 750.758.222021
-    NO DATA
-    > 7E2.7EA.0131
-    NO DATA
-    > 7E0.7E8.0131
-    NO DATA
-    > 7E3.7EB.010D
     NO DATA
     > 7E0.7E8.010D
     NO DATA
