@@ -74,6 +74,15 @@ test_cases:
     7E8044131AC21
   expected_values:
     VPWR: 14.335
-- response: '7E80441423813'
+    ECT: 85.0
+    MAF: 0.46
+    RPM: 0
+    VSS: 0
+    RUNTM: 0
+    MIL_DIST: 0
+    EQ_RAT: 0.96602
+    CLR_DIST: 44065.0
+    IAT: 49.0
+- response: 7E80441423813
   expected_values:
     VPWR: 14.355
