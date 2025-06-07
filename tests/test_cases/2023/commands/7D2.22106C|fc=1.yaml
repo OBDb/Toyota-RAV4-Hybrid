@@ -1,0 +1,14 @@
+command_id: 7D2.22106C|fc=1
+test_cases:
+- response: 7DA0662106C4B5044
+  expected_values:
+    RAV4HYBRID_HVBAT_SOC_MAX: 40
+    RAV4HYBRID_HVBAT_SOC_MIN: 34
+- response: 7DA0662106C787871
+  expected_values:
+    RAV4HYBRID_HVBAT_SOC_MAX: 60
+    RAV4HYBRID_HVBAT_SOC_MIN: 56.5
+- response: 7DA0662106C788370
+  expected_values:
+    RAV4HYBRID_HVBAT_SOC_MAX: 65.5
+    RAV4HYBRID_HVBAT_SOC_MIN: 56
