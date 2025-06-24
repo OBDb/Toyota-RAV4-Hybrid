@@ -1,6 +1,8 @@
 command_id: 7E0.0131
 test_cases:
-- response: |-
+- expected_values:
+    CLR_DIST: 65535
+  response: |-
     NO DATA
     > 7E2.7EA.0131
     NO DATA
@@ -30,5 +32,3 @@ test_cases:
     NO DATA
     > 7DF.0131
     7E8044131FFFF
-  expected_values:
-    CLR_DIST: 65535

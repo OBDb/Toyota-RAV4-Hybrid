@@ -1,0 +1,17 @@
+command_id: 7B3.7BB.221004
+test_cases:
+- expected_values:
+    RAV4HYBRID_STEERING_ANGLE: 0
+  response: 7BB066210040000FD
+- expected_values:
+    RAV4HYBRID_STEERING_ANGLE: 3
+  response: 7BB066210040002FE
+- expected_values:
+    RAV4HYBRID_STEERING_ANGLE: 4.5
+  response: 7BB06621004000301
+- expected_values:
+    RAV4HYBRID_STEERING_ANGLE: -12
+  response: 7BB06621004FFF806
+- expected_values:
+    RAV4HYBRID_STEERING_ANGLE: -1.5
+  response: 7BB06621004FFFF01
