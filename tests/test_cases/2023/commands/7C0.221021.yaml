@@ -1,8 +1,0 @@
-command_id: 7C0.221021
-test_cases:
-- response: 7C80462102100
-  expected_values:
-    RAV4HYBRID_BATTERY_VOLTAGE: 0
-- response: 7C80462102190
-  expected_values:
-    RAV4HYBRID_BATTERY_VOLTAGE: 14.4

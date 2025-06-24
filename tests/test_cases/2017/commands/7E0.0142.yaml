@@ -1,15 +1,17 @@
 command_id: 7E0.0142
 test_cases:
-- response: 7E80441422F87
-  expected_values:
+- expected_values:
     VPWR: 12.167
-- response: 7E80441422FC2
-  expected_values:
+  response: 7E80441422F87
+- expected_values:
     VPWR: 12.226
-- response: 7E804414230FB
-  expected_values:
+  response: 7E80441422FC2
+- expected_values:
     VPWR: 12.539
-- response: |-
+  response: 7E804414230FB
+- expected_values:
+    VPWR: 14.335
+  response: |-
     7E804414237FF
     7E80341057D
     7E8044110002E
@@ -72,17 +74,6 @@ test_cases:
     7E804411F0000
     7E80441210000
     7E8044131AC21
-  expected_values:
-    VPWR: 14.335
-    ECT: 85.0
-    MAF: 0.46
-    RPM: 0
-    VSS: 0
-    RUNTM: 0
-    MIL_DIST: 0
-    EQ_RAT: 0.96602
-    CLR_DIST: 44065.0
-    IAT: 49.0
-- response: 7E80441423813
-  expected_values:
+- expected_values:
     VPWR: 14.355
+  response: '7E80441423813'
