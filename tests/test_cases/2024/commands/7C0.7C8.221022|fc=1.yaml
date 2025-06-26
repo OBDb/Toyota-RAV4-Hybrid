@@ -1,0 +1,14 @@
+command_id: 7C0.7C8.221022|fc=1
+test_cases:
+- expected_values:
+    RAV4HYBRID_FLV: 44.67
+  response: 7C8056210221173
+- expected_values:
+    RAV4HYBRID_FLV: 45.35
+  response: 7C80562102211B7
+- expected_values:
+    RAV4HYBRID_FLV: 46.39
+  response: 7C805621022121F
+- expected_values:
+    RAV4HYBRID_FLV: 49.35
+  response: 7C8056210221347

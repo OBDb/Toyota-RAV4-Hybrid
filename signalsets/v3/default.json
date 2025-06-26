@@ -1,17 +1,17 @@
 { "commands": [
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1074"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1074"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_EOP", "path": "Engine", "fmt": { "len": 16, "max": 1000, "mul": 10, "div": 128, "unit": "kilopascal" }, "name": "Engine oil pressure"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "10CD"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "10CD"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_LFPS", "path": "Fuel", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "add": -3276.75, "unit": "kilopascal" }, "name": "Low fuel pressure sensor"}
   ]},
-{ "hdr": "747", "rax": "74F", "fcm1": true, "cmd": {"22": "0103"}, "freq": 10, "dbgfilter": { "to": 2021, "years": [2024], "from": 2026 },
+{ "hdr": "747", "rax": "74F", "fcm1": true, "cmd": {"22": "0103"}, "freq": 10, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_ODO", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "747", "rax": "74F", "fcm1": true, "cmd": {"22": "182E"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2024], "from": 2026 },
+{ "hdr": "747", "rax": "74F", "fcm1": true, "cmd": {"22": "182E"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_HVBAT_C01_V", "path": "Battery.Cells", "fmt": {             "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #01 voltage"},
     {"id": "RAV4HYBRID_HVBAT_C02_V", "path": "Battery.Cells", "fmt": {"bix": 16,   "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #02 voltage"},
@@ -110,7 +110,7 @@
     {"id": "RAV4HYBRID_HVBAT_C95_V", "path": "Battery.Cells", "fmt": {"bix": 1504, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #95 voltage"},
     {"id": "RAV4HYBRID_HVBAT_C96_V", "path": "Battery.Cells", "fmt": {"bix": 1520, "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery cell #96 voltage"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "fcm1": true, "cmd": {"21": "16"}, "freq": 1, "dbgfilter": { "years": [2018, 2019, 2020, 2022, 2024], "from": 2026 },
+{ "hdr": "750", "rax": "758", "eax": "2A", "fcm1": true, "cmd": {"21": "16"}, "freq": 1, "dbgfilter": { "years": [2018, 2019, 2020, 2022], "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_TT_FL",    "path": "Tires", "fmt": {           "len": 8, "max": 150, "min": -20, "add": -40, "unit": "celsius" }, "name": "Front left tire temperature"},
     {"id": "RAV4HYBRID_TT_FR",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 150, "min": -20, "add": -40, "unit": "celsius" }, "name": "Front right tire temperature"},
@@ -182,7 +182,7 @@
     {"id": "RAV4HYBRID_YAW_RATE",    "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,    "min": -128,             "add": -128,                  "unit": "degrees" }, "name": "Yaw rate value (degrees/se"},
     {"id": "RAV4HYBRID_STEER_ANGLE", "path": "Control",     "fmt": {"bix": 24, "len": 16, "max": 3276.7, "min": -3276, "div": 10, "add": -3276.8,               "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"22": "1006"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2024], "from": 2026 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"22": "1006"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_MASTER_CYL_TEMP", "path": "Brakes", "fmt": { "len": 8, "max": 100, "min": -20, "add": -80, "unit": "celsius" }, "name": "Master cylinder sensor temperature"}
   ]},
@@ -194,11 +194,11 @@
   "signals": [
     {"id": "RAV4HYBRID_FLI_VOL", "path": "Fuel", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "liters" }, "name": "Fuel level (volume)", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1021"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1021"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_BATTERY_VOLTAGE", "path": "Electrical", "fmt": { "len": 8, "max": 20, "div": 10, "unit": "volts" }, "name": "Battery voltage"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "fcm1": true, "cmd": {"22": "1022"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "7C0", "rax": "7C8", "fcm1": true, "cmd": {"22": "1022"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_FLV", "path": "Fuel", "fmt": { "len": 16, "max": 655, "div": 100, "nullmax": 655, "unit": "liters" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -210,16 +210,16 @@
         }}
     }
   ]},
-{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "106C"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "106C"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge (max)"},
     {"id": "RAV4HYBRID_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge (min)"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1F0D"}, "freq": 0.25, "filter": { "from": 2019 }, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1F0D"}, "freq": 0.25, "filter": { "from": 2019 }, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_VSS_V2", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1F5B"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1F5B"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
   ]},
@@ -233,7 +233,7 @@
     {"id": "RAV4HYBRID_VVTOT",         "path": "Engine", "fmt": {"bix": 56, "len": 8,  "max": 215,    "min": -40,             "add": -40, "unit": "celsius"    }, "name": "Variable valve timing oil temperature"},
     {"id": "RAV4HYBRID_EOT",           "path": "Engine", "fmt": {"bix": 72, "len": 8,  "max": 215,    "min": -40,             "add": -40, "unit": "celsius"    }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "82"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "82"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_ATF_PAN_T", "path": "Transmission", "fmt": {           "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission temperature (pan)"},
     {"id": "RAV4HYBRID_ATF_TQC_T", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission temperature (torque converter)"}
