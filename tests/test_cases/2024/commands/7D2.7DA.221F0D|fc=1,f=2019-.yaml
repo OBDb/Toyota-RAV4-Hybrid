@@ -4,26 +4,5 @@ test_cases:
     RAV4HYBRID_VSS_V2: 0
   response: 7DA04621F0D00
 - expected_values:
-    RAV4HYBRID_VSS_V2: 3
-  response: 7DA04621F0D03
-- expected_values:
-    RAV4HYBRID_VSS_V2: 15
-  response: 7DA04621F0D0F
-- expected_values:
-    RAV4HYBRID_VSS_V2: 16
-  response: 7DA04621F0D10
-- expected_values:
-    RAV4HYBRID_VSS_V2: 17
-  response: 7DA04621F0D11
-- expected_values:
-    RAV4HYBRID_VSS_V2: 29
-  response: 7DA04621F0D1D
-- expected_values:
-    RAV4HYBRID_VSS_V2: 45
-  response: 7DA04621F0D2D
-- expected_values:
-    RAV4HYBRID_VSS_V2: 48
-  response: 7DA04621F0D30
-- expected_values:
-    RAV4HYBRID_VSS_V2: 50
-  response: 7DA04621F0D32
+    RAV4HYBRID_VSS_V2: 81
+  response: 7DA04621F0D51

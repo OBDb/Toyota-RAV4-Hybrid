@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.2210A2
+test_cases:
+- expected_values:
+    RAV4HYBRID_RM_TQ: 0.875
+    RAV4HYBRID_RM_TQ_REQ: 393
+  response: |-
+    7DA100C6210A2818980
+    7DA210B040080070400
+- expected_values:
+    RAV4HYBRID_RM_TQ: -1.125
+    RAV4HYBRID_RM_TQ_REQ: 1643
+  response: |-
+    7DA100C6210A2866B7F
+    7DA21F204007FF70400

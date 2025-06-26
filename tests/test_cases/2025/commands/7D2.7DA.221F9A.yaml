@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.221F9A
+test_cases:
+- expected_values:
+    RAV4HYBRID_HVBAT_C: 5.2
+    RAV4HYBRID_HVBAT_V: 386
+  response: |-
+    7DA1009621F9A0E0260
+    7DA2180003400000000
+- expected_values:
+    RAV4HYBRID_HVBAT_C: 5.9
+    RAV4HYBRID_HVBAT_V: 387
+  response: |-
+    7DA1009621F9A0E0260
+    7DA21C0003B00000000
