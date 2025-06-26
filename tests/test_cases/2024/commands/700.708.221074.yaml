@@ -1,0 +1,26 @@
+command_id: 700.708.221074
+test_cases:
+- expected_values:
+    RAV4HYBRID_EOP: 0
+  response: '708056210740000'
+- expected_values:
+    RAV4HYBRID_EOP: 99.21875
+  response: 7080562107404F6
+- expected_values:
+    RAV4HYBRID_EOP: 108.98438
+  response: '708056210740573'
+- expected_values:
+    RAV4HYBRID_EOP: 113.51562
+  response: 7080562107405AD
+- expected_values:
+    RAV4HYBRID_EOP: 121.875
+  response: '708056210740618'
+- expected_values:
+    RAV4HYBRID_EOP: 132.65625
+  response: 7080562107406A2
+- expected_values:
+    RAV4HYBRID_EOP: 134.76562
+  response: 7080562107406BD
+- expected_values:
+    RAV4HYBRID_EOP: 535.15625
+  response: 708056210741AC2
