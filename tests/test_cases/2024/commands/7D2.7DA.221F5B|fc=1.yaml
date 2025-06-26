@@ -4,5 +4,5 @@ test_cases:
     RAV4HYBRID_SOC: 31.76471
   response: 7DA04621F5B51
 - expected_values:
-    RAV4HYBRID_SOC: 56.86275
-  response: 7DA04621F5B91
+    RAV4HYBRID_SOC: 80.78431
+  response: 7DA04621F5BCE

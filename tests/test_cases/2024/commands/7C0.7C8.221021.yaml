@@ -16,6 +16,9 @@ test_cases:
     RAV4HYBRID_BATTERY_VOLTAGE: 13.9
   response: 7C8046210218B
 - expected_values:
+    RAV4HYBRID_BATTERY_VOLTAGE: 14
+  response: 7C8046210218C
+- expected_values:
     RAV4HYBRID_BATTERY_VOLTAGE: 14.1
   response: 7C8046210218D
 - expected_values:
