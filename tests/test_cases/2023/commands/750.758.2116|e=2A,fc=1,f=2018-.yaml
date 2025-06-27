@@ -1,0 +1,10 @@
+command_id: 750.758.2116|e=2A,fc=1,f=2018-
+test_cases:
+- expected_values:
+    RAV4HYBRID_TT_FL: 31
+    RAV4HYBRID_TT_FR: 32
+    RAV4HYBRID_TT_RL: 31
+    RAV4HYBRID_TT_RR: 31
+  response: |-
+    7582A10076116474847
+    7582A21470000000000
