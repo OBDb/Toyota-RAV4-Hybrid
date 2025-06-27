@@ -1,0 +1,20 @@
+command_id: 7B0.7B8.221006|f=2018-
+test_cases:
+- expected_values:
+    RAV4HYBRID_MASTER_CYL_TEMP: 22
+  response: 7B8056210066600
+- expected_values:
+    RAV4HYBRID_MASTER_CYL_TEMP: 23
+  response: 7B8056210066700
+- expected_values:
+    RAV4HYBRID_MASTER_CYL_TEMP: 24
+  response: 7B8056210066800
+- expected_values:
+    RAV4HYBRID_MASTER_CYL_TEMP: 31
+  response: 7B8056210066F00
+- expected_values:
+    RAV4HYBRID_MASTER_CYL_TEMP: 32
+  response: 7B8056210067000
+- expected_values:
+    RAV4HYBRID_MASTER_CYL_TEMP: 35
+  response: 7B8056210067300
