@@ -1,14 +1,11 @@
 command_id: 700.708.221074|f=2018-
 test_cases:
 - expected_values:
-    RAV4HYBRID_EOP: 0.46875
-  response: '708056210740006'
+    RAV4HYBRID_EOP: 0
+  response: '708056210740000'
 - expected_values:
     RAV4HYBRID_EOP: 119.76562
   response: 7080562107405FD
-- expected_values:
-    RAV4HYBRID_EOP: 140
-  response: '708056210740700'
 - expected_values:
     RAV4HYBRID_EOP: 553.28125
   response: 708056210741BAA

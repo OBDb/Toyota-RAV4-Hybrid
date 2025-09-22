@@ -4,8 +4,8 @@ test_cases:
     RAV4HYBRID_LFPS: 264.25
   response: 708056210CD8A52
 - expected_values:
-    RAV4HYBRID_LFPS: 381.45
-  response: 708056210CD8EE6
+    RAV4HYBRID_LFPS: 433.65
+  response: 708056210CD90F0
 - expected_values:
     RAV4HYBRID_LFPS: 435.65
   response: 708056210CD9104

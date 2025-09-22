@@ -1,17 +1,17 @@
 command_id: 7D2.7DA.221F9A|f=2018-
 test_cases:
 - expected_values:
+    RAV4HYBRID_HVBAT_C: 1.2
+    RAV4HYBRID_HVBAT_V: 252
+  response: |-
+    7DA1009621F9A0E003F
+    7DA2100000C00000000
+- expected_values:
     RAV4HYBRID_HVBAT_C: 54.4
     RAV4HYBRID_HVBAT_V: 359
   response: |-
     7DA1009621F9A0E0259
     7DA21C0022000000000
-- expected_values:
-    RAV4HYBRID_HVBAT_C: 16.2
-    RAV4HYBRID_HVBAT_V: 360
-  response: |-
-    7DA1009621F9A0E025A
-    7DA210000A200000000
 - expected_values:
     RAV4HYBRID_HVBAT_C: 35.1
     RAV4HYBRID_HVBAT_V: 360
@@ -24,12 +24,6 @@ test_cases:
   response: |-
     7DA1009621F9A0E025A
     7DA21C0FFD800000000
-- expected_values:
-    RAV4HYBRID_HVBAT_C: 3.6
-    RAV4HYBRID_HVBAT_V: 365
-  response: |-
-    7DA1009621F9A0E025B
-    7DA2140002400000000
 - expected_values:
     RAV4HYBRID_HVBAT_C: -1.7
     RAV4HYBRID_HVBAT_V: 366
