@@ -152,6 +152,7 @@ unsupported_commands_by_ecu:
   - 7D2.22106C
   - 7D2.221F0D
   - 7D2.221F5B
+  - 7D2.7DA.220103|fc=1:RAV4HYBRID_ODO_V2
   - 7D2.7DA.221040
   - 7D2.7DA.22106C
   - 7D2.7DA.221075

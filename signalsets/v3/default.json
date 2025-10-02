@@ -234,7 +234,7 @@
         }}
     }
   ]},
-{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "0103"}, "freq": 10, "dbgfilter": { "years": [2017, 2018, 2019, 2020, 2022, 2024], "from": 2026 },
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "0103"}, "freq": 10, "dbgfilter": { "years": [2018, 2019, 2020, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_ODO_V2", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
