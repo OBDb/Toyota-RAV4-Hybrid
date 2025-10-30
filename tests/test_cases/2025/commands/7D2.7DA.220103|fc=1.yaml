@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     RAV4HYBRID_ODO_V2: 3635
   response: 7DA0762010302000E33
+- expected_values:
+    RAV4HYBRID_ODO_V2: 4166
+  response: 7DA0762010302001046
