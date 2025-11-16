@@ -195,7 +195,7 @@
     {"id": "RAV4HYBRID_TIRE_RR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
     {"id": "RAV4HYBRID_TIRE_RL_SPD", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "21"}, "freq": 0.25, "filter": { "to": 2021 }, "dbgfilter": { "years": [2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "21"}, "freq": 0.25, "filter": { "to": 2021 }, "dbgfilter": { "years": [2018, 2019, 2020] },
   "signals": [
     {"id": "RAV4HYBRID_VSS_V1", "path": "Movement", "fmt": { "len": 8, "max": 326, "mul": 1.28, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
