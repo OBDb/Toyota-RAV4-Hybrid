@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     RAV4HYBRID_ODO_V2: 69580
   response: 7DA0762010302010FCC
+- expected_values:
+    RAV4HYBRID_ODO_V2: 69585
+  response: 7DA0762010302010FD1
