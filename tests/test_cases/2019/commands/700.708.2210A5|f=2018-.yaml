@@ -3,6 +3,11 @@ test_cases:
 - expected_values:
     RAV4HYBRID_MIS_ALL: 0
   response: |-
+    70810086210A5000000
+    7082100FF0000000000
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
     70810086210A5000082
     7082100FF0000000000
 - expected_values:
