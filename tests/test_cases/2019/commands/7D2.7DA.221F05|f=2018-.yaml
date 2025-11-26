@@ -1,0 +1,23 @@
+command_id: 7D2.7DA.221F05|f=2018-
+test_cases:
+- expected_values:
+    RAV4HYBRID_COOL_T: 46
+  response: 7DA04621F0556
+- expected_values:
+    RAV4HYBRID_COOL_T: 47
+  response: 7DA04621F0557
+- expected_values:
+    RAV4HYBRID_COOL_T: 49
+  response: 7DA04621F0559
+- expected_values:
+    RAV4HYBRID_COOL_T: 50
+  response: 7DA04621F055A
+- expected_values:
+    RAV4HYBRID_COOL_T: 51
+  response: 7DA04621F055B
+- expected_values:
+    RAV4HYBRID_COOL_T: 52
+  response: 7DA04621F055C
+- expected_values:
+    RAV4HYBRID_COOL_T: 53
+  response: 7DA04621F055D
