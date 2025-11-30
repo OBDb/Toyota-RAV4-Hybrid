@@ -4,5 +4,5 @@ test_cases:
     RAV4HYBRID_VSS_V1: 0
   response: 7B803612100
 - expected_values:
-    RAV4HYBRID_VSS_V1: 71.68
-  response: 7B803612138
+    RAV4HYBRID_VSS_V1: 75.52
+  response: 7B80361213B
