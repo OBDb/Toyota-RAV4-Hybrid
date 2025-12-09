@@ -4,29 +4,8 @@ test_cases:
     RAV4HYBRID_ODO: 10681
   response: 74F07620103020029B9
 - expected_values:
-    RAV4HYBRID_ODO: 10682
-  response: 74F07620103020029BA
-- expected_values:
-    RAV4HYBRID_ODO: 10683
-  response: 74F07620103020029BB
-- expected_values:
-    RAV4HYBRID_ODO: 10684
-  response: 74F07620103020029BC
-- expected_values:
-    RAV4HYBRID_ODO: 10685
-  response: 74F07620103020029BD
-- expected_values:
-    RAV4HYBRID_ODO: 10686
-  response: 74F07620103020029BE
-- expected_values:
-    RAV4HYBRID_ODO: 10687
-  response: 74F07620103020029BF
-- expected_values:
-    RAV4HYBRID_ODO: 10688
-  response: 74F07620103020029C0
-- expected_values:
-    RAV4HYBRID_ODO: 10689
-  response: 74F07620103020029C1
-- expected_values:
     RAV4HYBRID_ODO: 10690
   response: 74F07620103020029C2
+- expected_values:
+    RAV4HYBRID_ODO: 42541
+  response: 74F076201030200A62D

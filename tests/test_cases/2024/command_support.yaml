@@ -54,6 +54,7 @@ supported_commands_by_ecu:
   - 7DF.0142
   - 7DF.0144
   - 7DF.0146
+  - 7DF.0147
   - 7DF.014E
   - 7DF.015B
   - 7DF.015C
@@ -206,6 +207,7 @@ unsupported_commands_by_ecu:
   - 7E0.0106:SHRTFT1
   - 7E0.010D:VSS
   - 7E0.0110:MAF
+  - 7E0.0111:TP
   - 7E0.011C:OBDSUP
   - 7E0.0121:MIL_DIST
   - 7E0.0130:WARM_UPS
@@ -217,6 +219,7 @@ unsupported_commands_by_ecu:
   - 7E0.0143:LOAD_ABS
   - 7E0.0144:EQ_RAT
   - 7E0.0146:AAT
+  - 7E0.0147:TP_B
   - 7E0.014D:MIL_TIME
   - 7E0.014E:CLR_TIME
   - 7E0.0153:EVAP_VPA
@@ -231,6 +234,7 @@ unsupported_commands_by_ecu:
   - 7E2.7EA.0104
   - 7E2.7EA.0105
   - 7E2.7EA.010D
+  - 7E2.7EA.0111
   - 7E2.7EA.0121
   - 7E2.7EA.0130
   - 7E2.7EA.0131
@@ -244,7 +248,10 @@ unsupported_commands_by_ecu:
   - 7E2.7EA.01A6
   "7E3":
   - 7E3.7EB.0101
+  - 7E3.7EB.0104
+  - 7E3.7EB.0105
   - 7E3.7EB.010D
+  - 7E3.7EB.0111
   - 7E3.7EB.0121
   - 7E3.7EB.0130
   - 7E3.7EB.0131
@@ -268,6 +275,7 @@ unsupported_commands_by_ecu:
   - 7E6.7EE.0104
   - 7E6.7EE.0105
   - 7E6.7EE.010D
+  - 7E6.7EE.0111
   - 7E6.7EE.011C
   - 7E6.7EE.0131
   - 7E6.7EE.0141
