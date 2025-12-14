@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     RAV4HYBRID_HVBAT_MAX_T: 15
   response: 7DA056218294100
+- expected_values:
+    RAV4HYBRID_HVBAT_MAX_T: 16
+  response: 7DA056218294200
