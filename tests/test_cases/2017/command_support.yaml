@@ -10,6 +10,8 @@ supported_commands_by_ecu:
   - 7C0.2129
   - 7C0.7C8.2129|f=-2019:RAV4HYBRID_FLI_VOL
   "7DF":
+  - 7DF.0104
+  - 7DF.0105
   - 7DF.010D
   - 7DF.0110
   - 7DF.0131
