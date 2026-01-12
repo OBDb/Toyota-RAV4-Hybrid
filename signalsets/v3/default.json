@@ -7,7 +7,7 @@
   "signals": [
     {"id": "RAV4HYBRID_MIS_ALL", "path": "Engine.Misfires", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count, all"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "10A7"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "10A7"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2018, "years": [2020], "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_MIS_1", "path": "Engine.Misfires", "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count, cylinder 1"},
     {"id": "RAV4HYBRID_MIS_2", "path": "Engine.Misfires", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count, cylinder 2"},
@@ -18,7 +18,7 @@
   "signals": [
     {"id": "RAV4HYBRID_LFPS", "path": "Fuel", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "add": -3276.75, "unit": "kilopascal" }, "name": "Low fuel pressure sensor"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1F5C"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2018, "years": [2020, 2022], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F5C"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2018, "years": [2020], "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_EOT_V2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
