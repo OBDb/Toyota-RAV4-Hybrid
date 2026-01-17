@@ -1,0 +1,26 @@
+command_id: 7D2.7DA.221F49|f=2018-
+test_cases:
+- expected_values:
+    RAV4HYBRID_ACC_PEDAL_POS_1: 15.68627
+  response: 7DA04621F4928
+- expected_values:
+    RAV4HYBRID_ACC_PEDAL_POS_1: 16.47059
+  response: 7DA04621F492A
+- expected_values:
+    RAV4HYBRID_ACC_PEDAL_POS_1: 22.7451
+  response: 7DA04621F493A
+- expected_values:
+    RAV4HYBRID_ACC_PEDAL_POS_1: 25.4902
+  response: 7DA04621F4941
+- expected_values:
+    RAV4HYBRID_ACC_PEDAL_POS_1: 26.66667
+  response: 7DA04621F4944
+- expected_values:
+    RAV4HYBRID_ACC_PEDAL_POS_1: 31.76471
+  response: 7DA04621F4951
+- expected_values:
+    RAV4HYBRID_ACC_PEDAL_POS_1: 36.07843
+  response: 7DA04621F495C
+- expected_values:
+    RAV4HYBRID_ACC_PEDAL_POS_1: 38.03922
+  response: 7DA04621F4961

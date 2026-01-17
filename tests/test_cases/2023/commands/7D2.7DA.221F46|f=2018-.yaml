@@ -1,0 +1,23 @@
+command_id: 7D2.7DA.221F46|f=2018-
+test_cases:
+- expected_values:
+    RAV4HYBRID_AAT: 13
+  response: 7DA04621F4635
+- expected_values:
+    RAV4HYBRID_AAT: 14
+  response: 7DA04621F4636
+- expected_values:
+    RAV4HYBRID_AAT: 20
+  response: 7DA04621F463C
+- expected_values:
+    RAV4HYBRID_AAT: 21
+  response: 7DA04621F463D
+- expected_values:
+    RAV4HYBRID_AAT: 23
+  response: 7DA04621F463F
+- expected_values:
+    RAV4HYBRID_AAT: 24
+  response: 7DA04621F4640
+- expected_values:
+    RAV4HYBRID_AAT: 25
+  response: 7DA04621F4641
