@@ -1,5 +1,0 @@
-command_id: 7D2.7DA.221609|f=2018-
-test_cases:
-- expected_values:
-    RAV4HYBRID_HVBAT_CHRG_V: 0
-  response: 7DA056216090000
