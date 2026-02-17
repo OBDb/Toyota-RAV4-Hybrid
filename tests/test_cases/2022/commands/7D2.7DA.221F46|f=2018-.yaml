@@ -1,8 +1,8 @@
 command_id: 7D2.7DA.221F46|f=2018-
 test_cases:
 - expected_values:
-    RAV4HYBRID_AAT: 9
+    RAV4HYBRID_AAT_V2: 9
   response: 7DA04621F4631
 - expected_values:
-    RAV4HYBRID_AAT: 10
+    RAV4HYBRID_AAT_V2: 10
   response: 7DA04621F4632
