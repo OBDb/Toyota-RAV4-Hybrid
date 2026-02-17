@@ -18,10 +18,6 @@
   "signals": [
     {"id": "RAV4HYBRID_LFPS", "path": "Fuel", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "add": -3276.75, "unit": "kilopascal" }, "name": "Low fuel pressure sensor"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1F2F"}, "freq": 30,
-  "signals": [
-    {"id": "RAV4HYBRID_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
-  ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "1F5C"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2018, "years": [2020], "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_EOT_V2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature"}
@@ -191,13 +187,6 @@
           "4": { "description": "Rear right",  "value": "RR" }
         }}
     }
-  ]},
-{ "hdr": "7B0", "cmd": {"21": "03"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2018, 2020], "from": 2022 },
-  "signals": [
-    {"id": "RAV4HYBRID_TIRE_FR_SPD", "path": "Movement", "fmt": {           "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
-    {"id": "RAV4HYBRID_TIRE_FL_SPD", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
-    {"id": "RAV4HYBRID_TIRE_RR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
-    {"id": "RAV4HYBRID_TIRE_RL_SPD", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
 { "hdr": "7B0", "dbg": true, "cmd": {"21": "A6"}, "freq": 1,
   "signals": [
