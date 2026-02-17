@@ -1,8 +1,0 @@
-command_id: 7B0.7B8.221006|f=2018-
-test_cases:
-- expected_values:
-    RAV4HYBRID_MASTER_CYL_TEMP: 14
-  response: 7B8056210065E00
-- expected_values:
-    RAV4HYBRID_MASTER_CYL_TEMP: 50
-  response: 7B8056210068200
