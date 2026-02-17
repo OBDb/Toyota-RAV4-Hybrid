@@ -252,7 +252,7 @@
   "signals": [
     {"id": "RAV4HYBRID_LAT_G",       "path": "Orientation", "fmt": {           "len": 8,  "max": 2.5,    "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Lateral g"},
     {"id": "RAV4HYBRID_LNG_G",       "path": "Orientation", "fmt": {"bix": 8,  "len": 8,  "max": 2.5,    "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Longitudinal g"},
-    {"id": "RAV4HYBRID_YAW_RATE",    "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,    "min": -128,             "add": -128,                  "unit": "degrees" }, "name": "Yaw rate value (degrees/se"},
+    {"id": "RAV4HYBRID_YAW_RATE_V2", "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,    "min": -128,             "add": -128,                  "unit": "degrees" }, "name": "Yaw rate value (degrees/se"},
     {"id": "RAV4HYBRID_STEER_ANGLE", "path": "Control",     "fmt": {"bix": 24, "len": 16, "max": 3276.7, "min": -3276, "div": 10, "add": -3276.8,               "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "5A"}, "freq": 1,
@@ -375,7 +375,7 @@
   ]},
 { "hdr": "7D0", "rax": "7DA", "cmd": {"21": "62"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2020, "from": 2023 },
   "signals": [
-    {"id": "RAV4HYBRID_PARKING_BRAKE", "path": "Control", "name": "Parking brake", "fmt": {"len": 8, "map": {
+    {"id": "RAV4HYBRID_PARKING_BRAKE_V2", "path": "Control", "name": "Parking brake", "fmt": {"len": 8, "map": {
           "0": { "description": "", "value": "Off" },
           "2": { "description": "", "value": "On" }
         }}
@@ -454,7 +454,7 @@
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F46"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2018, "years": [2020], "from": 2026 },
   "signals": [
-    {"id": "RAV4HYBRID_AAT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Ambient temperature"}
+    {"id": "RAV4HYBRID_AAT_V2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F49"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2018, "years": [2020], "from": 2026 },
   "signals": [
@@ -522,7 +522,7 @@
     {"id": "RAV4HYBRID_THROTTLE_MOTOR_DUTY",      "path": "Engine",   "fmt": {"bix": 160, "len": 8,  "max": 100,                "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Throttle motor DUTY"},
     {"id": "RAV4HYBRID_WARMUP_CYCLE_CLEARED_DTC", "path": "Engine",   "fmt": {"bix": 176, "len": 8,  "max": 255,                                                      "unit": "scalar"            }, "name": "Warmup cycle cleared DTC"},
     {"id": "RAV4HYBRID_TIME_AFTER_DTC_CLEARED",   "path": "Engine",   "fmt": {"bix": 192, "len": 16, "max": 65535,                                                    "unit": "minutes"           }, "name": "Time after DTC cleared"},
-    {"id": "RAV4HYBRID_BATTERY_VOLTAGE",          "path": "Battery",  "fmt": {"bix": 208, "len": 16, "max": 65.535,                                                   "unit": "volts"             }, "name": "Battery voltage"}
+    {"id": "RAV4HYBRID_BATTERY_VOLTAGE_V2",       "path": "Battery",  "fmt": {"bix": 208, "len": 16, "max": 65.535,                                                   "unit": "volts"             }, "name": "Battery voltage"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "03"}, "freq": 1,
   "signals": [
