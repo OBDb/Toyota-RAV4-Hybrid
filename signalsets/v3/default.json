@@ -214,6 +214,10 @@
   "signals": [
     {"id": "RAV4HYBRID_STEERING_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 410, "min": -410, "mul": 1.5, "sign": true, "unit": "degrees" }, "name": "Steering angle"}
   ]},
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "21"}, "freq": 1, "filter": { "to": 2021 }, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "RAV4HYBRID_VSS_7C0", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed, 7C0", "suggestedMetric": "speed"}
+  ]},
 { "hdr": "7C0", "rax": "7C8", "cmd": {"21": "29"}, "freq": 1, "filter": { "to": 2019 }, "dbgfilter": { "from": 2018 },
   "signals": [
     {"id": "RAV4HYBRID_FLI_VOL", "path": "Fuel", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "liters" }, "name": "Fuel level (volume)", "suggestedMetric": "fuelTankLevel"}
