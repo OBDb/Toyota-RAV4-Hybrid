@@ -43,6 +43,12 @@ test_cases:
     7DA1009621F9A0E0047
     7DA2100002200000000
 - expected_values:
+    RAV4HYBRID_HVBAT_C: 16.6
+    RAV4HYBRID_HVBAT_V: 284
+  response: |-
+    7DA1009621F9A0E0047
+    7DA210000A600000000
+- expected_values:
     RAV4HYBRID_HVBAT_C: 1.4
     RAV4HYBRID_HVBAT_V: 287
   response: |-
