@@ -83,6 +83,8 @@ supported_commands_by_ecu:
   - 0147:TP_B
   - 014C:TAC_PCT
   - 014D:MIL_TIME
+  "7E6":
+  - 7E6.7EE.010D
 unsupported_commands_by_ecu:
   "747":
   - 747.74F.220103|fc=1,f=2018-:RAV4HYBRID_ODO
@@ -137,7 +139,6 @@ unsupported_commands_by_ecu:
   "7E6":
   - 7E6.7EE.0104
   - 7E6.7EE.0105
-  - 7E6.7EE.010D
   - 7E6.7EE.0111
   - 7E6.7EE.011C
   - 7E6.7EE.0131
