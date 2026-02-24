@@ -83,6 +83,7 @@ supported_commands_by_ecu:
   - 0147:TP_B
   - 014C:TAC_PCT
   - 014D:MIL_TIME
+  - 7E0.0104:LOAD_PCT
   "7E6":
   - 7E6.7EE.010D
 unsupported_commands_by_ecu:
@@ -107,7 +108,6 @@ unsupported_commands_by_ecu:
   - 7D2.7DA.22182A|f=2018-:RAV4HYBRID_HVBAT_MIN_T
   "7E0":
   - 7E0.0103:FUELSYS1,FUELSYS2
-  - 7E0.0104:LOAD_PCT
   - 7E0.0105:ECT
   - 7E0.0106:SHRTFT1
   - 7E0.010D:VSS
