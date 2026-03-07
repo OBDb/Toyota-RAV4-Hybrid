@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     RAV4HYBRID_INVRT_COOLANT_T: 31
   response: 7DA046210B247
+- expected_values:
+    RAV4HYBRID_INVRT_COOLANT_T: 36
+  response: 7DA046210B24C
