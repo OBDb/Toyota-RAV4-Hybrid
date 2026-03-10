@@ -1,8 +1,8 @@
 command_id: 7D2.7DA.221F5B|fc=1,f=2018-
 test_cases:
 - expected_values:
-    RAV4HYBRID_SOC: 39.21569
-  response: 7DA04621F5B64
+    RAV4HYBRID_SOC: 37.64706
+  response: 7DA04621F5B60
 - expected_values:
     RAV4HYBRID_SOC: 72.94118
   response: 7DA04621F5BBA
