@@ -1,6 +1,12 @@
 command_id: 750.758.2130|e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
+    RAV4HYBRID_TP_FR_V1: 2.06897
+    RAV4HYBRID_TP_RR_V1: 2.06897
+  response: |-
+    7582A10076130009500
+    7582A21950000000000
+- expected_values:
     RAV4HYBRID_TP_FR_V1: 2.10345
   response: |-
     7582A10076130009700
