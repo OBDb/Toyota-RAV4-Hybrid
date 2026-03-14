@@ -1,6 +1,10 @@
 command_id: 7D2.7DA.22106C|fc=1,f=2018-
 test_cases:
 - expected_values:
+    RAV4HYBRID_HVBAT_SOC_MAX: 41
+    RAV4HYBRID_HVBAT_SOC_MIN: 26.5
+  response: 7DA0662106C355235
+- expected_values:
     RAV4HYBRID_HVBAT_SOC_MAX: 30.5
     RAV4HYBRID_HVBAT_SOC_MIN: 24.5
   response: 7DA0662106C373D31
