@@ -49,6 +49,12 @@ test_cases:
     7DA100C6210A183C77F
     7DA21FB03007FFC0400
 - expected_values:
+    RAV4HYBRID_RPM: 1637
+    RAV4HYBRID_TQ: -38.5
+  response: |-
+    7DA100C6210A186657E
+    7DA21BB03007ECC0400
+- expected_values:
     RAV4HYBRID_RPM: 2333
     RAV4HYBRID_TQ: 61.5
   response: |-
