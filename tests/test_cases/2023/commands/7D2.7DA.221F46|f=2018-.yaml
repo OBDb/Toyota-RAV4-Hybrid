@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     RAV4HYBRID_AAT: 31
   response: 7DA04621F4647
+- expected_values:
+    RAV4HYBRID_AAT: 33
+  response: 7DA04621F4649

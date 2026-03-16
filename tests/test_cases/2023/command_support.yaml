@@ -305,6 +305,7 @@ unsupported_commands_by_ecu:
   - 7E5.7ED.0105
   - 7E5.7ED.010D
   - 7E5.7ED.0111
+  - 7E5.7ED.011C
   - 7E5.7ED.011F
   - 7E5.7ED.0131
   - 7E5.7ED.0142
