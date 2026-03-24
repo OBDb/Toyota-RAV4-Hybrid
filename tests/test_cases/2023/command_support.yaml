@@ -135,6 +135,7 @@ supported_commands_by_ecu:
   - 0147:TP_B
   - 014C:TAC_PCT
   - 014D:MIL_TIME
+  - 014E:CLR_TIME
   - 7E0.0131:CLR_DIST
   - 7E0.0146:AAT
   - 7E0.015C:EOT
