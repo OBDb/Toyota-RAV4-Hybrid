@@ -140,6 +140,8 @@ supported_commands_by_ecu:
   - 7E0.0131:CLR_DIST
   - 7E0.0146:AAT
   - 7E0.015C:EOT
+  "7E2":
+  - 7E2.7EA.0111
   "7E3":
   - 7E3.7EB.0104
   - 7E3.7EB.011F
@@ -263,7 +265,6 @@ unsupported_commands_by_ecu:
   - 7E2.7EA.010C
   - 7E2.7EA.010D
   - 7E2.7EA.010F
-  - 7E2.7EA.0111
   - 7E2.7EA.011F
   - 7E2.7EA.0121
   - 7E2.7EA.0130
