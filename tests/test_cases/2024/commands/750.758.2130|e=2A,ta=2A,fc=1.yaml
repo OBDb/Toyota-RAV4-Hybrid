@@ -11,6 +11,11 @@ test_cases:
     7582A10076130000000
     7582A219F0000000000
 - expected_values:
+    RAV4HYBRID_TP_RR_V1: 2.25862
+  response: |-
+    7582A10076130000000
+    7582A21A00000000000
+- expected_values:
     RAV4HYBRID_TP_RR_V1: 2.53448
   response: |-
     7582A10076130000000
