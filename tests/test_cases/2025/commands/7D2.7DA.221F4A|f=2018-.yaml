@@ -1,8 +1,0 @@
-command_id: 7D2.7DA.221F4A|f=2018-
-test_cases:
-- expected_values:
-    RAV4HYBRID_ACC_PEDAL_POS_2: 31.76471
-  response: 7DA04621F4A51
-- expected_values:
-    RAV4HYBRID_ACC_PEDAL_POS_2: 51.76471
-  response: 7DA04621F4A84
