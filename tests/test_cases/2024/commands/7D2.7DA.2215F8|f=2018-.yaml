@@ -1,0 +1,29 @@
+command_id: 7D2.7DA.2215F8|f=2018-
+test_cases:
+- expected_values:
+    RAV4HYBRID_12V_T: 21.9
+  response: 7DA056215F8026B
+- expected_values:
+    RAV4HYBRID_12V_T: 22.9
+  response: 7DA056215F80275
+- expected_values:
+    RAV4HYBRID_12V_T: 23.9
+  response: 7DA056215F8027F
+- expected_values:
+    RAV4HYBRID_12V_T: 24.9
+  response: 7DA056215F80289
+- expected_values:
+    RAV4HYBRID_12V_T: 25.9
+  response: 7DA056215F80293
+- expected_values:
+    RAV4HYBRID_12V_T: 26.9
+  response: 7DA056215F8029D
+- expected_values:
+    RAV4HYBRID_12V_T: 27.9
+  response: 7DA056215F802A7
+- expected_values:
+    RAV4HYBRID_12V_T: 28.9
+  response: 7DA056215F802B1
+- expected_values:
+    RAV4HYBRID_12V_T: 29.9
+  response: 7DA056215F802BB

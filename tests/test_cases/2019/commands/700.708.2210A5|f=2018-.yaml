@@ -1,0 +1,52 @@
+command_id: 700.708.2210A5|f=2018-
+test_cases:
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
+    70810086210A5000000
+    7082100FF0000000000
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
+    70810086210A5000082
+    7082100FF0000000000
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
+    70810086210A50000B9
+    7082100A60000000000
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
+    70810086210A5000111
+    7082100C90000000000
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
+    70810086210A500012B
+    7082100AE0000000000
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
+    70810086210A5000136
+    7082100FF0000000000
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
+    70810086210A5000143
+    7082100FF0000000000
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
+    70810086210A500016F
+    7082100CD0000000000
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
+    70810086210A5000170
+    7082100C30000000000
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
+    70810086210A500017D
+    7082100C30000000000
