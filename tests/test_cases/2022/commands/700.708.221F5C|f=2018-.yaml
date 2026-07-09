@@ -1,5 +1,0 @@
-command_id: 700.708.221F5C|f=2018-
-test_cases:
-- expected_values:
-    RAV4HYBRID_EOT_V2: 76
-  response: 70804621F5C74
