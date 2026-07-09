@@ -1,0 +1,11 @@
+command_id: 747.74F.220103|fc=1,f=2018-
+test_cases:
+- expected_values:
+    RAV4HYBRID_ODO: 29142
+  response: 74F07620103020071D6
+- expected_values:
+    RAV4HYBRID_ODO: 29160
+  response: 74F07620103020071E8
+- expected_values:
+    RAV4HYBRID_ODO: 29237
+  response: 74F0762010302007235
