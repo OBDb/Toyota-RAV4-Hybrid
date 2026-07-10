@@ -1,0 +1,32 @@
+command_id: 7D2.7DA.221040|f=2018-
+test_cases:
+- expected_values:
+    RAV4HYBRID_TRANSAXLE_OIL_T: 20
+  response: 7DA06621040CD003C
+- expected_values:
+    RAV4HYBRID_TRANSAXLE_OIL_T: 19
+  response: 7DA06621040CD903B
+- expected_values:
+    RAV4HYBRID_TRANSAXLE_OIL_T: 19
+  response: 7DA06621040CE303B
+- expected_values:
+    RAV4HYBRID_TRANSAXLE_OIL_T: 18
+  response: 7DA06621040CEE03A
+- expected_values:
+    RAV4HYBRID_TRANSAXLE_OIL_T: 17
+  response: 7DA06621040CF7039
+- expected_values:
+    RAV4HYBRID_TRANSAXLE_OIL_T: 17
+  response: 7DA06621040D01039
+- expected_values:
+    RAV4HYBRID_TRANSAXLE_OIL_T: 16
+  response: 7DA06621040D07038
+- expected_values:
+    RAV4HYBRID_TRANSAXLE_OIL_T: 16
+  response: 7DA06621040D0F038
+- expected_values:
+    RAV4HYBRID_TRANSAXLE_OIL_T: 16
+  response: 7DA06621040D12038
+- expected_values:
+    RAV4HYBRID_TRANSAXLE_OIL_T: 15
+  response: 7DA06621040D18037
