@@ -5,7 +5,7 @@ test_cases:
   response: 7DA056215EE28C4
 - expected_values:
     RAV4HYBRID_12V_V: 12.5917
-  response: 7DA056215EE28F8
+  response: 7DA056215EE28FA
 - expected_values:
     RAV4HYBRID_12V_V: 14.1641
   response: 7DA056215EE2D02
