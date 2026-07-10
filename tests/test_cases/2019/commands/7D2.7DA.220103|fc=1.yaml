@@ -1,0 +1,11 @@
+command_id: 7D2.7DA.220103|fc=1
+test_cases:
+- expected_values:
+    RAV4HYBRID_ODO_V2: 69580
+  response: 7DA0762010302010FCC
+- expected_values:
+    RAV4HYBRID_ODO_V2: 121855
+  response: 7DA076201030201DBFF
+- expected_values:
+    RAV4HYBRID_ODO_V2: 121856
+  response: 7DA076201030201DC00
