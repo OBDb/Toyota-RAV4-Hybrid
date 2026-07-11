@@ -1,6 +1,12 @@
 command_id: 7D2.7DA.2210A1|f=2018-
 test_cases:
 - expected_values:
+    RAV4HYBRID_RPM: -108
+    RAV4HYBRID_TQ: -36.25
+  response: |-
+    7DA100C6210A17F947E
+    7DA21E103007EDE0400
+- expected_values:
     RAV4HYBRID_RPM: -2
     RAV4HYBRID_TQ: 0
   response: |-

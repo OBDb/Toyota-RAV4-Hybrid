@@ -1,8 +1,8 @@
 command_id: 7D2.7DA.221F05|f=2018-
 test_cases:
 - expected_values:
-    RAV4HYBRID_COOL_T: 20
-  response: 7DA04621F053C
+    RAV4HYBRID_COOL_T: 16
+  response: 7DA04621F0538
 - expected_values:
     RAV4HYBRID_COOL_T: 82
   response: 7DA04621F057A
