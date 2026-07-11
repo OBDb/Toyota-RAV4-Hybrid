@@ -4,5 +4,5 @@ test_cases:
     RAV4HYBRID_COOL_T: 16
   response: 7DA04621F0538
 - expected_values:
-    RAV4HYBRID_COOL_T: 82
-  response: 7DA04621F057A
+    RAV4HYBRID_COOL_T: 84
+  response: 7DA04621F057C
