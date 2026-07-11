@@ -1,0 +1,17 @@
+command_id: 7B0.7B8.2121|f=-2021
+test_cases:
+- expected_values:
+    RAV4HYBRID_VSS_V1: 10.24
+  response: 7B803612108
+- expected_values:
+    RAV4HYBRID_VSS_V1: 23.04
+  response: 7B803612112
+- expected_values:
+    RAV4HYBRID_VSS_V1: 24.32
+  response: 7B803612113
+- expected_values:
+    RAV4HYBRID_VSS_V1: 26.88
+  response: 7B803612115
+- expected_values:
+    RAV4HYBRID_VSS_V1: 40.96
+  response: 7B803612120

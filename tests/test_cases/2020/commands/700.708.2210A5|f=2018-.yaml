@@ -4,4 +4,34 @@ test_cases:
     RAV4HYBRID_MIS_ALL: 0
   response: |-
     70810086210A5000000
+    7082100D80000000000
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
+    70810086210A5000000
+    7082100D90000000000
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
+    70810086210A5000000
+    7082100DB0000000000
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
+    70810086210A5000000
+    7082100DE0000000000
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
+    70810086210A5000000
+    7082100FF0000000000
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
+    70810086210A5000093
+    7082100CE0000000000
+- expected_values:
+    RAV4HYBRID_MIS_ALL: 0
+  response: |-
+    70810086210A50000C3
     7082100FF0000000000
