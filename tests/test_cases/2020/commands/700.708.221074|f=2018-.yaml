@@ -4,6 +4,9 @@ test_cases:
     RAV4HYBRID_EOP: 0
   response: '708056210740000'
 - expected_values:
+    RAV4HYBRID_EOP: 93.98438
+  response: 7080562107404B3
+- expected_values:
     RAV4HYBRID_EOP: 96.71875
   response: 7080562107404D6
 - expected_values:
