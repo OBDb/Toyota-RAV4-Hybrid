@@ -4,8 +4,14 @@ test_cases:
     RAV4HYBRID_VSS_V2: 0
   response: 7DA04621F0D00
 - expected_values:
+    RAV4HYBRID_VSS_V2: 6
+  response: 7DA04621F0D06
+- expected_values:
     RAV4HYBRID_VSS_V2: 7
   response: 7DA04621F0D07
+- expected_values:
+    RAV4HYBRID_VSS_V2: 12
+  response: 7DA04621F0D0C
 - expected_values:
     RAV4HYBRID_VSS_V2: 21
   response: 7DA04621F0D15
