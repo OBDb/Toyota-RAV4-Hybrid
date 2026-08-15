@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     RAV4HYBRID_EOT_V2: 76
   response: 70804621F5C74
+- expected_values:
+    RAV4HYBRID_EOT_V2: 79
+  response: 70804621F5C77

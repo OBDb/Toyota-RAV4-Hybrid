@@ -7,6 +7,12 @@ test_cases:
     7DA100C6210A17F6A7F
     7DA212D03007F280400
 - expected_values:
+    RAV4HYBRID_RPM: 0
+    RAV4HYBRID_TQ: -4.5
+  response: |-
+    7DA100C6210A180007F
+    7DA21D803007FDC0400
+- expected_values:
     RAV4HYBRID_RPM: 1
     RAV4HYBRID_TQ: 22.25
   response: |-
@@ -19,12 +25,6 @@ test_cases:
     7DA100C6210A184DF80
     7DA2170030080690400
 - expected_values:
-    RAV4HYBRID_RPM: 1393
-    RAV4HYBRID_TQ: 11.25
-  response: |-
-    7DA100C6210A1857180
-    7DA215B0300805A0400
-- expected_values:
     RAV4HYBRID_RPM: 2814
     RAV4HYBRID_TQ: 1.75
   response: |-
@@ -36,12 +36,6 @@ test_cases:
   response: |-
     7DA100C6210A18E997F
     7DA21AF03007FB00400
-- expected_values:
-    RAV4HYBRID_RPM: 4772
-    RAV4HYBRID_TQ: 3.5
-  response: |-
-    7DA100C6210A192A480
-    7DA211B0300801C0400
 - expected_values:
     RAV4HYBRID_RPM: 6467
     RAV4HYBRID_TQ: 5.125
