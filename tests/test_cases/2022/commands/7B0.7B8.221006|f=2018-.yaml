@@ -24,3 +24,9 @@ test_cases:
 - expected_values:
     RAV4HYBRID_MASTER_CYL_TEMP: 35
   response: 7B8056210067300
+- expected_values:
+    RAV4HYBRID_MASTER_CYL_TEMP: 46
+  response: 7B8056210067E00
+- expected_values:
+    RAV4HYBRID_MASTER_CYL_TEMP: 48
+  response: 7B8056210068000
