@@ -2,6 +2,9 @@ command_id: 7D2.7DA.2215EE|f=2018-
 test_cases:
 - expected_values:
     RAV4HYBRID_12V_V: 11.64826
+  response: 7DA056215EE25A0
+- expected_values:
+    RAV4HYBRID_12V_V: 11.64826
   response: 7DA056215EE25FE
 - expected_values:
     RAV4HYBRID_12V_V: 12.90618
