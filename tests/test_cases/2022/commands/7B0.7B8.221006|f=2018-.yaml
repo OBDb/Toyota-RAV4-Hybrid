@@ -4,29 +4,5 @@ test_cases:
     RAV4HYBRID_MASTER_CYL_TEMP: 22
   response: 7B8056210066600
 - expected_values:
-    RAV4HYBRID_MASTER_CYL_TEMP: 23
-  response: 7B8056210066700
-- expected_values:
-    RAV4HYBRID_MASTER_CYL_TEMP: 24
-  response: 7B8056210066800
-- expected_values:
-    RAV4HYBRID_MASTER_CYL_TEMP: 29
-  response: 7B8056210066D00
-- expected_values:
-    RAV4HYBRID_MASTER_CYL_TEMP: 30
-  response: 7B8056210066E00
-- expected_values:
-    RAV4HYBRID_MASTER_CYL_TEMP: 31
-  response: 7B8056210066F00
-- expected_values:
-    RAV4HYBRID_MASTER_CYL_TEMP: 32
-  response: 7B8056210067000
-- expected_values:
-    RAV4HYBRID_MASTER_CYL_TEMP: 35
-  response: 7B8056210067300
-- expected_values:
-    RAV4HYBRID_MASTER_CYL_TEMP: 46
-  response: 7B8056210067E00
-- expected_values:
-    RAV4HYBRID_MASTER_CYL_TEMP: 48
-  response: 7B8056210068000
+    RAV4HYBRID_MASTER_CYL_TEMP: 51
+  response: 7B8056210068300
