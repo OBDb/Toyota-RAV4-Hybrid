@@ -4,7 +4,7 @@ test_cases:
     RAV4HYBRID_MIS_ALL: 0
   response: |-
     70810086210A5000000
-    7082100AC0000000000
+    7082100430000000000
 - expected_values:
     RAV4HYBRID_MIS_ALL: 0
   response: |-
