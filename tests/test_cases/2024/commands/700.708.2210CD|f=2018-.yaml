@@ -1,0 +1,14 @@
+command_id: 700.708.2210CD|f=2018-
+test_cases:
+- expected_values:
+    RAV4HYBRID_LFPS: 188.55
+  response: 708056210CD875D
+- expected_values:
+    RAV4HYBRID_LFPS: 409.55
+  response: 708056210CD8FFF
+- expected_values:
+    RAV4HYBRID_LFPS: 409.75
+  response: 708056210CD9001
+- expected_values:
+    RAV4HYBRID_LFPS: 689.05
+  response: 708056210CD9AEA

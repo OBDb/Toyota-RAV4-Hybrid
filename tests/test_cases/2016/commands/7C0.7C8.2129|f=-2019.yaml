@@ -1,0 +1,17 @@
+command_id: 7C0.7C8.2129|f=-2019
+test_cases:
+- expected_values:
+    RAV4HYBRID_FLI_VOL: 9
+  response: 7C803612912
+- expected_values:
+    RAV4HYBRID_FLI_VOL: 10
+  response: 7C803612914
+- expected_values:
+    RAV4HYBRID_FLI_VOL: 11
+  response: 7C803612916
+- expected_values:
+    RAV4HYBRID_FLI_VOL: 13
+  response: 7C80361291A
+- expected_values:
+    RAV4HYBRID_FLI_VOL: 45.5
+  response: 7C80361295B
