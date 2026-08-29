@@ -1,0 +1,80 @@
+command_id: 7D2.7DA.2210A1|f=2018-
+test_cases:
+- expected_values:
+    RAV4HYBRID_RPM: -190
+    RAV4HYBRID_TQ: -27.375
+  response: |-
+    7DA100C6210A17F427F
+    7DA212903007F250400
+- expected_values:
+    RAV4HYBRID_RPM: -5
+    RAV4HYBRID_TQ: 0
+  response: |-
+    7DA100C6210A17FFB80
+    7DA2104030080000400
+- expected_values:
+    RAV4HYBRID_RPM: -3
+    RAV4HYBRID_TQ: 0
+  response: |-
+    7DA100C6210A17FFD80
+    7DA2100030080000400
+- expected_values:
+    RAV4HYBRID_RPM: -2
+    RAV4HYBRID_TQ: -0.25
+  response: |-
+    7DA100C6210A17FFE80
+    7DA210003007FFE0400
+- expected_values:
+    RAV4HYBRID_RPM: -1
+    RAV4HYBRID_TQ: -0.375
+  response: |-
+    7DA100C6210A17FFF80
+    7DA210003007FFD0400
+- expected_values:
+    RAV4HYBRID_RPM: 0
+    RAV4HYBRID_TQ: -1.375
+  response: |-
+    7DA100C6210A180007F
+    7DA21F303007FF50400
+- expected_values:
+    RAV4HYBRID_RPM: 0
+    RAV4HYBRID_TQ: -0.125
+  response: |-
+    7DA100C6210A1800080
+    7DA210003007FFF0400
+- expected_values:
+    RAV4HYBRID_RPM: 986
+    RAV4HYBRID_TQ: -64
+  response: |-
+    7DA100C6210A183DA7D
+    7DA21FA03007E000400
+- expected_values:
+    RAV4HYBRID_RPM: 1472
+    RAV4HYBRID_TQ: -11.375
+  response: |-
+    7DA100C6210A185C07F
+    7DA219F03007FA50400
+- expected_values:
+    RAV4HYBRID_RPM: 1492
+    RAV4HYBRID_TQ: 94.875
+  response: |-
+    7DA100C6210A185D482
+    7DA21D4030082F70400
+- expected_values:
+    RAV4HYBRID_RPM: 3852
+    RAV4HYBRID_TQ: 44.875
+  response: |-
+    7DA100C6210A18F0C81
+    7DA2140030281670400
+- expected_values:
+    RAV4HYBRID_RPM: 9507
+    RAV4HYBRID_TQ: -19.75
+  response: |-
+    7DA100C6210A1A5237F
+    7DA216904027F620400
+- expected_values:
+    RAV4HYBRID_RPM: 10747
+    RAV4HYBRID_TQ: 1.75
+  response: |-
+    7DA100C6210A1A9FB80
+    7DA21180402800E0400
