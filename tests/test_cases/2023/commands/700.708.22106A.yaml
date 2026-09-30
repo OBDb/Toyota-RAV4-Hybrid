@@ -4,6 +4,9 @@ test_cases:
     RAV4HYBRID_FUEL_PUMP_DUTY_RATIO: 30
   response: 7080562106A01EC
 - expected_values:
+    RAV4HYBRID_FUEL_PUMP_DUTY_RATIO: 196.95122
+  response: 7080562106A0C9E
+- expected_values:
     RAV4HYBRID_FUEL_PUMP_DUTY_RATIO: 249.02439
   response: 7080562106A0FF4
 - expected_values:

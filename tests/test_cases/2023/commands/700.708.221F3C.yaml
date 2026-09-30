@@ -1,6 +1,9 @@
 command_id: 700.708.221F3C
 test_cases:
 - expected_values:
+    RAV4HYBRID_CAT_T_11: 95.6
+  response: 70805621F3C054C
+- expected_values:
     RAV4HYBRID_CAT_T_11: 296.7
   response: 70805621F3C0D27
 - expected_values:
