@@ -15,3 +15,12 @@ test_cases:
 - expected_values:
     RAV4HYBRID_DIST_SINCE_BAT_DISC: 29890
   response: 7080562106C74C2
+- expected_values:
+    RAV4HYBRID_DIST_SINCE_BAT_DISC: 65530
+  response: 7080562106CFFFA
+- expected_values:
+    RAV4HYBRID_DIST_SINCE_BAT_DISC: 65531
+  response: 7080562106CFFFB
+- expected_values:
+    RAV4HYBRID_DIST_SINCE_BAT_DISC: 65532
+  response: 7080562106CFFFC

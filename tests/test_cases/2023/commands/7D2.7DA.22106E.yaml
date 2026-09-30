@@ -1,6 +1,9 @@
 command_id: 7D2.7DA.22106E
 test_cases:
 - expected_values:
+    RAV4HYBRID_AC_POWER_CONS: 0
+  response: 7DA0462106E00
+- expected_values:
     RAV4HYBRID_AC_POWER_CONS: 0.65
   response: 7DA0462106E0D
 - expected_values:

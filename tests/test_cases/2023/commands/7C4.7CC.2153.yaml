@@ -1,29 +1,8 @@
 command_id: 7C4.7CC.2153
 test_cases:
 - expected_values:
-    RAV4HYBRID_REGULATOR_P: 1087.87
-  response: 7CC03615369
-- expected_values:
-    RAV4HYBRID_REGULATOR_P: 1117.29
-  response: 7CC0361536B
-- expected_values:
-    RAV4HYBRID_REGULATOR_P: 1132
-  response: 7CC0361536C
-- expected_values:
-    RAV4HYBRID_REGULATOR_P: 1146.71
-  response: 7CC0361536D
-- expected_values:
-    RAV4HYBRID_REGULATOR_P: 1161.42
-  response: 7CC0361536E
-- expected_values:
-    RAV4HYBRID_REGULATOR_P: 1176.13
-  response: 7CC0361536F
-- expected_values:
-    RAV4HYBRID_REGULATOR_P: 1190.84
-  response: 7CC03615370
-- expected_values:
-    RAV4HYBRID_REGULATOR_P: 1205.55
-  response: 7CC03615371
+    RAV4HYBRID_REGULATOR_P: 470.05
+  response: 7CC0361533F
 - expected_values:
     RAV4HYBRID_REGULATOR_P: 1249.68
   response: 7CC03615374

@@ -1,0 +1,8 @@
+command_id: 700.708.221089
+test_cases:
+- expected_values:
+    RAV4HYBRID_EXHAUST_VVT_HOLD_LEARN_B1: 48.29799
+  response: 708056210891EEB
+- expected_values:
+    RAV4HYBRID_EXHAUST_VVT_HOLD_LEARN_B1: 51.58091
+  response: '708056210892105'

@@ -1,0 +1,23 @@
+command_id: 7D2.7DA.22106E
+test_cases:
+- expected_values:
+    RAV4HYBRID_AC_POWER_CONS: 0.35
+  response: 7DA0462106E07
+- expected_values:
+    RAV4HYBRID_AC_POWER_CONS: 0.4
+  response: 7DA0462106E08
+- expected_values:
+    RAV4HYBRID_AC_POWER_CONS: 0.45
+  response: 7DA0462106E09
+- expected_values:
+    RAV4HYBRID_AC_POWER_CONS: 0.5
+  response: 7DA0462106E0A
+- expected_values:
+    RAV4HYBRID_AC_POWER_CONS: 0.55
+  response: 7DA0462106E0B
+- expected_values:
+    RAV4HYBRID_AC_POWER_CONS: 0.6
+  response: 7DA0462106E0C
+- expected_values:
+    RAV4HYBRID_AC_POWER_CONS: 0.7
+  response: 7DA0462106E0E

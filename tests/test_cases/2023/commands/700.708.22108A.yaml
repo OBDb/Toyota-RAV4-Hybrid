@@ -7,6 +7,9 @@ test_cases:
     RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1: 16.89854
   response: 7080562108A8AD9
 - expected_values:
+    RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1: 17.13041
+  response: 7080562108A8AFF
+- expected_values:
     RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1: 21.84732
   response: 7080562108A8E04
 - expected_values:
