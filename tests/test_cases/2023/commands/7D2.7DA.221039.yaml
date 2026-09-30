@@ -1,0 +1,11 @@
+command_id: 7D2.7DA.221039
+test_cases:
+- expected_values:
+    RAV4HYBRID_FRONT_REAR_MOTOR_TQ: -28.804
+  response: 7DA07621039251F0F7C
+- expected_values:
+    RAV4HYBRID_FRONT_REAR_MOTOR_TQ: -28.766
+  response: 7DA07621039251F0FA2
+- expected_values:
+    RAV4HYBRID_FRONT_REAR_MOTOR_TQ: -28.397
+  response: 7DA0762103928F61113
