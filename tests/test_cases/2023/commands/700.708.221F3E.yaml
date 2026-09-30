@@ -4,11 +4,11 @@ test_cases:
     RAV4HYBRID_CAT_T_12: 72.1
   response: 70805621F3E0461
 - expected_values:
+    RAV4HYBRID_CAT_T_12: 296
+  response: 70805621F3E0D20
+- expected_values:
     RAV4HYBRID_CAT_T_12: 343.4
   response: 70805621F3E0EFA
-- expected_values:
-    RAV4HYBRID_CAT_T_12: 477.5
-  response: 70805621F3E1437
 - expected_values:
     RAV4HYBRID_CAT_T_12: 504.6
   response: 70805621F3E1546

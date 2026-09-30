@@ -10,6 +10,9 @@ test_cases:
     RAV4HYBRID_INJECTOR_PORT: 4.045
   response: 708056210180FCD
 - expected_values:
+    RAV4HYBRID_INJECTOR_PORT: 4.733
+  response: 70805621018127D
+- expected_values:
     RAV4HYBRID_INJECTOR_PORT: 5.177
   response: '708056210181439'
 - expected_values:

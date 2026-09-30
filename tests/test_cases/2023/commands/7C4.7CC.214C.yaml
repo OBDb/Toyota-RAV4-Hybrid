@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     RAV4HYBRID_EVAP_TARG_T: 6.66
   response: 7CC04614C829A
+- expected_values:
+    RAV4HYBRID_EVAP_TARG_T: 8
+  response: 7CC04614C8320

@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     RAV4HYBRID_EXHAUST_VVT_OVER_ADV_LEARN_B1: 93.04684
   response: 7080562108F2538
+- expected_values:
+    RAV4HYBRID_EXHAUST_VVT_OVER_ADV_LEARN_B1: 93.7402
+  response: 7080562108F257F
