@@ -1,0 +1,14 @@
+command_id: 700.708.221043
+test_cases:
+- expected_values:
+    RAV4HYBRID_EWP_RPM: 1900
+    RAV4HYBRID_EWP_TARGET_VSS: 1875
+  response: 708056210434B4C
+- expected_values:
+    RAV4HYBRID_EWP_RPM: 1925
+    RAV4HYBRID_EWP_TARGET_VSS: 1950
+  response: 708056210434E4D
+- expected_values:
+    RAV4HYBRID_EWP_RPM: 3375
+    RAV4HYBRID_EWP_TARGET_VSS: 3375
+  response: '708056210438787'
