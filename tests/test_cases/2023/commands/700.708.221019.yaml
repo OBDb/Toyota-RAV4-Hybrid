@@ -5,4 +5,7 @@ test_cases:
   response: 70807621019028B8000
 - expected_values:
     RAV4HYBRID_INJECTION: BOTH
+  response: 7080762101902A68000
+- expected_values:
+    RAV4HYBRID_INJECTION: BOTH
   response: 7080762101902DA8A8C

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     RAV4HYBRID_INTAKE_VVT_OVER_RET_LEARN_B1: 31.52343
   response: 7080562108D0C9C
+- expected_values:
+    RAV4HYBRID_INTAKE_VVT_OVER_RET_LEARN_B1: 32.7246
+  response: 7080562108D0D17

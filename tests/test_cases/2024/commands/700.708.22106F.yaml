@@ -1,0 +1,11 @@
+command_id: 700.708.22106F
+test_cases:
+- expected_values:
+    RAV4HYBRID_INTAKE_VVT_TARGET_ANGLE_B1: 0
+  response: 7080562106F0000
+- expected_values:
+    RAV4HYBRID_INTAKE_VVT_TARGET_ANGLE_B1: 37.29943
+  response: 7080562106F0EEC
+- expected_values:
+    RAV4HYBRID_INTAKE_VVT_TARGET_ANGLE_B1: 44.99366
+  response: 7080562106F1200

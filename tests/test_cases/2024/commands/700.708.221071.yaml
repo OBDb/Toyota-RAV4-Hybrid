@@ -1,0 +1,11 @@
+command_id: 700.708.221071
+test_cases:
+- expected_values:
+    RAV4HYBRID_EXHAUST_VVT_TARGET_ANGLE_B1: 0
+  response: '708056210710000'
+- expected_values:
+    RAV4HYBRID_EXHAUST_VVT_TARGET_ANGLE_B1: 24.9086
+  response: 7080562107109F7
+- expected_values:
+    RAV4HYBRID_EXHAUST_VVT_TARGET_ANGLE_B1: 24.99648
+  response: 708056210710A00

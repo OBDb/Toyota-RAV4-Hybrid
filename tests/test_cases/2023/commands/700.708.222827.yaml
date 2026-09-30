@@ -10,6 +10,9 @@ test_cases:
     RAV4HYBRID_ELECTRIC_WATER_PUMP: 1600
   response: '7080462282728'
 - expected_values:
+    RAV4HYBRID_ELECTRIC_WATER_PUMP: 1880
+  response: 708046228272F
+- expected_values:
     RAV4HYBRID_ELECTRIC_WATER_PUMP: 2320
   response: 708046228273A
 - expected_values:

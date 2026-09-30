@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     RAV4HYBRID_EOP_CONTROL_VALVE: 710.60138
   response: '708056228482462'
+- expected_values:
+    RAV4HYBRID_EOP_CONTROL_VALVE: 714.87384
+  response: 70805622848249A

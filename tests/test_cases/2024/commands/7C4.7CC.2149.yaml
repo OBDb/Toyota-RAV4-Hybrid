@@ -1,0 +1,11 @@
+command_id: 7C4.7CC.2149
+test_cases:
+- expected_values:
+    RAV4HYBRID_COMP_SPD: 1422
+  response: 7CC046149058E
+- expected_values:
+    RAV4HYBRID_COMP_SPD: 1791
+  response: 7CC04614906FF
+- expected_values:
+    RAV4HYBRID_COMP_SPD: 2304
+  response: 7CC0461490900

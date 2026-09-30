@@ -1,0 +1,14 @@
+command_id: 700.708.222848
+test_cases:
+- expected_values:
+    RAV4HYBRID_EOP_CONTROL_VALVE: 99.94501
+  response: 70805622848051E
+- expected_values:
+    RAV4HYBRID_EOP_CONTROL_VALVE: 624.31298
+  response: 708056228481FF7
+- expected_values:
+    RAV4HYBRID_EOP_CONTROL_VALVE: 683.66964
+  response: '708056228482301'
+- expected_values:
+    RAV4HYBRID_EOP_CONTROL_VALVE: 853.27098
+  response: 708056228482BB0
