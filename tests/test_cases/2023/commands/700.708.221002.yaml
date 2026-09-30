@@ -7,8 +7,8 @@ test_cases:
     RAV4HYBRID_12V_V_700: 12.81735
   response: '708056210022904'
 - expected_values:
-    RAV4HYBRID_12V_V_700: 14.2236
-  response: 708056210022D84
-- expected_values:
     RAV4HYBRID_12V_V_700: 14.35055
   response: 708056210022DEC
+- expected_values:
+    RAV4HYBRID_12V_V_700: 14.40426
+  response: '708056210022E18'

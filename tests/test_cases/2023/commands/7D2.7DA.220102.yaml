@@ -35,3 +35,8 @@ test_cases:
   response: |-
     7DA100A6201021A2F00
     7DA210791DB01000000
+- expected_values:
+    RAV4HYBRID_KEY_CYCLE: 6704
+  response: |-
+    7DA100A6201021A3000
+    7DA210095D201000000

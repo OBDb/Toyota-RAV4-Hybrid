@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.2121
 test_cases:
 - expected_values:
-    RAV4HYBRID_CABIN_T: 21.5
-  response: 7CC03612170
+    RAV4HYBRID_CABIN_T: 20.5
+  response: 7CC0361216C
 - expected_values:
     RAV4HYBRID_CABIN_T: 37
   response: 7CC036121AE
