@@ -92,6 +92,7 @@ supported_commands_by_ecu:
   - 7E2.7EA.0101
   - 7E2.7EA.0104
   - 7E2.7EA.0105
+  - 7E2.7EA.010C
   - 7E2.7EA.0111
   - 7E2.7EA.011F
   - 7E2.7EA.0131
