@@ -1,0 +1,11 @@
+command_id: 700.708.222827
+test_cases:
+- expected_values:
+    RAV4HYBRID_ELECTRIC_WATER_PUMP: 1840
+  response: 708046228272E
+- expected_values:
+    RAV4HYBRID_ELECTRIC_WATER_PUMP: 1920
+  response: '7080462282730'
+- expected_values:
+    RAV4HYBRID_ELECTRIC_WATER_PUMP: 3400
+  response: '7080462282755'
