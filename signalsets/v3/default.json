@@ -3,95 +3,6 @@
     { "hdr": "7E0",              "type": "engine" }
   ],
   "commands": [
-{ "hdr": "6F1", "eax": "40", "fcm1": true, "dbg": true, "cmd": {"22": "1700"}, "freq": 1,
-  "signals": [
-    {"id": "RAV4HYBRID_ODO_V3", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "unit": "kilometers" }, "name": "Odometer variant"}
-  ]},
-{ "hdr": "6F1", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4AB1"}, "freq": 0.25,
-  "signals": [
-    {"id": "RAV4HYBRID_VSS2", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "High resolution vehicle speed."}
-  ]},
-{ "hdr": "6F1", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "586F"}, "freq": 30,
-  "signals": [
-    {"id": "RAV4HYBRID_EOP_6F1", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil pressure"}
-  ]},
-{ "hdr": "6F1", "eax": "60", "fcm1": true, "dbg": true, "cmd": {"22": "D107"}, "freq": 0.25,
-  "signals": [
-    {"id": "RAV4HYBRID_VSS", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Speedometer vehicle speed."}
-  ]},
-{ "hdr": "6F1", "eax": "60", "fcm1": true, "dbg": true, "cmd": {"22": "D10D"}, "freq": 5,
-  "signals": [
-    {"id": "RAV4HYBRID_ODO_6F1",    "path": "Trips", "fmt": {           "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer #1", "suggestedMetric": "odometer"},
-    {"id": "RAV4HYBRID_ODO_V2_6F1", "path": "Trips", "fmt": {"bix": 32, "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer #2", "suggestedMetric": "odometer"}
-  ]},
-{ "hdr": "6F1", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D240"}, "freq": 0.25,
-  "signals": [
-    {"id": "RAV4HYBRID_VSS_INSTR", "path": "Movement", "fmt": { "len": 16, "max": 1000, "unit": "kilometersPerHour" }, "name": "Vehicle speed, instrument cluster", "suggestedMetric": "speed", "description": "Instrument cluster vehicle speed."}
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA12"}, "freq": 30,
-  "signals": [
-    {"id": "RAV4HYBRID_ATF_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission fluid temperature"}
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA1F"}, "freq": 1,
-  "signals": [
-    {"id": "RAV4HYBRID_KICKDOWN", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 100, "unit": "scalar" }, "name": "Kickdown"}
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA22"}, "freq": 1,
-  "signals": [
-    {"id": "RAV4HYBRID_TQ_CNVRT_LOCKUP", "path": "Transmission", "name": "Torque converter lockup", "fmt": {"bix": 8, "len": 8, "map": {
-          "0": { "description": "Open",               "value": "OPEN" },
-          "1": { "description": "Controlled low",     "value": "CONTROL_LOW" },
-          "2": { "description": "Controlled high",    "value": "CONTROL_HIGH" },
-          "3": { "description": "Closed low",         "value": "CLOSED_LOW" },
-          "4": { "description": "Closed high",        "value": "CLOSED_HIGH" },
-          "8": { "description": "Transition to open", "value": "TRANSITION_OPEN" }
-        }}
-    }
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA23"}, "freq": 15,
-  "signals": [
-    {"id": "RAV4HYBRID_ODO_V4", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "mul": 8, "unit": "kilometers" }, "name": "Odometer"}
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA25"}, "freq": 30,
-  "signals": [
-    {"id": "RAV4HYBRID_EOT_6F1", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil temperature"}
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA28"}, "freq": 1,
-  "signals": [
-    {"id": "RAV4HYBRID_BRAKE_SWITCH", "path": "Control", "fmt": {"bix": 8, "len": 8, "max": 1, "unit": "scalar" }, "name": "Brake switch"}
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA2A"}, "freq": 1,
-  "signals": [
-    {"id": "RAV4HYBRID_TQ_CNVRT_RPM",    "path": "Transmission", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Torque converter speed"},
-    {"id": "RAV4HYBRID_TRANS_SHAFT_RPM", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Transmission output shaft speed"}
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA2E"}, "freq": 30,
-  "signals": [
-    {"id": "RAV4HYBRID_GEAR_6F1", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
-  ]},
-{ "hdr": "6F1", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"22": "DA37"}, "freq": 30,
-  "signals": [
-    {"id": "RAV4HYBRID_TIME_D", "path": "Engine", "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in d"},
-    {"id": "RAV4HYBRID_TIME_S", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in s"},
-    {"id": "RAV4HYBRID_TIME_M", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in m"}
-  ]},
-{ "hdr": "6F1", "eax": "19", "fcm1": true, "dbg": true, "cmd": {"22": "DB32"}, "freq": 1,
-  "signals": [
-    {"id": "RAV4HYBRID_AXLE_FRONT_ACTUAL_TORQUE",   "path": "Tires", "fmt": {           "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, actual torque"},
-    {"id": "RAV4HYBRID_AXLE_FRONT_SETPOINT_TORQUE", "path": "Tires", "fmt": {"bix": 32, "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, set point torque"}
-  ]},
-{ "hdr": "6F1", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DBE4"}, "freq": 0.25,
-  "signals": [
-    {"id": "RAV4HYBRID_FL_SPD", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
-    {"id": "RAV4HYBRID_FR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
-    {"id": "RAV4HYBRID_RL_SPD", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
-    {"id": "RAV4HYBRID_RR_SPD", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
-  ]},
-{ "hdr": "6F1", "eax": "19", "fcm1": true, "dbg": true, "cmd": {"22": "DFE7"}, "freq": 1,
-  "signals": [
-    {"id": "RAV4HYBRID_VGT_CAL_ANGLE",   "path": "Engine", "fmt": {            "len": 16, "max": 1000,    "mul": 156.25, "div": 10000, "unit": "degrees"    }, "name": "Variable geometry turbocharger calibration angle"},
-    {"id": "RAV4HYBRID_OIL_CHANGE_DIST", "path": "Fluids", "fmt": {"bix": 304, "len": 32, "max": 1000000,                              "unit": "kilometers" }, "name": "Distance since last oil change"}
-  ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "0103"}, "freq": 30,
   "signals": [
     {"id": "RAV4HYBRID_ENG_ODO", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
@@ -140,7 +51,7 @@
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1059"}, "freq": 0.25,
   "signals": [
-    {"id": "RAV4HYBRID_ACCEL_PEDAL", "path": "Control", "fmt": { "len": 8, "max": 100, "div": 1.42, "add": -41, "unit": "percent" }, "name": "Accelerator pedal"}
+    {"id": "RAV4HYBRID_ACCEL_PEDAL", "path": "Control", "fmt": { "len": 8, "max": 100, "div": 1.42, "add": -28.873, "unit": "percent" }, "name": "Accelerator pedal"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "105C"}, "freq": 1,
   "signals": [
@@ -211,7 +122,7 @@
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "108A"}, "freq": 1,
   "signals": [
-    {"id": "RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 199, "mul": 399.9, "div": 65535, "add": -200, "unit": "percent" }, "name": "Variable valve timing duty ratio, bank 1"}
+    {"id": "RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 199, "min": -200, "mul": 399.9, "div": 65535, "add": -200, "unit": "percent" }, "name": "Variable valve timing duty ratio, bank 1"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "108D"}, "freq": 1,
   "signals": [
@@ -440,9 +351,9 @@
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1F6D"}, "freq": 1,
   "signals": [
-    {"id": "RAV4HYBRID_HFP_TARGET",        "path": "Fuel", "fmt": {"bix": 8,  "len": 16, "max": 655350, "mul": 10,             "unit": "kilopascal" }, "name": "High fuel pressure, target"},
-    {"id": "RAV4HYBRID_HFP_ACTUAL",        "path": "Fuel", "fmt": {"bix": 24, "len": 16, "max": 655.35,            "div": 100, "unit": "kilopascal" }, "name": "High fuel pressure, actual"},
-    {"id": "RAV4HYBRID_LOW_FUEL_PRESSURE", "path": "Fuel", "fmt": {"bix": 64, "len": 16, "max": 655350, "mul": 10,             "unit": "kilopascal" }, "name": "Low fuel pressure"}
+    {"id": "RAV4HYBRID_HFP_TARGET",        "path": "Fuel", "fmt": {"bix": 8,  "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "High fuel pressure, target"},
+    {"id": "RAV4HYBRID_HFP_ACTUAL",        "path": "Fuel", "fmt": {"bix": 24, "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "High fuel pressure, actual"},
+    {"id": "RAV4HYBRID_LOW_FUEL_PRESSURE", "path": "Fuel", "fmt": {"bix": 64, "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "Low fuel pressure"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1F77"}, "freq": 5,
   "signals": [
@@ -792,9 +703,9 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "46"}, "freq": 0.25,
   "signals": [
-    {"id": "RAV4HYBRID_ZP_DEC",      "path": "Control", "fmt": {           "len": 8, "max": 24,  "min": -25.11, "mul": 0.1961568627, "add": -25.11, "unit": "metersPerSecondSquared" }, "name": "Zero point of deceleration"},
-    {"id": "RAV4HYBRID_ZP_DEC2",     "path": "Control", "fmt": {"bix": 8,  "len": 8, "max": 24,  "min": -25.11, "mul": 0.1961568627, "add": -25.11, "unit": "metersPerSecondSquared" }, "name": "Zero point of deceleration 2"},
-    {"id": "RAV4HYBRID_ZP_YAW_RATE", "path": "Control", "fmt": {"bix": 16, "len": 8, "max": 127, "min": -128,                        "add": -128,   "unit": "degrees"                }, "name": "Zero point of yaw rate"}
+    {"id": "RAV4HYBRID_ZP_DEC",      "path": "Control", "fmt": {           "len": 8, "max": 2.54, "min": -2.56, "div": 50,              "sign": true, "unit": "gravity" }, "name": "Zero point of deceleration"},
+    {"id": "RAV4HYBRID_ZP_DEC2",     "path": "Control", "fmt": {"bix": 8,  "len": 8, "max": 2.54, "min": -2.56, "div": 50,              "sign": true, "unit": "gravity" }, "name": "Zero point of deceleration 2"},
+    {"id": "RAV4HYBRID_ZP_YAW_RATE", "path": "Control", "fmt": {"bix": 16, "len": 8, "max": 127,  "min": -128,             "add": -128,               "unit": "degrees" }, "name": "Zero point of yaw rate"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "filter": { "to": 2019 }, "dbgfilter": { "to": 2016, "years": [2018] },
   "signals": [
@@ -1401,9 +1312,9 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "3C"}, "freq": 1,
   "signals": [
-    {"id": "RAV4HYBRID_INJ_VOL_CYL_1", "path": "Engine", "fmt": {           "len": 16, "max": 2.047, "unit": "scalar" }, "name": "Injection volume, cylinder 1"},
-    {"id": "RAV4HYBRID_INJ_DUR_CYL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Injection duration for cylinder 1"},
-    {"id": "RAV4HYBRID_TOT_FT_1",      "path": "Engine", "fmt": {"bix": 32, "len": 8,  "max": 0.496, "unit": "scalar" }, "name": "Total fuel trim 1"}
+    {"id": "RAV4HYBRID_INJ_VOL_CYL_1", "path": "Engine", "fmt": {           "len": 16, "max": 0.002047,                         "div": 32000000,             "unit": "liters"       }, "name": "Injection volume per 10 injections, cylinder 1"},
+    {"id": "RAV4HYBRID_INJ_DUR_CYL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65.535,                           "div": 1000,                 "unit": "milliseconds" }, "name": "Injection duration for cylinder 1"},
+    {"id": "RAV4HYBRID_TOT_FT_1",      "path": "Engine", "fmt": {"bix": 32, "len": 8,  "max": 49.6,     "min": -50, "mul": 100, "div": 256,      "add": -50, "unit": "percent"      }, "name": "Total fuel trim, bank 1"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "3E"}, "freq": 5,
   "signals": [
