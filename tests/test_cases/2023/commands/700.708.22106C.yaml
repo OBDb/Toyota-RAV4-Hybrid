@@ -1,0 +1,17 @@
+command_id: 700.708.22106C
+test_cases:
+- expected_values:
+    RAV4HYBRID_DIST_SINCE_BAT_DISC: 29872
+  response: 7080562106C74B0
+- expected_values:
+    RAV4HYBRID_DIST_SINCE_BAT_DISC: 29873
+  response: 7080562106C74B1
+- expected_values:
+    RAV4HYBRID_DIST_SINCE_BAT_DISC: 29874
+  response: 7080562106C74B2
+- expected_values:
+    RAV4HYBRID_DIST_SINCE_BAT_DISC: 29875
+  response: 7080562106C74B3
+- expected_values:
+    RAV4HYBRID_DIST_SINCE_BAT_DISC: 29890
+  response: 7080562106C74C2

@@ -1,0 +1,29 @@
+command_id: 7D2.7DA.221F42
+test_cases:
+- expected_values:
+    RAV4HYBRID_12V_BAT_V_SMOOTHED: 12.602
+  response: 7DA05621F42313A
+- expected_values:
+    RAV4HYBRID_12V_BAT_V_SMOOTHED: 12.67
+  response: 7DA05621F42317E
+- expected_values:
+    RAV4HYBRID_12V_BAT_V_SMOOTHED: 12.68
+  response: 7DA05621F423188
+- expected_values:
+    RAV4HYBRID_12V_BAT_V_SMOOTHED: 12.685
+  response: 7DA05621F42318D
+- expected_values:
+    RAV4HYBRID_12V_BAT_V_SMOOTHED: 12.695
+  response: 7DA05621F423197
+- expected_values:
+    RAV4HYBRID_12V_BAT_V_SMOOTHED: 13.662
+  response: 7DA05621F42355E
+- expected_values:
+    RAV4HYBRID_12V_BAT_V_SMOOTHED: 14.038
+  response: 7DA05621F4236D6
+- expected_values:
+    RAV4HYBRID_12V_BAT_V_SMOOTHED: 14.101
+  response: 7DA05621F423715
+- expected_values:
+    RAV4HYBRID_12V_BAT_V_SMOOTHED: 14.243
+  response: 7DA05621F4237A3

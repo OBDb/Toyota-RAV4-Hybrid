@@ -1,0 +1,11 @@
+command_id: 700.708.220103
+test_cases:
+- expected_values:
+    RAV4HYBRID_ENG_ODO: 19669
+  response: 7080762010302004CD5
+- expected_values:
+    RAV4HYBRID_ENG_ODO: 19670
+  response: 7080762010302004CD6
+- expected_values:
+    RAV4HYBRID_ENG_ODO: 19680
+  response: 7080762010302004CE0
