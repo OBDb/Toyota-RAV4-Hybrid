@@ -1,0 +1,26 @@
+command_id: 7C4.7CC.214A
+test_cases:
+- expected_values:
+    RAV4HYBRID_COMP_TGT_SPD: 1828
+  response: 7CC04614A0724
+- expected_values:
+    RAV4HYBRID_COMP_TGT_SPD: 2219
+  response: 7CC04614A08AB
+- expected_values:
+    RAV4HYBRID_COMP_TGT_SPD: 2290
+  response: 7CC04614A08F2
+- expected_values:
+    RAV4HYBRID_COMP_TGT_SPD: 2333
+  response: 7CC04614A091D
+- expected_values:
+    RAV4HYBRID_COMP_TGT_SPD: 2352
+  response: 7CC04614A0930
+- expected_values:
+    RAV4HYBRID_COMP_TGT_SPD: 3947
+  response: 7CC04614A0F6B
+- expected_values:
+    RAV4HYBRID_COMP_TGT_SPD: 3953
+  response: 7CC04614A0F71
+- expected_values:
+    RAV4HYBRID_COMP_TGT_SPD: 4000
+  response: 7CC04614A0FA0

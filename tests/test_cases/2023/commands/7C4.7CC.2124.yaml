@@ -1,0 +1,20 @@
+command_id: 7C4.7CC.2124
+test_cases:
+- expected_values:
+    RAV4HYBRID_SOLAR_DRIVER: 0
+  response: 7CC03612400
+- expected_values:
+    RAV4HYBRID_SOLAR_DRIVER: 26
+  response: 7CC0361241A
+- expected_values:
+    RAV4HYBRID_SOLAR_DRIVER: 29
+  response: 7CC0361241D
+- expected_values:
+    RAV4HYBRID_SOLAR_DRIVER: 31
+  response: 7CC0361241F
+- expected_values:
+    RAV4HYBRID_SOLAR_DRIVER: 33
+  response: 7CC03612421
+- expected_values:
+    RAV4HYBRID_SOLAR_DRIVER: 39
+  response: 7CC03612427
