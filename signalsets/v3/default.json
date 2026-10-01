@@ -1133,7 +1133,7 @@
     {"id": "RAV4HYBRID_HVBAT_V", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 1023,                   "mul": 156.25, "div": 10000,               "unit": "volts" }, "name": "HV battery voltage"},
     {"id": "RAV4HYBRID_HVBAT_C", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 3276.7, "min": -3276.8,                "div": 10,    "sign": true, "unit": "amps"  }, "name": "HV battery current"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "01"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "RAV4HYBRID_CALCULATED_LOAD_7E0",      "path": "Engine",   "fmt": {            "len": 8,  "max": 100,                "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Calculated load_7e0"},
     {"id": "RAV4HYBRID_VEHICLE_LOAD",             "path": "Engine",   "fmt": {"bix": 8,   "len": 16, "max": 100,                "mul": 100, "div": 65535,             "unit": "percent"           }, "name": "Vehicle load"},
@@ -1163,7 +1163,7 @@
     {"id": "RAV4HYBRID_IGN_ADVANCE",     "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 255,                                                      "unit": "degrees" }, "name": "Ignition advance"},
     {"id": "RAV4HYBRID_EVAP_PURGE_DUTY", "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 100,                 "mul": 100, "div": 255,              "unit": "percent" }, "name": "EVAP purge duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "04"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "RAV4HYBRID_TARGET_AIR_FUEL_RATIO", "path": "Fuel",   "fmt": {           "len": 16, "max": 1.99,   "mul": 1.99, "div": 65535, "unit": "scalar"    }, "name": "Target air-fuel ratio"},
     {"id": "RAV4HYBRID_AF_LAMBDA_B1S1",        "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 1.99,   "mul": 1.99, "div": 65535, "unit": "scalar"    }, "name": "AF lambda B1S1"},
@@ -1176,7 +1176,7 @@
     {"id": "RAV4HYBRID_CATALYST_T_B1S1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature B1S1"},
     {"id": "RAV4HYBRID_CATALYST_T_B1S2", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature B1S2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "06"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "06"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "RAV4HYBRID_MIL",                             "path": "DTCs", "fmt": {           "len": 1,  "max": 1,     "unit": "offon"      }, "name": "MIL"},
     {"id": "RAV4HYBRID_NUMBER_OF_EMISSION_DTC",          "path": "DTCs", "fmt": {"bix": 1,  "len": 7,  "max": 127,   "unit": "scalar"     }, "name": "Number of emission DTC"},
@@ -1241,7 +1241,7 @@
     {"id": "RAV4HYBRID_COMM_WITH_AIR_CONDITIONER", "path": "Climate", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon"  }, "name": "Communication with air conditioner"},
     {"id": "RAV4HYBRID_COMM_WITH_VALVEMATIC_COMM", "path": "Climate", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "scalar" }, "name": "Communication with valvematic"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "25"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "25"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "RAV4HYBRID_POWER_STEERING_SIGNAL",                   "path": "Control", "fmt": {"bix": 4,  "len": 1, "max": 1, "unit": "scalar" }, "name": "Power steering"},
     {"id": "RAV4HYBRID_STOP_LIGHT_SWITCH",                       "path": "Lights",  "fmt": {"bix": 5,  "len": 1, "max": 1, "unit": "scalar" }, "name": "Stop light switch"},
@@ -1289,7 +1289,7 @@
     {"id": "RAV4HYBRID_CLOSED_THROTTLE_POS_ON", "path": "Engine", "fmt": {"bix": 125, "len": 1,  "max": 1,                                                             "unit": "scalar"     }, "name": "Closed throttle position switch on"},
     {"id": "RAV4HYBRID_FC_TAU_ON",              "path": "Engine", "fmt": {"bix": 127, "len": 1,  "max": 1,                                                             "unit": "scalar"     }, "name": "Fuel cut TAU on"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "39"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "39"}, "freq": 0.25, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "RAV4HYBRID_ACIS_VSV_ON",           "path": "Engine",       "fmt": {"bix": 3,  "len": 1, "max": 1, "unit": "scalar" }, "name": "Acoustic control induction system vacuum switching valve on"},
     {"id": "RAV4HYBRID_EVAP_PURGE_VSV_ON",     "path": "Engine",       "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "scalar" }, "name": "Evaporative purge vacuum switching valve on"},
@@ -1308,7 +1308,7 @@
     {"id": "RAV4HYBRID_O2_HEATER_CURR_VAL", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4.999,            "div": 13107, "unit": "amps"    }, "name": "O2 heater current val bank 1 sensor 2"},
     {"id": "RAV4HYBRID_O2_HEATER_B1S2",     "path": "Engine", "fmt": {"bix": 68, "len": 1,  "max": 1,                              "unit": "scalar"  }, "name": "O2 heater b1s2_active"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "3C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "RAV4HYBRID_INJ_VOL_CYL_1", "path": "Engine", "fmt": {           "len": 16, "max": 0.002047,                         "div": 32000000,             "unit": "liters"       }, "name": "Injection volume per 10 injections, cylinder 1"},
     {"id": "RAV4HYBRID_INJ_DUR_CYL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65.535,                           "div": 1000,                 "unit": "milliseconds" }, "name": "Injection duration for cylinder 1"},
@@ -1356,7 +1356,7 @@
     {"id": "RAV4HYBRID_VARIABLE_VLV_TIM_OIL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 399, "mul": 0.0061020829,                "unit": "percent" }, "name": "Variable valve timing oil control valve duty 1"},
     {"id": "RAV4HYBRID_VARIABLE_VLV_TIM_1",     "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 639, "mul": 0.0097642481,                "unit": "degrees" }, "name": "Variable valve timing change angle 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "45"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "45"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "RAV4HYBRID_MISFIRE_RPM",               "path": "Movement",        "fmt": {"bix": 8,  "len": 8,  "max": 6375,               "mul": 25,                          "unit": "rpm"     }, "name": "Misfire RPM"},
     {"id": "RAV4HYBRID_MISFIRE_LOAD",              "path": "Engine.Misfires", "fmt": {"bix": 16, "len": 8,  "max": 3.98,               "mul": 4,  "div": 256,              "unit": "scalar"  }, "name": "Misfire load"},
@@ -1368,7 +1368,7 @@
     {"id": "RAV4HYBRID_IGNITION_TRIG_CNT",         "path": "Control",         "fmt": {"bix": 64, "len": 16, "max": 65535,                                                  "unit": "scalar"  }, "name": "Ignition trigger count"},
     {"id": "RAV4HYBRID_MISFIRE_MARGIN",            "path": "Engine.Misfires", "fmt": {"bix": 80, "len": 8,  "max": 127,   "min": -128,                        "add": -128, "unit": "percent" }, "name": "Misfire margin"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "47"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "47"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "RAV4HYBRID_EGR_STEP_POSITION", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Exhaust gas recirculation step position"}
   ]},
@@ -1395,7 +1395,7 @@
     {"id": "RAV4HYBRID_VVTOT",         "path": "Engine", "fmt": {"bix": 56, "len": 8,  "max": 215,    "min": -40,             "add": -40, "unit": "celsius"    }, "name": "Variable valve timing oil temperature"},
     {"id": "RAV4HYBRID_EOT_V1",        "path": "Engine", "fmt": {"bix": 72, "len": 8,  "max": 215,    "min": -40,             "add": -40, "unit": "celsius"    }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "52"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "52"}, "freq": 0.25, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "RAV4HYBRID_IDLE_SPARK_ADVN_CTRL_1", "path": "Engine",   "fmt": {           "len": 8,  "max": 15.93,                              "div": 16,               "unit": "degrees" }, "name": "Idle spark advance control 1"},
     {"id": "RAV4HYBRID_IDLE_SPARK_ADVN_CTRL_2", "path": "Engine",   "fmt": {"bix": 8,  "len": 8,  "max": 15.93,                              "div": 16,               "unit": "degrees" }, "name": "Idle spark advance control 2"},
