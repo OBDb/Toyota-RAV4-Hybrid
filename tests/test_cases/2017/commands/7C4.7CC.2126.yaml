@@ -4,5 +4,5 @@ test_cases:
     RAV4HYBRID_ECT: 47.85
   response: 7CC03612685
 - expected_values:
-    RAV4HYBRID_ECT: 86
-  response: 7CC036126F2
+    RAV4HYBRID_ECT: 89.15
+  response: 7CC036126FB
