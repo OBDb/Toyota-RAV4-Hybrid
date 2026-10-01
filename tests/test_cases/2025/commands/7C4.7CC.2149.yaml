@@ -7,8 +7,8 @@ test_cases:
     RAV4HYBRID_COMP_SPD: 1780
   response: 7CC04614906F4
 - expected_values:
-    RAV4HYBRID_COMP_SPD: 1825
-  response: 7CC0461490721
+    RAV4HYBRID_COMP_SPD: 1797
+  response: 7CC0461490705
 - expected_values:
     RAV4HYBRID_COMP_SPD: 2475
   response: 7CC04614909AB

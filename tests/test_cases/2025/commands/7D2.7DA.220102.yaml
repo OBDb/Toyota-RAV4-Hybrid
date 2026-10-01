@@ -19,22 +19,22 @@ test_cases:
     RAV4HYBRID_KEY_CYCLE: 2288
   response: |-
     7DA100A62010208F000
-    7DA210BB09301000000
-- expected_values:
-    RAV4HYBRID_KEY_CYCLE: 2288
-  response: |-
-    7DA100A62010208F000
     7DA210C32C001000000
 - expected_values:
     RAV4HYBRID_KEY_CYCLE: 2288
   response: |-
     7DA100A62010208F000
-    7DA210F999901000000
-- expected_values:
-    RAV4HYBRID_KEY_CYCLE: 2288
-  response: |-
-    7DA100A62010208F000
     7DA2110158101000000
+- expected_values:
+    RAV4HYBRID_KEY_CYCLE: 2290
+  response: |-
+    7DA100A62010208F200
+    7DA2101A07201000000
+- expected_values:
+    RAV4HYBRID_KEY_CYCLE: 2290
+  response: |-
+    7DA100A62010208F200
+    7DA210FDDF301000000
 - expected_values:
     RAV4HYBRID_KEY_CYCLE: 2556
   response: |-
