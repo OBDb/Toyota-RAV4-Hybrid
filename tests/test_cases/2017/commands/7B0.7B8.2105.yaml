@@ -1,0 +1,18 @@
+command_id: 7B0.7B8.2105
+test_cases:
+- expected_values:
+    RAV4HYBRID_DECEL: -1.63976
+    RAV4HYBRID_DECEL2: 0.35647
+  response: 7B8056105748200
+- expected_values:
+    RAV4HYBRID_DECEL: -0.35647
+    RAV4HYBRID_DECEL2: -0.49906
+  response: 7B80561057D7C00
+- expected_values:
+    RAV4HYBRID_DECEL: 1.49718
+    RAV4HYBRID_DECEL2: 1.06941
+  response: 7B80561058A8750
+- expected_values:
+    RAV4HYBRID_DECEL: 2.35271
+    RAV4HYBRID_DECEL2: -0.21388
+  response: 7B8056105907E43

@@ -1,0 +1,26 @@
+command_id: 7C4.7CC.214B
+test_cases:
+- expected_values:
+    RAV4HYBRID_EVAP_FIN_THERMISTOR: 13
+  response: 7CC03614B7A
+- expected_values:
+    RAV4HYBRID_EVAP_FIN_THERMISTOR: 15.1
+  response: 7CC03614B80
+- expected_values:
+    RAV4HYBRID_EVAP_FIN_THERMISTOR: 16.15
+  response: 7CC03614B83
+- expected_values:
+    RAV4HYBRID_EVAP_FIN_THERMISTOR: 16.85
+  response: 7CC03614B85
+- expected_values:
+    RAV4HYBRID_EVAP_FIN_THERMISTOR: 17.55
+  response: 7CC03614B87
+- expected_values:
+    RAV4HYBRID_EVAP_FIN_THERMISTOR: 17.9
+  response: 7CC03614B88
+- expected_values:
+    RAV4HYBRID_EVAP_FIN_THERMISTOR: 18.95
+  response: 7CC03614B8B
+- expected_values:
+    RAV4HYBRID_EVAP_FIN_THERMISTOR: 21.75
+  response: 7CC03614B93

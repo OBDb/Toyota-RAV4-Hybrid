@@ -1,0 +1,29 @@
+command_id: 7C0.7C8.2123
+test_cases:
+- expected_values:
+    RAV4HYBRID_COOLANT_T: 50
+  response: 7C803612364
+- expected_values:
+    RAV4HYBRID_COOLANT_T: 64.5
+  response: 7C803612381
+- expected_values:
+    RAV4HYBRID_COOLANT_T: 80.5
+  response: 7C8036123A1
+- expected_values:
+    RAV4HYBRID_COOLANT_T: 81
+  response: 7C8036123A2
+- expected_values:
+    RAV4HYBRID_COOLANT_T: 81.5
+  response: 7C8036123A3
+- expected_values:
+    RAV4HYBRID_COOLANT_T: 82.5
+  response: 7C8036123A5
+- expected_values:
+    RAV4HYBRID_COOLANT_T: 83
+  response: 7C8036123A6
+- expected_values:
+    RAV4HYBRID_COOLANT_T: 84
+  response: 7C8036123A8
+- expected_values:
+    RAV4HYBRID_COOLANT_T: 84.5
+  response: 7C8036123A9
