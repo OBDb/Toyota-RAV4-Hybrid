@@ -1,8 +1,23 @@
 command_id: 7C4.7CC.214C
 test_cases:
 - expected_values:
+    RAV4HYBRID_EVAP_TARG_T: 2
+  response: 7CC04614C80C8
+- expected_values:
+    RAV4HYBRID_EVAP_TARG_T: 4
+  response: 7CC04614C8190
+- expected_values:
+    RAV4HYBRID_EVAP_TARG_T: 4.05
+  response: 7CC04614C8195
+- expected_values:
     RAV4HYBRID_EVAP_TARG_T: 4.15
   response: 7CC04614C819F
+- expected_values:
+    RAV4HYBRID_EVAP_TARG_T: 4.26
+  response: 7CC04614C81AA
+- expected_values:
+    RAV4HYBRID_EVAP_TARG_T: 4.3
+  response: 7CC04614C81AE
 - expected_values:
     RAV4HYBRID_EVAP_TARG_T: 4.95
   response: 7CC04614C81EF
