@@ -4,6 +4,15 @@ test_cases:
     RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1: -0.04695
   response: 7080562108A8000
 - expected_values:
+    RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1: 16.66666
+  response: 7080562108A8AB3
+- expected_values:
+    RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1: 18.2471
+  response: 7080562108A8BB6
+- expected_values:
+    RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1: 19.35157
+  response: 7080562108A8C6B
+- expected_values:
     RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1: 21.87173
   response: 7080562108A8E08
 - expected_values:
@@ -12,6 +21,9 @@ test_cases:
 - expected_values:
     RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1: 24.37359
   response: 7080562108A8FA2
+- expected_values:
+    RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1: 29.1027
+  response: 7080562108A92A9
 - expected_values:
     RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1: 33.29483
   response: 7080562108A9558

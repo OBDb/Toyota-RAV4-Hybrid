@@ -4,23 +4,11 @@ test_cases:
     RAV4HYBRID_CAT_T_11: 132.1
   response: 70805621F3C06B9
 - expected_values:
-    RAV4HYBRID_CAT_T_11: 462.6
-  response: 70805621F3C13A2
-- expected_values:
     RAV4HYBRID_CAT_T_11: 500.8
   response: 70805621F3C1520
 - expected_values:
-    RAV4HYBRID_CAT_T_11: 521.4
-  response: 70805621F3C15EE
-- expected_values:
-    RAV4HYBRID_CAT_T_11: 538.8
-  response: 70805621F3C169C
-- expected_values:
-    RAV4HYBRID_CAT_T_11: 564
-  response: 70805621F3C1798
-- expected_values:
-    RAV4HYBRID_CAT_T_11: 582.2
-  response: 70805621F3C184E
+    RAV4HYBRID_CAT_T_11: 521.5
+  response: 70805621F3C15EF
 - expected_values:
     RAV4HYBRID_CAT_T_11: 609
   response: 70805621F3C195A

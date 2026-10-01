@@ -4,5 +4,20 @@ test_cases:
     RAV4HYBRID_BLOWER_MOTOR_SPEED_LEVEL: 0
   response: 7CC03613C00
 - expected_values:
+    RAV4HYBRID_BLOWER_MOTOR_SPEED_LEVEL: 4
+  response: 7CC03613C04
+- expected_values:
+    RAV4HYBRID_BLOWER_MOTOR_SPEED_LEVEL: 5
+  response: 7CC03613C05
+- expected_values:
+    RAV4HYBRID_BLOWER_MOTOR_SPEED_LEVEL: 7
+  response: 7CC03613C07
+- expected_values:
+    RAV4HYBRID_BLOWER_MOTOR_SPEED_LEVEL: 11
+  response: 7CC03613C0B
+- expected_values:
     RAV4HYBRID_BLOWER_MOTOR_SPEED_LEVEL: 21
   response: 7CC03613C15
+- expected_values:
+    RAV4HYBRID_BLOWER_MOTOR_SPEED_LEVEL: 22
+  response: 7CC03613C16
