@@ -1,6 +1,21 @@
 command_id: 700.708.22105E
 test_cases:
 - expected_values:
+    RAV4HYBRID_ECU_INTERNAL_T: 17
+  response: '7080462105E39'
+- expected_values:
+    RAV4HYBRID_ECU_INTERNAL_T: 19
+  response: 7080462105E3B
+- expected_values:
+    RAV4HYBRID_ECU_INTERNAL_T: 21
+  response: 7080462105E3D
+- expected_values:
+    RAV4HYBRID_ECU_INTERNAL_T: 22
+  response: 7080462105E3E
+- expected_values:
+    RAV4HYBRID_ECU_INTERNAL_T: 23
+  response: 7080462105E3F
+- expected_values:
     RAV4HYBRID_ECU_INTERNAL_T: 31
   response: '7080462105E47'
 - expected_values:

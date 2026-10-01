@@ -4,5 +4,17 @@ test_cases:
     RAV4HYBRID_COMP_TGT_SPD: 0
   response: 7CC04614A0000
 - expected_values:
+    RAV4HYBRID_COMP_TGT_SPD: 1148
+  response: 7CC04614A047C
+- expected_values:
+    RAV4HYBRID_COMP_TGT_SPD: 1523
+  response: 7CC04614A05F3
+- expected_values:
+    RAV4HYBRID_COMP_TGT_SPD: 2062
+  response: 7CC04614A080E
+- expected_values:
     RAV4HYBRID_COMP_TGT_SPD: 2499
   response: 7CC04614A09C3
+- expected_values:
+    RAV4HYBRID_COMP_TGT_SPD: 3389
+  response: 7CC04614A0D3D
