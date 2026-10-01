@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     RAV4HYBRID_AMBIENT_T_700: 20
   response: 70804621F463C
+- expected_values:
+    RAV4HYBRID_AMBIENT_T_700: 30
+  response: 70804621F4646

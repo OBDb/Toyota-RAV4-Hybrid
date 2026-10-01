@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     RAV4HYBRID_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 25.32846
   response: 708056210870A22
+- expected_values:
+    RAV4HYBRID_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 29.13652
+  response: 708056210870BA8

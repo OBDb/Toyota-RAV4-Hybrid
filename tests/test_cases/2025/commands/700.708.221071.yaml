@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     RAV4HYBRID_EXHAUST_VVT_TARGET_ANGLE_B1: 16.98003
   response: 7080562107106CB
+- expected_values:
+    RAV4HYBRID_EXHAUST_VVT_TARGET_ANGLE_B1: 24.99648
+  response: 708056210710A00
