@@ -9,3 +9,12 @@ test_cases:
 - expected_values:
     RAV4HYBRID_ADJUSTED_AMBIENT_T: 18.16
   response: 7CC03613D99
+- expected_values:
+    RAV4HYBRID_ADJUSTED_AMBIENT_T: 27.44
+  response: 7CC03613DB6
+- expected_values:
+    RAV4HYBRID_ADJUSTED_AMBIENT_T: 27.76
+  response: 7CC03613DB7
+- expected_values:
+    RAV4HYBRID_ADJUSTED_AMBIENT_T: 28.08
+  response: 7CC03613DB8
