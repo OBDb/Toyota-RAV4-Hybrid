@@ -1,5 +1,8 @@
 command_id: 700.708.22106C
 test_cases:
 - expected_values:
+    RAV4HYBRID_DIST_SINCE_BAT_DISC: 21332
+  response: 7080562106C5354
+- expected_values:
     RAV4HYBRID_DIST_SINCE_BAT_DISC: 65535
   response: 7080562106CFFFF
