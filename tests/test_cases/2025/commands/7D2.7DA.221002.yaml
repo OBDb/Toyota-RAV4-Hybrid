@@ -7,5 +7,8 @@ test_cases:
     RAV4HYBRID_AUX_BAT_V: 12.80024
   response: 7DA0562100228FC
 - expected_values:
+    RAV4HYBRID_AUX_BAT_V: 12.81
+  response: 7DA056210022904
+- expected_values:
     RAV4HYBRID_AUX_BAT_V: 14.37648
   response: 7DA056210022E08
