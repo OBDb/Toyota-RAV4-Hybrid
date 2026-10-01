@@ -4,29 +4,5 @@ test_cases:
     RAV4HYBRID_ECU_INTERNAL_T: 26
   response: '7080462105E42'
 - expected_values:
-    RAV4HYBRID_ECU_INTERNAL_T: 27
-  response: '7080462105E43'
-- expected_values:
-    RAV4HYBRID_ECU_INTERNAL_T: 38
-  response: 7080462105E4E
-- expected_values:
-    RAV4HYBRID_ECU_INTERNAL_T: 40
-  response: '7080462105E50'
-- expected_values:
-    RAV4HYBRID_ECU_INTERNAL_T: 41
-  response: '7080462105E51'
-- expected_values:
-    RAV4HYBRID_ECU_INTERNAL_T: 42
-  response: '7080462105E52'
-- expected_values:
-    RAV4HYBRID_ECU_INTERNAL_T: 43
-  response: '7080462105E53'
-- expected_values:
-    RAV4HYBRID_ECU_INTERNAL_T: 45
-  response: '7080462105E55'
-- expected_values:
-    RAV4HYBRID_ECU_INTERNAL_T: 51
-  response: 7080462105E5B
-- expected_values:
     RAV4HYBRID_ECU_INTERNAL_T: 52
   response: 7080462105E5C

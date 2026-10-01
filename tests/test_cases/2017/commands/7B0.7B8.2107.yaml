@@ -1,0 +1,23 @@
+command_id: 7B0.7B8.2107
+test_cases:
+- expected_values:
+    RAV4HYBRID_WHEEL_CYLINDER_PRESSURE: 0.4902
+  response: 7B803610719
+- expected_values:
+    RAV4HYBRID_WHEEL_CYLINDER_PRESSURE: 0.5098
+  response: 7B80361071A
+- expected_values:
+    RAV4HYBRID_WHEEL_CYLINDER_PRESSURE: 0.64706
+  response: 7B803610721
+- expected_values:
+    RAV4HYBRID_WHEEL_CYLINDER_PRESSURE: 0.66667
+  response: 7B803610722
+- expected_values:
+    RAV4HYBRID_WHEEL_CYLINDER_PRESSURE: 0.68627
+  response: 7B803610723
+- expected_values:
+    RAV4HYBRID_WHEEL_CYLINDER_PRESSURE: 0.90196
+  response: 7B80361072E
+- expected_values:
+    RAV4HYBRID_WHEEL_CYLINDER_PRESSURE: 1
+  response: 7B803610733

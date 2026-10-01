@@ -1,0 +1,14 @@
+command_id: 7B0.7B8.211F
+test_cases:
+- expected_values:
+    RAV4HYBRID_PARKING_BRAKE_7B0: 0
+    RAV4HYBRID_STOP_LIGHT: 0
+  response: 7B803611F00
+- expected_values:
+    RAV4HYBRID_PARKING_BRAKE_7B0: 0
+    RAV4HYBRID_STOP_LIGHT: 1
+  response: 7B803611F80
+- expected_values:
+    RAV4HYBRID_PARKING_BRAKE_7B0: 1
+    RAV4HYBRID_STOP_LIGHT: 1
+  response: 7B803611FC0

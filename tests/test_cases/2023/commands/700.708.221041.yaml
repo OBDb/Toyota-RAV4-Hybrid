@@ -10,9 +10,9 @@ test_cases:
   response: '708056210417272'
 - expected_values:
     RAV4HYBRID_ECT_IGN: 31.875
-    RAV4HYBRID_ECT_INIT: 32.5
-  response: '708056210417374'
-- expected_values:
-    RAV4HYBRID_ECT_IGN: 31.875
     RAV4HYBRID_ECT_INIT: 89.375
   response: 7080562104173CF
+- expected_values:
+    RAV4HYBRID_ECT_IGN: 39.375
+    RAV4HYBRID_ECT_INIT: 38.75
+  response: 708056210417F7E

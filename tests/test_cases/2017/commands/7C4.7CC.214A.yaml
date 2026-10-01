@@ -1,0 +1,5 @@
+command_id: 7C4.7CC.214A
+test_cases:
+- expected_values:
+    RAV4HYBRID_COMP_TGT_SPD: 4800
+  response: 7CC04614A12C0
