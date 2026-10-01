@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     RAV4HYBRID_INTAKE_VVT_TARGET_ANGLE_B1: 24.99648
   response: 7080562106F0A00
+- expected_values:
+    RAV4HYBRID_INTAKE_VVT_TARGET_ANGLE_B1: 29.0584
+  response: 7080562106F0BA0

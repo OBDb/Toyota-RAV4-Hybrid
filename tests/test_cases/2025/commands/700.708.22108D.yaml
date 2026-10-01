@@ -1,5 +1,8 @@
 command_id: 700.708.22108D
 test_cases:
 - expected_values:
+    RAV4HYBRID_INTAKE_VVT_OVER_RET_LEARN_B1: 26.48437
+  response: 7080562108D0A98
+- expected_values:
     RAV4HYBRID_INTAKE_VVT_OVER_RET_LEARN_B1: 31.29882
   response: 7080562108D0C85

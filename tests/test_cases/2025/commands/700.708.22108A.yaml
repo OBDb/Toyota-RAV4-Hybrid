@@ -1,6 +1,9 @@
 command_id: 700.708.22108A
 test_cases:
 - expected_values:
+    RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1: 16.33714
+  response: 7080562108A8A7D
+- expected_values:
     RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1: 16.55072
   response: 7080562108A8AA0
 - expected_values:

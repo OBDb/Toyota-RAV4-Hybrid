@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     RAV4HYBRID_EXHAUST_VVT_OCV_CONTROL_DUTY: 34.69291
   response: '708056210621634'
+- expected_values:
+    RAV4HYBRID_EXHAUST_VVT_OCV_CONTROL_DUTY: 37.36629
+  response: 7080562106217EA

@@ -1,6 +1,9 @@
 command_id: 700.708.22108F
 test_cases:
 - expected_values:
+    RAV4HYBRID_EXHAUST_VVT_OVER_ADV_LEARN_B1: 93.02731
+  response: 7080562108F2536
+- expected_values:
     RAV4HYBRID_EXHAUST_VVT_OVER_ADV_LEARN_B1: 93.12497
   response: 7080562108F2540
 - expected_values:
