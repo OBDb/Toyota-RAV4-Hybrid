@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2128|f=2010-
+test_cases:
+- expected_values:
+    RAV4HYBRID_ODO_7E0: 230880
+  response: 7E80561280385E0
