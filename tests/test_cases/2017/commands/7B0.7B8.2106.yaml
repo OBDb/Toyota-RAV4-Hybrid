@@ -1,0 +1,42 @@
+command_id: 7B0.7B8.2106
+test_cases:
+- expected_values:
+    RAV4HYBRID_YAW_RATE2: -1
+    RAV4HYBRID_YAW_RATE_7B0: -1
+  response: 7B80661067F7F7FE2
+- expected_values:
+    RAV4HYBRID_YAW_RATE2: 0
+    RAV4HYBRID_YAW_RATE_7B0: 0
+  response: 7B806610680807ED4
+- expected_values:
+    RAV4HYBRID_YAW_RATE2: 0
+    RAV4HYBRID_YAW_RATE_7B0: 0
+  response: 7B806610680808000
+- expected_values:
+    RAV4HYBRID_YAW_RATE2: 0
+    RAV4HYBRID_YAW_RATE_7B0: 0
+  response: 7B80661068080800F
+- expected_values:
+    RAV4HYBRID_YAW_RATE2: 0
+    RAV4HYBRID_YAW_RATE_7B0: 0
+  response: 7B80661068080801E
+- expected_values:
+    RAV4HYBRID_YAW_RATE2: 0
+    RAV4HYBRID_YAW_RATE_7B0: 0
+  response: 7B80661068080802D
+- expected_values:
+    RAV4HYBRID_YAW_RATE2: 0
+    RAV4HYBRID_YAW_RATE_7B0: 0
+  response: 7B80661068080803C
+- expected_values:
+    RAV4HYBRID_YAW_RATE2: 0
+    RAV4HYBRID_YAW_RATE_7B0: 0
+  response: 7B80661068080805A
+- expected_values:
+    RAV4HYBRID_YAW_RATE2: 10
+    RAV4HYBRID_YAW_RATE_7B0: 10
+  response: 7B80661068A8A8258
+- expected_values:
+    RAV4HYBRID_YAW_RATE2: 23
+    RAV4HYBRID_YAW_RATE_7B0: 23
+  response: 7B8066106979786AE

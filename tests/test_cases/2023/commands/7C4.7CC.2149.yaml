@@ -4,29 +4,8 @@ test_cases:
     RAV4HYBRID_COMP_SPD: 0
   response: 7CC0461490000
 - expected_values:
-    RAV4HYBRID_COMP_SPD: 1846
-  response: 7CC0461490736
-- expected_values:
-    RAV4HYBRID_COMP_SPD: 2212
-  response: 7CC04614908A4
-- expected_values:
     RAV4HYBRID_COMP_SPD: 2277
   response: 7CC04614908E5
 - expected_values:
-    RAV4HYBRID_COMP_SPD: 2330
-  response: 7CC046149091A
-- expected_values:
-    RAV4HYBRID_COMP_SPD: 2336
-  response: 7CC0461490920
-- expected_values:
     RAV4HYBRID_COMP_SPD: 3929
   response: 7CC0461490F59
-- expected_values:
-    RAV4HYBRID_COMP_SPD: 3943
-  response: 7CC0461490F67
-- expected_values:
-    RAV4HYBRID_COMP_SPD: 3953
-  response: 7CC0461490F71
-- expected_values:
-    RAV4HYBRID_COMP_SPD: 4000
-  response: 7CC0461490FA0

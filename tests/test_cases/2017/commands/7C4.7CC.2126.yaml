@@ -1,0 +1,11 @@
+command_id: 7C4.7CC.2126
+test_cases:
+- expected_values:
+    RAV4HYBRID_ECT: 50.3
+  response: 7CC0361268C
+- expected_values:
+    RAV4HYBRID_ECT: 64.3
+  response: 7CC036126B4
+- expected_values:
+    RAV4HYBRID_ECT: 80.4
+  response: 7CC036126E2

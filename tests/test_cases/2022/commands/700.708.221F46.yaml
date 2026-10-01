@@ -1,0 +1,20 @@
+command_id: 700.708.221F46
+test_cases:
+- expected_values:
+    RAV4HYBRID_AMBIENT_T_700: 23
+  response: 70804621F463F
+- expected_values:
+    RAV4HYBRID_AMBIENT_T_700: 24
+  response: 70804621F4640
+- expected_values:
+    RAV4HYBRID_AMBIENT_T_700: 26
+  response: 70804621F4642
+- expected_values:
+    RAV4HYBRID_AMBIENT_T_700: 27
+  response: 70804621F4643
+- expected_values:
+    RAV4HYBRID_AMBIENT_T_700: 28
+  response: 70804621F4644
+- expected_values:
+    RAV4HYBRID_AMBIENT_T_700: 29
+  response: 70804621F4645

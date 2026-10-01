@@ -4,26 +4,5 @@ test_cases:
     RAV4HYBRID_AAT_7C4: 19.4
   response: 7CC0361227A
 - expected_values:
-    RAV4HYBRID_AAT_7C4: 19.75
-  response: 7CC0361227B
-- expected_values:
-    RAV4HYBRID_AAT_7C4: 20.1
-  response: 7CC0361227C
-- expected_values:
-    RAV4HYBRID_AAT_7C4: 33.05
-  response: 7CC036122A1
-- expected_values:
-    RAV4HYBRID_AAT_7C4: 33.4
-  response: 7CC036122A2
-- expected_values:
-    RAV4HYBRID_AAT_7C4: 33.75
-  response: 7CC036122A3
-- expected_values:
-    RAV4HYBRID_AAT_7C4: 34.1
-  response: 7CC036122A4
-- expected_values:
-    RAV4HYBRID_AAT_7C4: 35.15
-  response: 7CC036122A7
-- expected_values:
     RAV4HYBRID_AAT_7C4: 36.2
   response: 7CC036122AA

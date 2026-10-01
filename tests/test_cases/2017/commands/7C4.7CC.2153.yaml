@@ -1,0 +1,8 @@
+command_id: 7C4.7CC.2153
+test_cases:
+- expected_values:
+    RAV4HYBRID_REGULATOR_P: 2044.02
+  response: 7CC036153AA
+- expected_values:
+    RAV4HYBRID_REGULATOR_P: 2161.7
+  response: 7CC036153B2
