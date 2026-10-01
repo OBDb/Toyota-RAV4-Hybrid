@@ -1,11 +1,11 @@
 command_id: 7D2.7DA.221002
 test_cases:
 - expected_values:
-    RAV4HYBRID_AUX_BAT_V: 14.27888
-  response: 7DA056210022DB8
+    RAV4HYBRID_AUX_BAT_V: 12.67336
+  response: 7DA056210022894
 - expected_values:
-    RAV4HYBRID_AUX_BAT_V: 14.31792
-  response: 7DA056210022DD8
+    RAV4HYBRID_AUX_BAT_V: 12.80024
+  response: 7DA0562100228FC
 - expected_values:
-    RAV4HYBRID_AUX_BAT_V: 14.3228
-  response: 7DA056210022DDC
+    RAV4HYBRID_AUX_BAT_V: 14.37648
+  response: 7DA056210022E08

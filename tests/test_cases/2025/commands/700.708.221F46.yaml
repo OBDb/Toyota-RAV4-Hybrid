@@ -7,5 +7,23 @@ test_cases:
     RAV4HYBRID_AMBIENT_T_700: 20
   response: 70804621F463C
 - expected_values:
+    RAV4HYBRID_AMBIENT_T_700: 29
+  response: 70804621F4645
+- expected_values:
     RAV4HYBRID_AMBIENT_T_700: 30
   response: 70804621F4646
+- expected_values:
+    RAV4HYBRID_AMBIENT_T_700: 31
+  response: 70804621F4647
+- expected_values:
+    RAV4HYBRID_AMBIENT_T_700: 32
+  response: 70804621F4648
+- expected_values:
+    RAV4HYBRID_AMBIENT_T_700: 33
+  response: 70804621F4649
+- expected_values:
+    RAV4HYBRID_AMBIENT_T_700: 34
+  response: 70804621F464A
+- expected_values:
+    RAV4HYBRID_AMBIENT_T_700: 35
+  response: 70804621F464B
