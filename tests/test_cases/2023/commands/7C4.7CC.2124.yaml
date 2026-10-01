@@ -4,6 +4,9 @@ test_cases:
     RAV4HYBRID_SOLAR_DRIVER: 0
   response: 7CC03612400
 - expected_values:
+    RAV4HYBRID_SOLAR_DRIVER: 4
+  response: 7CC03612404
+- expected_values:
     RAV4HYBRID_SOLAR_DRIVER: 26
   response: 7CC0361241A
 - expected_values:
