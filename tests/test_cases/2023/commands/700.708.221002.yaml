@@ -1,8 +1,8 @@
 command_id: 700.708.221002
 test_cases:
 - expected_values:
-    RAV4HYBRID_12V_V_700: 12.72458
-  response: 7080562100228B8
+    RAV4HYBRID_12V_V_700: 12.56833
+  response: '708056210022838'
 - expected_values:
     RAV4HYBRID_12V_V_700: 12.81735
   response: '708056210022904'
