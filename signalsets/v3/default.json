@@ -1318,7 +1318,7 @@
   "signals": [
     {"id": "RAV4HYBRID_CAT_T_B1S2", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature bank 1 sensor 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "41"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "41"}, "freq": 3600, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "RAV4HYBRID_THROTTLE_SENS_OPEN_1",      "path": "Engine",   "fmt": {            "len": 8,  "max": 4.98,   "mul": 5,   "div": 256,  "unit": "volts"   }, "name": "Throttle sensor open position 1"},
     {"id": "RAV4HYBRID_THROTTLE_SENS_OPEN_2",      "path": "Engine",   "fmt": {"bix": 8,   "len": 8,  "max": 4.98,   "mul": 5,   "div": 256,  "unit": "volts"   }, "name": "Throttle sensor open position 2"},
