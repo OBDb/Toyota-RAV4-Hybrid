@@ -1,0 +1,8 @@
+command_id: 7D2.7DA.22182A|f=2018-
+test_cases:
+- expected_values:
+    RAV4HYBRID_HVBAT_MIN_T: 28
+  response: 7DA0562182A4E00
+- expected_values:
+    RAV4HYBRID_HVBAT_MIN_T: 29
+  response: 7DA0562182A4F00
