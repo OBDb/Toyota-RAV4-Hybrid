@@ -1,0 +1,11 @@
+command_id: 7D2.7DA.221829|f=2018-
+test_cases:
+- expected_values:
+    RAV4HYBRID_HVBAT_MAX_T: 32
+  response: 7DA056218295200
+- expected_values:
+    RAV4HYBRID_HVBAT_MAX_T: 33
+  response: 7DA056218295300
+- expected_values:
+    RAV4HYBRID_HVBAT_MAX_T: 34
+  response: 7DA056218295400
