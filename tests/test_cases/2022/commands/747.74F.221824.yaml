@@ -1,0 +1,17 @@
+command_id: 747.74F.221824
+test_cases:
+- expected_values:
+    RAV4HYBRID_BAT_HEATER_T: 22
+  response: 74F066218244884E8
+- expected_values:
+    RAV4HYBRID_BAT_HEATER_T: 22
+  response: 74F066218244884F8
+- expected_values:
+    RAV4HYBRID_BAT_HEATER_T: 22
+  response: 74F06621824488508
+- expected_values:
+    RAV4HYBRID_BAT_HEATER_T: 22
+  response: 74F06621824488708
+- expected_values:
+    RAV4HYBRID_BAT_HEATER_T: 24
+  response: 74F066218244A8178
