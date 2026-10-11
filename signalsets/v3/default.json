@@ -451,7 +451,7 @@
   "signals": [
     {"id": "RAV4HYBRID_ODO", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "747", "rax": "74F", "cmd": {"22": "1814"}, "freq": 5, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "747", "rax": "74F", "cmd": {"22": "1814"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "RAV4HYBRID_BAT_T_01", "path": "Battery", "fmt": {            "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 01"},
     {"id": "RAV4HYBRID_BAT_T_02", "path": "Battery", "fmt": {"bix": 16,  "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 02"},
@@ -470,7 +470,7 @@
     {"id": "RAV4HYBRID_BAT_T_15", "path": "Battery", "fmt": {"bix": 224, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 15"},
     {"id": "RAV4HYBRID_BAT_T_16", "path": "Battery", "fmt": {"bix": 240, "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 16"}
   ]},
-{ "hdr": "747", "rax": "74F", "dbg": true, "cmd": {"22": "1824"}, "freq": 5,
+{ "hdr": "747", "rax": "74F", "cmd": {"22": "1824"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "RAV4HYBRID_BAT_HEATER_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Battery heater temperature"}
   ]},
