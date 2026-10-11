@@ -33,3 +33,12 @@ test_cases:
   response: |-
     7582A10076130FF9CA6
     7582A21A7FF00000000
+- expected_values:
+    RAV4HYBRID_TP_FL_V1: null
+    RAV4HYBRID_TP_FR_V1: null
+    RAV4HYBRID_TP_RL_V1: null
+    RAV4HYBRID_TP_RR_V1: null
+    RAV4HYBRID_TP_SPARE_V1: null
+  response: |-
+    7582A10076130FFFFFF
+    7582A21FFFF00000000
