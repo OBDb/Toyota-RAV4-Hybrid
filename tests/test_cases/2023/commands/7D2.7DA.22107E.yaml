@@ -4,6 +4,9 @@ test_cases:
     RAV4HYBRID_12V_BAT_V_BEFORE_SMR: 11.29148
   response: 7DA0562107E22E0
 - expected_values:
+    RAV4HYBRID_12V_BAT_V_BEFORE_SMR: 11.2927
+  response: 7DA0562107E23C0
+- expected_values:
     RAV4HYBRID_12V_BAT_V_BEFORE_SMR: 11.29392
   response: 7DA0562107E2420
 - expected_values:
