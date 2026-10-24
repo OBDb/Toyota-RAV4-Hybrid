@@ -1661,7 +1661,7 @@
     {"id": "RAV4HYBRID_BAT_BLOCK_V_V13",     "path": "Battery", "fmt": {"bix": 192, "len": 16, "max": 79.99,             "mul": 0.0012205692,                             "unit": "volts"  }, "name": "Battery block 13 voltage"},
     {"id": "RAV4HYBRID_BAT_BLOCK_V_V14",     "path": "Battery", "fmt": {"bix": 208, "len": 16, "max": 79.99,             "mul": 0.0012205692,                             "unit": "volts"  }, "name": "Battery block 14 voltage"},
     {"id": "RAV4HYBRID_AUXILIARY_BAT_V",     "path": "Battery", "fmt": {"bix": 224, "len": 16, "max": 39.9,  "min": -40, "mul": 47,           "div": 38550,   "add": -40, "unit": "volts"  }, "name": "Auxiliary battery voltage"},
-    {"id": "RAV4HYBRID_BAT_BLOCK_V_V16",     "path": "Battery", "fmt": {"bix": 240, "len": 16, "max": 6553,                                   "div": 10,                  "unit": "volts"  }, "name": "Battery block 16 voltage"},
+    {"id": "RAV4HYBRID_BAT_BLOCK_V_V16",     "path": "Battery", "fmt": {"bix": 240, "len": 16, "max": 79.99,             "mul": 0.0012205692,                             "unit": "volts"  }, "name": "Battery block 16 voltage"},
     {"id": "RAV4HYBRID_BAT_BLOCK_V_V17",     "path": "Battery", "fmt": {"bix": 256, "len": 16, "max": 79.99,             "mul": 7999,         "div": 6553500,             "unit": "volts"  }, "name": "Battery block 17 voltage"}
   ]},
 { "hdr": "7E2", "rax": "7EA", "cmd": {"21": "87"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
