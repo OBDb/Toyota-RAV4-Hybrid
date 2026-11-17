@@ -103,8 +103,6 @@ supported_commands_by_ecu:
   - 0145:TP_R
   - 0147:TP_B
   - 014C:TAC_PCT
-  - 014D:MIL_TIME
-  - 014E:CLR_TIME
   - 0151:FUEL_TYP
   - 0153:EVAP_VPA
   - 7E0.0104:LOAD_PCT
