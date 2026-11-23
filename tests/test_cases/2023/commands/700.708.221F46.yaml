@@ -1,8 +1,8 @@
 command_id: 700.708.221F46
 test_cases:
 - expected_values:
-    RAV4HYBRID_AMBIENT_T_700: 17
-  response: 70804621F4639
+    RAV4HYBRID_AMBIENT_T_700: 11
+  response: 70804621F4633
 - expected_values:
     RAV4HYBRID_AMBIENT_T_700: 43
   response: 70804621F4653
