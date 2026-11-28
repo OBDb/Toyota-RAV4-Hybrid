@@ -1,0 +1,14 @@
+command_id: 700.708.221087
+test_cases:
+- expected_values:
+    RAV4HYBRID_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 0
+  response: '708056210870000'
+- expected_values:
+    RAV4HYBRID_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 0.00976
+  response: '708056210870001'
+- expected_values:
+    RAV4HYBRID_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 1.24006
+  response: 70805621087007F
+- expected_values:
+    RAV4HYBRID_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 17.79046
+  response: 70805621087071E

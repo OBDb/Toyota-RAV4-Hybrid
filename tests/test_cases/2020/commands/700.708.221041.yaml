@@ -1,0 +1,18 @@
+command_id: 700.708.221041
+test_cases:
+- expected_values:
+    RAV4HYBRID_ECT_IGN: 13.75
+    RAV4HYBRID_ECT_INIT: 65
+  response: 7080562104156A8
+- expected_values:
+    RAV4HYBRID_ECT_IGN: 13.75
+    RAV4HYBRID_ECT_INIT: 65.625
+  response: 7080562104156A9
+- expected_values:
+    RAV4HYBRID_ECT_IGN: 13.75
+    RAV4HYBRID_ECT_INIT: 66.875
+  response: 7080562104156AB
+- expected_values:
+    RAV4HYBRID_ECT_IGN: 13.75
+    RAV4HYBRID_ECT_INIT: 67.5
+  response: 7080562104156AC

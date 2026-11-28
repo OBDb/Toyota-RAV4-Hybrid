@@ -1,0 +1,11 @@
+command_id: 700.708.22108A
+test_cases:
+- expected_values:
+    RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1: -0.04695
+  response: 7080562108A8000
+- expected_values:
+    RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1: 16.73988
+  response: 7080562108A8ABF
+- expected_values:
+    RAV4HYBRID_VVT_IE_DUTY_RATIO_BANK_1: 19.19902
+  response: 7080562108A8C52
