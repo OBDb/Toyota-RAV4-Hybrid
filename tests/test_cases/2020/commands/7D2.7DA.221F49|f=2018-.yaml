@@ -7,6 +7,9 @@ test_cases:
     RAV4HYBRID_ACC_PEDAL_POS_1: 16.07843
   response: 7DA04621F4929
 - expected_values:
+    RAV4HYBRID_ACC_PEDAL_POS_1: 23.52941
+  response: 7DA04621F493C
+- expected_values:
     RAV4HYBRID_ACC_PEDAL_POS_1: 25.4902
   response: 7DA04621F4941
 - expected_values:

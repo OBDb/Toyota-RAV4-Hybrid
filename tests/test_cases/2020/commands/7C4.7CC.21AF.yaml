@@ -1,0 +1,11 @@
+command_id: 7C4.7CC.21AF
+test_cases:
+- expected_values:
+    RAV4HYBRID_GLASS_T: 43.184
+  response: 7CC0461AF826C
+- expected_values:
+    RAV4HYBRID_GLASS_T: 43.724
+  response: 7CC0461AF828A
+- expected_values:
+    RAV4HYBRID_GLASS_T: 44.264
+  response: 7CC0461AF82A8

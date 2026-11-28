@@ -1,0 +1,11 @@
+command_id: 7C4.7CC.21B1
+test_cases:
+- expected_values:
+    RAV4HYBRID_GLASS_HUMIDITY: 53.59884
+  response: 7CC0461B18936
+- expected_values:
+    RAV4HYBRID_GLASS_HUMIDITY: 55.5993
+  response: 7CC0461B18E55
+- expected_values:
+    RAV4HYBRID_GLASS_HUMIDITY: 58.79911
+  response: 7CC0461B19686
